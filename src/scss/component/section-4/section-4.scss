@@ -1,0 +1,84 @@
+.section-4 {
+  width: 1219px;
+  height: 752px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: 249px auto;
+
+  .section-4_photos-1 {
+    width: 585px;
+    height: 346px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
+    .section-4_photo-1 {
+      width: 247px;
+      height: 259px;
+    }
+
+    .section-4_photo-2 {
+      width: 288px;
+      height: 346px;
+    }
+  }
+
+  .section-4_about-us {
+    width: 565px;
+    height: 318px;
+
+    margin: 14px 0;
+
+    .section-4_about-us_pretitle {
+      font-family: Poppins;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 37.5px;
+      color: #1090cb;
+    }
+
+    .section-4_about-us_title {
+      font-family: Poppins;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 68px;
+      color: #252525;
+    }
+
+    .section-4_about-us_text {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 31.5px;
+      color: #868686;
+
+      width: 463px;
+    }
+  }
+
+  .section-4_photos-2 {
+    width: 1114px;
+    height: 346px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 74px;
+    margin-top: 60px;
+
+    .section-4_photo-3 {
+      width: 521px;
+      height: 346px;
+    }
+
+    .section-4_photo-4 {
+      width: 542px;
+      height: 346px;
+    }
+  }
+}
