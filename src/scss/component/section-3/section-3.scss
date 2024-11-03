@@ -2,28 +2,50 @@
   &_Container{
     display: flex;
     margin: 0 auto;
-    width: 1194px;
+    width: 155.2vw;
     height: 459px;
     background: firebrick;
     justify-content: space-between;
     &_rightCard{
       &_wrapper{
         display: flex;
-        justify-content: center;
-        width: 476px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 36px;
+        width: 61.8vw;
         height: 346px;
-        background: goldenrod;
         margin: 0 auto;
+        &_btn{
+          font-weight: 500;
+          font-size: 16px;
+          border: none;
+          width:19.8vw ;
+          height: 49px;
+          border-radius: 10px;
+          background:#1090CB;
+          color: white;
+        } 
       }
     }
     &_leftCard{
       &_wrapper{
         display: flex;
-        justify-content: center;
-        width: 476px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 36px;
+        width: 61.8vw;
         height: 346px;
-        background: goldenrod;
         margin: 0 auto;
+        &_btn{
+          font-weight: 500;
+          font-size: 16px;
+          border: none;
+          width:19.8vw ;
+          height: 49px;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #fff;
+        }
       }
     }
   }
@@ -32,8 +54,21 @@
   display: flex;
   align-items: center;
   height: 100%;
-  width: 572px;
-  background: darkcyan;
+  width: 74.3vw;
+  background: #F4F4F4;
   border-radius:20px;
   margin: 0 auto;
+}
+
+.section-3:hover {
+  .section-3__Container {
+    .section-3__rightCard {
+      background: #1090CB;
+      .section-3__wrapper {
+        .section-3__Title {
+          color: #fff;
+        }
+      }
+    }
+  }
 }
