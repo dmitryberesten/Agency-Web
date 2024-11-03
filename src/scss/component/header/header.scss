@@ -1,0 +1,56 @@
+header {
+  position: sticky;
+  border-bottom: 0.07mm solid #c4c4c4;
+  .header__nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    #logo {
+      margin-left: 16px;
+      width: 62px;
+      height: 62px;
+    }
+    .categories {
+      width: 100vw;
+      height: 77px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 36px;
+      gap: 61px;
+      .nav-link {
+        position: relative;
+        text-decoration: none;
+        color: black;
+      }
+      .nav-link::before {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #08d3bb;
+        left: -10px; /* или margin-left: -15px; если используем flexbox */
+        top: 18%;
+        transform: translateY(-50%);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+
+      .nav-link.active::before {
+        opacity: 1;
+      }
+
+      button {
+        padding: 11px 27px 11px 27px;
+        border-radius: 6px;
+        border: transparent;
+        background: #1090cb;
+        color: white;
+      }
+    }
+  }
+}
+.categories a.active {
+  color: #1090cb !important;
+}
