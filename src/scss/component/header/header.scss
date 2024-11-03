@@ -11,6 +11,7 @@ header {
       height: 62px;
     }
     .categories {
+      position: relative;
       width: 100vw;
       height: 77px;
       display: flex;
@@ -23,22 +24,14 @@ header {
         text-decoration: none;
         color: black;
       }
-      .nav-link::before {
-        content: '';
+
+      .ball {
         position: absolute;
         width: 10px;
         height: 10px;
         border-radius: 50%;
         background-color: #08d3bb;
-        left: -10px; /* или margin-left: -15px; если используем flexbox */
-        top: 18%;
-        transform: translateY(-50%);
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-      }
-
-      .nav-link.active::before {
-        opacity: 1;
+        transition: top 0.3s ease, left 0.3s ease;
       }
 
       button {
