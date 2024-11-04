@@ -1,92 +1,387 @@
-.section-3{
-  width: 100vw;
-  height: 459px;
-  &_Container{
-    display: flex;
-    height: 100%;
-    margin: 0 auto;
-    width: 1194px;  
-    justify-content: space-between;
-    &_leftCard{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      row-gap: 36px;
-      &_Title{
-        padding-top: 64px;
-        font-weight: 600;
-        font-size: 25px;
-        text-align: center;
-        width: 365px;
-        line-height: 42.5px;
-      }
-      &_subTitle{
-        font-weight: 400;
-        font-size: 16px;
-        width: 476px;
-        text-align: center;
-        line-height: 27.2px;
-      }
-      &_button{
-        width: 153px;
-        height: 49px;
-        border: none;
-        border-radius: 10px;
-        background: #1090CB;
-        color: #Fff;
-        cursor: pointer;
+@media screen and (min-width:1920px) {
+  .section-3{
+    &_Container{
+      width: 1702px;
+      &_MonitorCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 36px;
+        &_Title{
+          padding-top: 64px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 42.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          width: 476px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 153px;
+          height: 49px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+        }
       }
     }
-    &_RightCard{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      row-gap: 36px;
-      &_Title{
-        padding-top: 64px;
-        font-weight: 600;
-        font-size: 25px;
-        text-align: center;
-        width: 365px;
-        line-height: 42.5px;
-      }
-      &_subTitle{
-        font-weight: 400;
-        font-size: 16px;
-        width: 476px;
-        text-align: center;
-        line-height: 27.2px;
-      }
-      &_button{
-        width: 153px;
-        height: 49px;
-        border: none;
-        border-radius: 10px;
-        background: #1090CB;
-        color: #Fff;
+  }
+  .CommonStylesCard{
+    width: 535px;
+    &:hover{
+      background: #1090CB;
+      .section-3{
+        &_Container{
+          &_MonitorCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+        }
       }
     }
   }
 }
-.CommonStylesCard{
-  width: 572px;
-  height: 459px;
-  border-radius: 20px;
-  background: #F4F4F4;
-  &:hover{
-    background: #1090CB;
-    .section-3{
-      &_Container{
-        &_leftCard{
-          &_Title{
-            color: #Fff;
+@media screen and (min-width:1440px) and (max-width:1920px){
+  .section-3{
+    width: 100vw;
+    height: 459px;
+    &_Container{
+      display: flex;
+      height: 100%;
+      margin: 0 auto;
+      width: 1194px;  
+      justify-content: space-between;
+      &_leftCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 36px;
+        &_Title{
+          padding-top: 64px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 42.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          width: 476px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 153px;
+          height: 49px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+          cursor: pointer;
+        }
+      }
+      &_RightCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 36px;
+        &_Title{
+          padding-top: 64px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 42.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          width: 476px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 153px;
+          height: 49px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+        }
+      }
+      &_MonitorCard{
+        display: none;
+      }
+    }
+  }
+  .CommonStylesCard{
+    width: 572px;
+    height: 459px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    &:hover{
+      background: #1090CB;
+      .section-3{
+        &_Container{
+          &_leftCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
           }
-          &_subTitle{
-            color: #Fff;
+          &_RightCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
           }
-          &_button{
-            background: #FFFFFF;
-            color: #1090CB;
+        }
+      }
+    }
+  } 
+}
+@media screen and (min-width:1024px) and (max-width:1440px) {
+  .section-3{
+    &_Container{
+      display: flex;
+      height: 100%;
+      margin: 0 auto;
+      width: 900px;  
+      justify-content: space-between;
+      &_leftCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 36px;
+        &_Title{
+          padding-top: 64px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 42.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          width: 358px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 153px;
+          height: 49px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+          cursor: pointer;
+        }
+      }
+      &_RightCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 36px;
+        &_Title{
+          padding-top: 64px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 42.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          width: 358px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 153px;
+          height: 49px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+        }
+      }
+      &_MonitorCard{
+        display: none;
+      }
+    }
+  }
+  .CommonStylesCard{
+    width: 431px;
+    height: 662px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    &:hover{
+      background: #1090CB;
+      .section-3{
+        &_Container{
+          &_leftCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+          &_RightCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+        }
+      }
+    }
+  } 
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .section-3{
+    &_Container{
+      display: flex;
+      height: 100%;
+      margin: 0 auto;
+      width: 900px;  
+      justify-content: space-between;
+      &_leftCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 36px;
+        &_Title{
+          padding-top: 64px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 42.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          width: 358px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 153px;
+          height: 49px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+          cursor: pointer;
+        }
+      }
+      &_RightCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 36px;
+        &_Title{
+          padding-top: 64px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 42.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          width: 358px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 153px;
+          height: 49px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+        }
+      }
+      &_MonitorCard{
+        display: none;
+      }
+    }
+  }
+  .CommonStylesCard{
+    width: 431px;
+    height: 662px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    &:hover{
+      background: #1090CB;
+      .section-3{
+        &_Container{
+          &_leftCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+          &_RightCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
           }
         }
       }
