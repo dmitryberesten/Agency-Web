@@ -36,6 +36,9 @@
           font-size: 10px;
           font-weight: 500; 
         }
+        &_svg{
+          display: none;
+        }
       }
       &_leftCard{
         display: flex;
@@ -71,6 +74,7 @@
       }
       &_RightCard{
         display: flex;
+        position: relative;
         flex-direction: column;
         align-items: center;
         row-gap: 22px;
@@ -100,10 +104,19 @@
           font-weight: 500;
           cursor: pointer;
         }
+        &_svg{
+          position: absolute;
+          bottom: 197px;
+          left: 87px;
+          width: 29px;
+          height: 29px;
+        }
       }
     }
   }
   .CommonStylesCard{
+    width: 138px;
+    height: 212px;
     border-radius: 20px;
     background: #F4F4F4;
     &:hover{
@@ -189,6 +202,9 @@
           color: #Fff;
           cursor: pointer;
         }
+        &_svg{
+          display: none;
+        }
       }
       &_leftCard{
         display: flex;
@@ -221,6 +237,7 @@
         }
       }
       &_RightCard{
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -228,9 +245,9 @@
         &_Title{
           padding-top: 64px;
           font-weight: 600;
-          font-size: 25px;
+          font-size: 30px;
           text-align: center;
-          width: 365px;
+          width: 312px;
           line-height: 42.5px;
         }
         &_subTitle{
@@ -247,6 +264,13 @@
           border-radius: 10px;
           background: #1090CB;
           color: #Fff;
+        }
+        &_svg{
+          position: absolute;
+          width: 90px;
+          height: 90px;
+          bottom: 618px;
+          left: 269px;
         }
       }
     }
@@ -301,9 +325,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 36px;
+        row-gap: 70px;
         &_Title{
-          padding-top: 64px;
+          padding-top: 93px;
           font-weight: 600;
           font-size: 30px;
           text-align: center;
@@ -318,9 +342,11 @@
           line-height: 27.2px;
         }
         &_button{
-          width: 153px;
-          height: 49px;
+          width: 267px;
+          height: 71px;
           border: none;
+          font-size: 25px;
+          font-weight: 500;
           border-radius: 10px;
           background: #1090CB;
           color: #Fff;
@@ -328,12 +354,13 @@
         }
       }
       &_RightCard{
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 36px;
+        row-gap: 70px;
         &_Title{
-          padding-top: 64px;
+          padding-top: 93px;
           font-weight: 600;
           font-size: 30px;
           text-align: center;
@@ -348,17 +375,19 @@
           line-height: 27.2px;
         }
         &_button{
-          width: 153px;
-          height: 49px;
+          width: 276px;
+          height: 71px;
+          font-size: 25px;
+          font-weight: 500;
           border: none;
           border-radius: 10px;
           background: #1090CB;
           color: #Fff;
         }
         &_svg{
-          position: relative;
-          bottom: 529px;
-          left: 151px;
+          position: absolute;
+          bottom: 616px;
+          left: 299px;
           width: 90px;
           height: 90px;
         }
@@ -447,6 +476,7 @@
         }
       }
       &_RightCard{
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -473,6 +503,13 @@
           border-radius: 10px;
           background: #1090CB;
           color: #Fff;
+        }
+        &_svg{
+          position: absolute;
+          bottom: 397px;
+          left: 428px;
+          width: 120px;
+          height: 120px;
         }
       }
       &_MonitorCard{
@@ -592,13 +629,14 @@
       }
       &_MonitorCard{
         display: flex;
+        position: relative;
         flex-direction: column;
         align-items: center;
         row-gap: 36px;
         &_Title{
           padding-top: 64px;
           font-weight: 600;
-          font-size: 30px;
+          font-size: 25px;
           text-align: center;
           width: 325px;
           line-height: 51px;
@@ -619,9 +657,9 @@
           color: #Fff;
         }
         &_svg{
-          position: relative;
-          bottom: 529px;
-          left: 151px;
+          position: absolute;
+          bottom: 413px;
+          left: 419px;
           width: 90px;
           height: 90px;
         }
