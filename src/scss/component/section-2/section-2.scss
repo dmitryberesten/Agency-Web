@@ -3,6 +3,8 @@
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
 // variables
@@ -39,15 +41,24 @@ $color-blue: #1090cb;
 
 .section-2-content {
   display: flex;
+  align-items: center;
 
   .section-2-article {
     display: flex;
     flex-direction: column;
     gap: 45px;
 
+    .section-2-img {
+      width: 500px;
+      height: 500px;
+      background: red;
+      outline: 2px solid red;
+    }
+
     .article-top {
       display: flex;
       gap: 25px;
+      align-items: center;
 
       .article-sub-heading {
         color: #000;
@@ -64,6 +75,12 @@ $color-blue: #1090cb;
         font-style: normal;
         font-weight: 400;
         line-height: 24.5px;
+      }
+      .face-icon-bg {
+        width: 58px;
+        height: 58px;
+        flex-shrink: 0;
+        border-radius: 50%;
       }
     }
     .article-heading {
