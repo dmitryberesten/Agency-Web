@@ -1,6 +1,6 @@
 .section-4 {
-  width: 1219px;
-  height: 752px;
+  width: 1623px;
+  height: 841px;
 
   display: flex;
   flex-wrap: wrap;
@@ -9,8 +9,8 @@
   margin: 249px auto;
 
   .section-4_photos-1 {
-    width: 585px;
-    height: 346px;
+    width: 779px;
+    height: 387px;
 
     display: flex;
     flex-direction: row;
@@ -18,67 +18,308 @@
     align-items: end;
 
     .section-4_photo-1 {
-      width: 247px;
-      height: 259px;
+      background-image: url('../../../img/section4/png/photo-1.png');
+      width: 329px;
+      height: 290px;
     }
 
     .section-4_photo-2 {
-      width: 288px;
-      height: 346px;
+      background-image: url('../../../img/section4/png/photo-2.png');
+      width: 384px;
+      height: 387px;
     }
   }
 
   .section-4_about-us {
-    width: 565px;
-    height: 318px;
+    width: 752px;
+    height: 356px;
 
     margin: 14px 0;
 
     .section-4_about-us_pretitle {
+      color: #1090cb;
       font-family: Poppins;
       font-size: 25px;
+      font-style: normal;
       font-weight: 400;
-      line-height: 37.5px;
-      color: #1090cb;
+      line-height: normal;
     }
 
     .section-4_about-us_title {
+      color: #252525;
       font-family: Poppins;
       font-size: 40px;
+      font-style: normal;
       font-weight: 600;
-      line-height: 68px;
-      color: #252525;
+      line-height: 170%; /* 68px */
     }
 
     .section-4_about-us_text {
+      color: #868686;
       font-family: Poppins;
       font-size: 18px;
+      font-style: normal;
       font-weight: 400;
-      line-height: 31.5px;
-      color: #868686;
-
-      width: 463px;
+      line-height: 175%; /* 31.5px */
     }
   }
 
   .section-4_photos-2 {
-    width: 1114px;
-    height: 346px;
+    width: 1483px;
+    height: 387px;
 
     display: flex;
     justify-content: space-between;
+    align-items: end;
 
-    margin-left: 74px;
-    margin-top: 60px;
+    margin-left: 99px;
+    margin-top: 67px;
 
     .section-4_photo-3 {
-      width: 521px;
-      height: 346px;
+      background-image: url('../../../img/section4/png/photo-3.png');
+      width: 693px;
+      height: 387px;
     }
 
     .section-4_photo-4 {
-      width: 542px;
+      background-image: url('../../../img/section4/png/photo-4.png');
+      width: 722px;
+      height: 387px;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .section-4 {
+    width: 1219px;
+    height: 752px;
+
+    .section-4_photos-1 {
+      width: 585px;
       height: 346px;
+
+      .section-4_photo-1 {
+        background-image: url('../../../img/section4/png/photo-1-1440.png');
+        width: 247px;
+        height: 259px;
+      }
+
+      .section-4_photo-2 {
+        background-image: url('../../../img/section4/png/photo-2-1440.png');
+        width: 288px;
+        height: 346px;
+      }
+    }
+
+    .section-4_about-us {
+      width: 565px;
+      height: 318px;
+    }
+
+    .section-4_photos-2 {
+      width: 1114px;
+      height: 346px;
+
+      margin-left: 74px;
+      margin-top: 60px;
+
+      .section-4_photo-3 {
+        background-image: url('../../../img/section4/png/photo-3-1440.png');
+        width: 521px;
+        height: 346px;
+      }
+
+      .section-4_photo-4 {
+        background-image: url('../../../img/section4/png/photo-4-1440.png');
+        width: 542px;
+        height: 346px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .section-4 {
+    width: 933px;
+    height: 644px;
+
+    .section-4_photos-1 {
+      width: 473px;
+      height: 338px;
+
+      .section-4_photo-1 {
+        background-image: url('../../../img/section4/png/photo-1-1024.png');
+        width: 200px;
+        height: 223px;
+      }
+
+      .section-4_photo-2 {
+        background-image: url('../../../img/section4/png/photo-2-1024.png');
+        width: 253px;
+        height: 338px;
+      }
+    }
+
+    .section-4_about-us {
+      width: 426px;
+      height: 279px;
+    }
+
+    .section-4_photos-2 {
+      width: 868px;
+      height: 282px;
+
+      margin-left: 50px;
+      margin-top: 27px;
+
+      .section-4_photo-3 {
+        background-image: url('../../../img/section4/png/photo-3-1024.png');
+        width: 433px;
+        height: 282px;
+      }
+
+      .section-4_photo-4 {
+        background-image: url('../../../img/section4/png/photo-4-1024.png');
+        width: 409px;
+        height: 261px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .section-4 {
+    width: 735px;
+    height: 644px;
+
+    .section-4_photos-1 {
+      width: 406px;
+      height: 338px;
+
+      .section-4_photo-1 {
+        background-image: url('../../../img/section4/png/photo-1-768.png');
+        width: 171px;
+        height: 223px;
+      }
+
+      .section-4_photo-2 {
+        background-image: url('../../../img/section4/png/photo-2-768.png');
+        width: 217px;
+        height: 338px;
+      }
+    }
+
+    .section-4_about-us {
+      width: 300px;
+      height: 259px;
+
+      margin: 42px 0 0 0;
+
+      .section-4_about-us_title {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 36px */
+        width: 242px;
+        margin-bottom: 10px;
+      }
+
+      .section-4_about-us_text {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%; /* 21px */
+      }
+    }
+
+    .section-4_photos-2 {
+      width: 692px;
+      height: 282px;
+
+      margin-left: 43px;
+      margin-top: 24px;
+
+      .section-4_photo-3 {
+        background-image: url('../../../img/section4/png/photo-3-768.png');
+        width: 371px;
+        height: 282px;
+      }
+
+      .section-4_photo-4 {
+        background-image: url('../../../img/section4/png/photo-4-768.png');
+        width: 298px;
+        height: 312px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .section-4 {
+    width: 258px;
+    height: 231px;
+
+    .section-4_photos-1 {
+      width: 142px;
+      height: 122px;
+
+      .section-4_photo-1 {
+        background-image: url('../../../img/section4/png/photo-1-320.png');
+        width: 60px;
+        height: 80px;
+      }
+
+      .section-4_photo-2 {
+        background-image: url('../../../img/section4/png/photo-2-320.png');
+        width: 76px;
+        height: 122px;
+      }
+    }
+
+    .section-4_about-us {
+      width: 93px;
+      height: 103px;
+      margin-top: 0;
+
+      .section-4_about-us_pretitle {
+        font-size: 10px;
+      }
+
+      .section-4_about-us_title {
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%; /* 36px */
+        width: 93px;
+        margin-bottom: 10px;
+      }
+
+      .section-4_about-us_text {
+        font-size: 5px;
+        width: 83px;
+        font-weight: 400;
+        line-height: 175%; /* 21px */
+      }
+    }
+
+    .section-4_photos-2 {
+      width: 244px;
+      height: 101px;
+
+      margin-left: 14px;
+      margin-top: 7px;
+
+      .section-4_photo-3 {
+        background-image: url('../../../img/section4/png/photo-3-320.png');
+        width: 132px;
+        height: 101px;
+      }
+
+      .section-4_photo-4 {
+        background-image: url('../../../img/section4/png/photo-4-320.png');
+        width: 104px;
+        height: 112px;
+      }
     }
   }
 }
