@@ -1,0 +1,38 @@
+.stats-section {
+    background-color: #1090CB; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    position: relative;
+    color: #fff;
+  
+    .stat-item {
+      text-align: center;
+  
+      h2 {
+        font-size: 48px;
+        margin: 0;
+      }
+  
+      p {
+        font-size: 18px;
+        margin: 10px 0 0;
+      }
+    }
+  
+    .decoration {
+      position: absolute;
+      &.succulent {
+        bottom: -40px;
+        left: 330px;
+        width: 90px;
+      }
+      &.bell {
+        top: -40px;
+         right: 90px;
+         width: 90px;
+        }
+      }
+    }
+  
