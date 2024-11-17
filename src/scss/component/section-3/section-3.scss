@@ -8,7 +8,7 @@
       margin: 0 auto;
       width: 100%;  
       justify-content: space-between;
-      &_leftCard{
+        &_leftCard{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -24,8 +24,8 @@
         &_subTitle{
           font-weight: 400;
           font-size: 16px;
-          padding-top: 46px;
-          width: 445px;
+          padding-top: 67px;
+          width: 446px;
           text-align: center;
           line-height: 27.2px;
         }
@@ -58,15 +58,15 @@
         &_subTitle{
           font-weight: 400;
           font-size: 16px;
-          padding-top: 46px;
-          width: 476px;
+          padding-top: 24px;
+          width: 445px;
           text-align: center;
           line-height: 27.2px;
         }
         &_button{
           width: 143px;
           height: 62px;
-          margin-top: 92px;
+          margin-top: 62px;
           font-weight: 500;
           font-size: 18px;
           border: none;
@@ -89,13 +89,13 @@
           font-weight: 600;
           font-size: 25px;
           text-align: center;
-          width: 325px;
+          width: 341px;
           line-height: 42.5px;
         }
         &_subTitle{
           font-weight: 400;
           font-size: 16px;
-          padding-top: 46px;
+          padding-top: 67px;
           width: 446px;
           text-align: center;
           line-height: 27.2px;
@@ -175,23 +175,23 @@
         align-items: center;
         row-gap: 0;
         &_Title{
-          padding-top: 64px;
+          padding-top: 52px;
           font-weight: 600;
           font-size: 25px;
           text-align: center;
           width: 365px;
-          line-height: 42.5px;
+          line-height: 38.5px;
         }
         &_subTitle{
           font-weight: 400;
           font-size: 16px;
-          padding-top: 36px;
+          padding-top: 48px;
           width: 476px;
           text-align: center;
           line-height: 27.2px;
         }
         &_button{
-          margin-top: 36px;
+          margin-top: 42px;
           width: 153px;
           height: 49px;
           font-weight: 500;
@@ -210,18 +210,18 @@
         align-items: center;
         row-gap: 0;
         &_Title{
-          padding-top: 64px;
+          padding-top: 37px;
           font-weight: 600;
           font-size: 25px;
           text-align: center;
           width: 365px;
-          line-height: 42.5px;
+          line-height: 38.5px;
         }
         &_subTitle{
           font-weight: 400;
           font-size: 16px;
           width: 476px;
-          padding-top: 36px;
+          padding-top: 33px;
           text-align: center;
           line-height: 27.2px;
         }
@@ -253,8 +253,10 @@
     height: 459px;
     border-radius: 20px;
     background: #F4F4F4;
+    transition-duration: 0.3s;
     &:hover{
       background: #1090CB;
+      transition-duration: 0.6s;
       .section-3{
         &_Container{
           &_leftCard{
@@ -308,7 +310,7 @@
           line-height: 51px;
         }
         &_subTitle{
-          padding-top: 71px;
+          padding-top: 20px;
           font-weight: 400;
           font-size: 16px;
           width: 358px;
@@ -318,7 +320,7 @@
         &_button{
           width: 276px;
           height: 71px;
-          margin-top: 94px;
+          margin-top: 67px;
           border: none;
           font-size: 25px;
           font-weight: 500;
@@ -343,7 +345,7 @@
           line-height: 51px;
         }
         &_subTitle{
-          padding-top: 71px;
+          padding-top: 20px;
           font-weight: 400;
           font-size: 16px;
           width: 358px;
@@ -353,7 +355,7 @@
         &_button{
           width: 276px;
           height: 71px;
-          margin-top: 94px;
+          margin-top: 67px;
           font-size: 25px;
           font-weight: 500;
           border: none;
@@ -380,8 +382,10 @@
     height: 662px;
     border-radius: 20px;
     background: #F4F4F4;
+    transition-duration: 0.3s;
     &:hover{
       background: #1090CB;
+      transition-duration: 0.6s;
       .section-3{
         &_Container{
           &_leftCard{
@@ -433,15 +437,15 @@
           line-height: 51px;
         }
         &_subTitle{
-          padding-top: 71px;
+          padding-top: 81px;
           font-weight: 400;
           font-size: 16px;
-          width: 358px;
+          width: 345px;
           text-align: center;
           line-height: 27.2px;
         }
         &_button{
-          margin-top: 94px;
+          margin-top: 42px;
           width: 276px;
           height: 71px;
           font-weight: 500;
@@ -473,7 +477,7 @@
           font-weight: 400;
           font-size: 16px;
           padding-top: 71px;
-          width: 358px;
+          width: 345px;
           text-align: center;
           line-height: 27.2px;
         }
@@ -482,7 +486,7 @@
           height: 71px;
           font-weight: 500;
           font-size: 25px;
-          margin-top: 94px;
+          margin-top: 56px;
           border: none;
           border-radius: 10px;
           background: #1090CB;
@@ -515,7 +519,7 @@
         &_button{
           width: 276px;
           height: 71px;
-          margin-top: 94px;
+          margin-top: 56px;
           font-weight: 500;
           font-size: 25px;
           border: none;
@@ -538,8 +542,10 @@
     height: 662px;
     border-radius: 20px;
     background: #F4F4F4;
+    transition-duration: 0.3s;
     &:hover{
       background: #1090CB;
+      transition-duration: 0.6s;
       .section-3{
         &_Container{
           &_leftCard{
@@ -596,7 +602,7 @@
         align-items: center;
         row-gap: 0;
         &_Title{
-          padding-top: 29px;
+          padding-top: 21px;
           font-weight: 600;
           font-size: 10px;
           text-align: center; 
@@ -607,14 +613,14 @@
           font-weight: 400;
           font-size: 6px;
           width: 115px;
-          padding-top: 22px;
+          padding-top: 7px;
           text-align: center;
-          line-height: 10px;
+          line-height: 9.6px;
         }
         &_button{
           width: 88px;
           height: 22px;
-          margin-top: 12px;
+          margin-top: 18.61px;
           border: none;
           border-radius: 10px;
           background: #1090CB;
@@ -632,7 +638,7 @@
         align-items: center;
         row-gap: 0;
         &_Title{
-          padding-top: 29px;
+          padding-top: 20px;
           font-weight: 600;
           font-size: 10px;
           text-align: center;
@@ -641,16 +647,16 @@
         }
         &_subTitle{
           font-weight: 400;
-          font-size: 6px;
-          padding-top: 22px;
+          font-size: 5px;
+          padding-top: 7px;
           width: 115px;
           text-align: center;
-          line-height: 10px;
+          line-height: 8.5px;
         }
         &_button{
           width: 88px;
           height: 22px;
-          margin-top: 12px;
+          margin-top: 35px;
           border: none;
           border-radius: 10px;
           background: #1090CB;
@@ -667,7 +673,7 @@
         align-items: center;
         row-gap: 0;
         &_Title{
-          padding-top: 29px;
+          padding-top: 20px;
           font-weight: 600;
           font-size: 10px;
           text-align: center;
@@ -677,15 +683,15 @@
         &_subTitle{
           font-weight: 400;
           font-size: 6px;
-          padding-top: 22px;
+          padding-top: 7px;
           width: 115px;
           text-align: center;
-          line-height: 10px;
+          line-height: 9.6px;
         }
         &_button{
           width: 88px;
           height: 22px;
-          margin-top: 12px;
+          margin-top: 9px;
           border: none;
           border-radius: 10px;
           background: #1090CB;
@@ -709,8 +715,10 @@
     height: 212px;
     border-radius: 20px;
     background: #F4F4F4;
+    transition-duration: 0.3s;
     &:hover{
       background: #1090CB;
+      transition-duration: 0.6s;
       .section-3{
         &_Container{
           &_leftCard{
