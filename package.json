@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build --base=/Agency-Web/",
-    "preview": "vite preview",
-    "build-css": "sass src/scss:dist/assets --no-source-map",
-    "watch-css": "sass --watch src/scss:dist/assets --no-source-map"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "glob": "^8.1.0",
