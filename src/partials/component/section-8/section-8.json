@@ -1,0 +1,52 @@
+[
+  {
+    "title": "E-Commerce Website Design for Fashion Brand",
+    "description": "Transforming a fashion brand’s online store into a user-friendly, stylish e-commerce platform.",
+    "photo": "../../../img/section8/section-8/section-8-photo(1).jpg"
+  },
+  {
+    "title": "Custom Web Development for Tech Startup",
+    "description": "Building a scalable, high-performance website to showcase innovative tech solutions.",
+    "photo": "../../../img/section8/section-8/section-8-photo(2).jpg"
+  },
+  {
+    "title": "Corporate Website Redesign for Law Firm",
+    "description": "Revamping a law firm's website to create a professional, user-friendly online presence.",
+    "photo": "../../../img/section8/section-8/section-8-photo(3).jpg"
+  },
+  {
+    "title": "Mobile App Development for Fitness Startup",
+    "description": "Creating a fitness app with a focus on seamless user experience and performance.",
+    "photo": "../../../img/section8/section-8/section-8-photo(4).jpg"
+  },
+  {
+    "title": "SEO Optimization for Local Business",
+    "description": "Improving the search engine rankings of a local business to attract more clients.",
+    "photo": "../../../img/section8/section-8/section-8-photo(5).jpg"
+  },
+  {
+    "title": "Custom CMS Development for News Portal",
+    "description": "Developing a content management system tailored for managing and publishing news content.",
+    "photo": "../../../img/section8/section-8/section-8-photo(6).jpg"
+  },
+  {
+    "title": "Brand Identity Design for Luxury Watch Brand",
+    "description": "Designing a unique brand identity to position a luxury watch brand in the market.",
+    "photo": "../../../img/section8/section-8/section-8-photo(7).jpg"
+  },
+  {
+    "title": "Web Application Development for Online Marketplace",
+    "description": "Building a secure, scalable platform for an online marketplace with advanced features.",
+    "photo": "../../../img/section8/section-8/section-8-photo(8).jpg"
+  },
+  {
+    "title": "Social Media Strategy for E-Commerce Store",
+    "description": "Developing a social media strategy to increase engagement and sales for an e-commerce brand.",
+    "photo": "../../../img/section8/section-8/section-8-photo(9).jpg"
+  },
+  {
+    "title": "Interactive Website for Non-Profit Organization",
+    "description": "Creating an engaging website for a non-profit to raise awareness and drive donations.",
+    "photo": "../../../img/section8/section-8/section-8-photo(10).jpg"
+  }
+]
