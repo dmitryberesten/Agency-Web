@@ -1,37 +1,37 @@
 @media (max-width: 1920px){
-  .section-3{
+  .section-3 {
     width: 100vw;
     height: 5886px;
-    &_Container{
+    &_Container {
       display: flex;
       height: 100%;
       margin: 0 auto;
-      width: 100%;  
+      width: 100vw;  
       justify-content: space-between;
-        &_leftCard{
+      &_leftCard {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 0;
-        &_Title{
+        &_Title {
           padding-top: 82px;
           font-weight: 600;
           font-size: 25px;
           text-align: center;
-          width: 365px;
+          width: 19vw;
           line-height: 42.5px;
         }
-        &_subTitle{
+        &_subTitle {
           font-weight: 400;
           font-size: 16px;
           padding-top: 67px;
-          width: 446px;
+          width: 23.2vw;
           text-align: center;
           line-height: 27.2px;
         }
-        &_button{
+        &_button {
           margin-top: 92px;
-          width: 143px;
+          width: 7.4vw;
           height: 62px;
           font-weight: 500;
           font-size: 18px;
@@ -42,29 +42,29 @@
           cursor: pointer;
         }
       }
-      &_RightCard{
+      &_RightCard {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 0;
-        &_Title{
+        &_Title {
           padding-top: 82px;
           font-weight: 600;
           font-size: 25px;
           text-align: center;
-          width: 365px;
+          width: 19vw;
           line-height: 42.5px;
         }
-        &_subTitle{
+        &_subTitle {
           font-weight: 400;
           font-size: 16px;
           padding-top: 24px;
-          width: 445px;
+          width: 23.2vw;
           text-align: center;
           line-height: 27.2px;
         }
-        &_button{
-          width: 143px;
+        &_button {
+          width: 7.4vw;
           height: 62px;
           margin-top: 62px;
           font-weight: 500;
@@ -74,34 +74,34 @@
           background: #1090CB;
           color: #Fff;
         }
-        &_svg{
+        &_svg {
           display: none;
         }
       }
-      &_MonitorCard{
+      &_MonitorCard {
         display: flex;
         position: relative;
         flex-direction: column;
         align-items: center;
         row-gap: 0;
-        &_Title{
+        &_Title {
           padding-top: 82px;
           font-weight: 600;
           font-size: 25px;
           text-align: center;
-          width: 341px;
+          width: 17.8vw;
           line-height: 42.5px;
         }
-        &_subTitle{
+        &_subTitle {
           font-weight: 400;
           font-size: 16px;
           padding-top: 67px;
-          width: 446px;
+          width: 23.2vw;
           text-align: center;
           line-height: 27.2px;
         }
-        &_button{
-          width: 143px;
+        &_button {
+          width: 7.4vw;
           height: 62px;
           margin-top: 92px;
           font-weight: 500;
@@ -111,45 +111,45 @@
           background: #1090CB;
           color: #Fff;
         }
-        &_svg{
+        &_svg {
           position: absolute;
           bottom: 516px;
           left: 168px;
-          width: 140px;
+          width: 7.29vw;
           height: 140px;
         }
       }
     }
   }
-  .CommonStylesCard{
-    min-width: 535px;
+  .CommonStylesCard {
+    min-width: 27.8vw;
     height: 586px;
     border-radius: 20px;
     background: #F4F4F4;
-    &:hover{
+    &:hover {
       background: #1090CB;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
+      .section-3 {
+        &_Container {
+          &_leftCard {
+            &_Title {
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
           }
-          &_RightCard{
-            &_Title{
+          &_RightCard {
+            &_Title {
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
@@ -160,39 +160,39 @@
   }
 } 
 @media screen and (max-width: 1440px){
-  .section-3{
+  .section-3 {
     width: 100vw;
     height: 100%;
-    &_Container{
+    &_Container {
       display: flex;
       height: 100%;
       margin: 0 auto;
-      width: 100vw;  
+      width: 100vw;
       justify-content: space-between;
-      &_leftCard{
+      &_leftCard {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 0;
-        &_Title{
+        &_Title {
           padding-top: 52px;
           font-weight: 600;
           font-size: 25px;
           text-align: center;
-          width: 365px;
+          width: 25.35vw; // 365px -> 365 / 14.4 = 25.35vw
           line-height: 38.5px;
         }
-        &_subTitle{
+        &_subTitle {
           font-weight: 400;
           font-size: 16px;
           padding-top: 48px;
-          width: 476px;
+          width: 33.06vw; // 476px -> 476 / 14.4 = 33.06vw
           text-align: center;
           line-height: 27.2px;
         }
-        &_button{
+        &_button {
           margin-top: 42px;
-          width: 153px;
+          width: 10.63vw; // 153px -> 153 / 14.4 = 10.63vw
           height: 49px;
           font-weight: 500;
           font-size: 16px;
@@ -203,30 +203,30 @@
           cursor: pointer;
         }
       }
-      &_RightCard{
+      &_RightCard {
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 0;
-        &_Title{
+        &_Title {
           padding-top: 37px;
           font-weight: 600;
           font-size: 25px;
           text-align: center;
-          width: 365px;
+          width: 25.35vw; // 365px -> 25.35vw
           line-height: 38.5px;
         }
-        &_subTitle{
+        &_subTitle {
           font-weight: 400;
           font-size: 16px;
-          width: 476px;
+          width: 33.06vw; // 476px -> 33.06vw
           padding-top: 33px;
           text-align: center;
           line-height: 27.2px;
         }
-        &_button{
-          width: 153px;
+        &_button {
+          width: 10.63vw; // 153px -> 10.63vw
           height: 49px;
           margin-top: 36px;
           border: none;
@@ -234,51 +234,51 @@
           background: #1090CB;
           color: #Fff;
         }
-        &_svg{
+        &_svg {
           display: block;
           position: absolute;
           bottom: 397px;
-          left: 428px;
-          width: 120px;
+          left: 428px; 
+          width: 8.33vw; // 120px -> 120 / 14.4 = 8.33vw
           height: 120px;
         }
       }
-      &_MonitorCard{
+      &_MonitorCard {
         display: none;
       }
     }
   }
-  .CommonStylesCard{
-    min-width: 572px;
+  .CommonStylesCard {
+    min-width: 39.72vw; // 572px -> 572 / 14.4 = 39.72vw
     height: 459px;
     border-radius: 20px;
     background: #F4F4F4;
     transition-duration: 0.3s;
-    &:hover{
+    &:hover {
       background: #1090CB;
       transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
+      .section-3 {
+        &_Container {
+          &_leftCard {
+            &_Title {
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
           }
-          &_RightCard{
-            &_Title{
+          &_RightCard {
+            &_Title {
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
@@ -286,39 +286,39 @@
         }
       }
     }
-  } 
+  }
 }
 @media (max-width: 1024px){
-  .section-3{
-    &_Container{
+  .section-3 {
+    &_Container {
       display: flex;
       height: 100%;
       margin: 0 auto;
       width: 100%;
       justify-content: space-between;
-      &_leftCard{
+      &_leftCard {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 0;
-        &_Title{
+        &_Title {
           padding-top: 93px;
           font-weight: 600;
           font-size: 30px;
           text-align: center;
-          width: 325px;
+          width: 31.74vw; // 325px -> 325 / 10.24 = 31.74vw
           line-height: 51px;
         }
-        &_subTitle{
+        &_subTitle {
           padding-top: 20px;
           font-weight: 400;
           font-size: 16px;
-          width: 358px;
+          width: 34.96vw; // 358px -> 358 / 10.24 = 34.96vw
           text-align: center;
           line-height: 27.2px;
         }
-        &_button{
-          width: 276px;
+        &_button {
+          width: 26.95vw; // 276px -> 276 / 10.24 = 26.95vw
           height: 71px;
           margin-top: 67px;
           border: none;
@@ -330,30 +330,30 @@
           cursor: pointer;
         }
       }
-      &_RightCard{
+      &_RightCard {
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 0px;
-        &_Title{
+        &_Title {
           padding-top: 93px;
           font-weight: 600;
           font-size: 30px;
           text-align: center;
-          width: 325px;
+          width: 31.74vw; // 325px -> 31.74vw
           line-height: 51px;
         }
-        &_subTitle{
+        &_subTitle {
           padding-top: 20px;
           font-weight: 400;
           font-size: 16px;
-          width: 358px;
+          width: 34.96vw; // 358px -> 34.96vw
           text-align: center;
           line-height: 27.2px;
         }
-        &_button{
-          width: 276px;
+        &_button {
+          width: 26.95vw; // 276px -> 26.95vw
           height: 71px;
           margin-top: 67px;
           font-size: 25px;
@@ -363,51 +363,51 @@
           background: #1090CB;
           color: #Fff;
         }
-        &_svg{
+        &_svg {
           display: block;
           position: absolute;
           bottom: 616px;
           left: 341px;
-          width: 90px;
+          width: 8.79vw; // 90px -> 90 / 10.24 = 8.79vw
           height: 90px;
         }
       }
-      &_MonitorCard{
+      &_MonitorCard {
         display: none;
       }
     }
   }
-  .CommonStylesCard{
-    min-width: 431px;
+  .CommonStylesCard {
+    min-width: 42.09vw; // 431px -> 431 / 10.24 = 42.09vw
     height: 662px;
     border-radius: 20px;
     background: #F4F4F4;
     transition-duration: 0.3s;
-    &:hover{
+    &:hover {
       background: #1090CB;
       transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
+      .section-3 {
+        &_Container {
+          &_leftCard {
+            &_Title {
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
           }
-          &_RightCard{
-            &_Title{
+          &_RightCard {
+            &_Title {
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
@@ -418,35 +418,35 @@
   }
 }
 @media (max-width: 768px){
-  .section-3{
-    &_Container{
+  .section-3 {
+    &_Container {
       display: flex;
-      overflow:scroll;
+      overflow: scroll;
       column-gap: 74px;
-      &_MonitorCard{
+      &_MonitorCard {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 0;
-        &_Title{
+        &_Title {
           padding-top: 92px;
           font-weight: 600;
           font-size: 30px;
           text-align: center;
-          width: 312px;
+          width: 40.63vw; // 312px -> 312 / 7.68 = 40.63vw
           line-height: 51px;
         }
-        &_subTitle{
+        &_subTitle {
           padding-top: 81px;
           font-weight: 400;
           font-size: 16px;
-          width: 345px;
+          width: 44.92vw; // 345px -> 345 / 7.68 = 44.92vw
           text-align: center;
           line-height: 27.2px;
         }
-        &_button{
+        &_button {
           margin-top: 42px;
-          width: 276px;
+          width: 35.94vw; // 276px -> 276 / 7.68 = 35.94vw
           height: 71px;
           font-weight: 500;
           font-size: 25px;
@@ -456,33 +456,33 @@
           color: #Fff;
           cursor: pointer;
         }
-        &_svg{
+        &_svg {
           display: none;
         }
       }
-      &_leftCard{ 
+      &_leftCard {
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 0  ;
-        &_Title{
+        row-gap: 0;
+        &_Title {
           padding-top: 92px;
           font-weight: 600;
           font-size: 30px;
           text-align: center;
-          width: 312px;
+          width: 40.63vw; // 312px -> 40.63vw
           line-height: 51px;
         }
-        &_subTitle{
+        &_subTitle {
           font-weight: 400;
           font-size: 16px;
           padding-top: 71px;
-          width: 345px;
+          width: 44.92vw; // 345px -> 44.92vw
           text-align: center;
           line-height: 27.2px;
         }
-        &_button{
-          width: 276px;
+        &_button {
+          width: 35.94vw; // 276px -> 35.94vw
           height: 71px;
           font-weight: 500;
           font-size: 25px;
@@ -494,30 +494,30 @@
           cursor: pointer;
         }
       }
-      &_RightCard{
+      &_RightCard {
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 0px;
-        &_Title{
+        &_Title {
           padding-top: 92px;
           font-weight: 600;
           font-size: 30px;
           text-align: center;
-          width: 312px;
+          width: 40.63vw; // 312px -> 40.63vw
           line-height: 51px;
         }
-        &_subTitle{
+        &_subTitle {
           font-weight: 400;
           padding-top: 71px;
           font-size: 16px;
-          width: 358px;
+          width: 46.61vw; // 358px -> 358 / 7.68 = 46.61vw
           text-align: center;
           line-height: 27.2px;
         }
-        &_button{
-          width: 276px;
+        &_button {
+          width: 35.94vw; // 276px -> 35.94vw
           height: 71px;
           margin-top: 56px;
           font-weight: 500;
@@ -527,9 +527,9 @@
           background: #1090CB;
           color: #Fff;
         }
-        &_svg{
+        &_svg {
           position: absolute;
-          width: 90px;
+          width: 11.72vw; // 90px -> 90 / 7.68 = 11.72vw
           height: 90px;
           bottom: 618px;
           left: 269px;
@@ -537,49 +537,49 @@
       }
     }
   }
-  .CommonStylesCard{
-    min-width: 431px;
+  .CommonStylesCard {
+    min-width: 56.12vw; // 431px -> 431 / 7.68 = 56.12vw
     height: 662px;
     border-radius: 20px;
     background: #F4F4F4;
     transition-duration: 0.3s;
-    &:hover{
+    &:hover {
       background: #1090CB;
       transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
+      .section-3 {
+        &_Container {
+          &_leftCard {
+            &_Title {
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
           }
-          &_RightCard{
-            &_Title{
+          &_RightCard {
+            &_Title {
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
           }
-          &_MonitorCard{
-            &_Title{
+          &_MonitorCard {
+            &_Title {
               color: white;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               color: #1090CB;
               background: #Fff;
             }
@@ -590,35 +590,35 @@
   }
 }
 @media (max-width: 425px){
-  .section-3{
-    &_Container{
+  .section-3 {
+    &_Container {
       display: flex;
       height: 100%;
       width: 100%;
-      overflow:scroll;
-      &_MonitorCard{
+      overflow: scroll;
+      &_MonitorCard {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 0;
-        &_Title{
+        &_Title {
           padding-top: 21px;
           font-weight: 600;
           font-size: 10px;
-          text-align: center; 
-          width: 105px;
+          text-align: center;
+          width: 24.71vw; // 105px -> 105 / 4.25 = 24.71vw
           line-height: 17px;
         }
-        &_subTitle{
+        &_subTitle {
           font-weight: 400;
           font-size: 6px;
-          width: 115px;
+          width: 27.06vw; // 115px -> 115 / 4.25 = 27.06vw
           padding-top: 7px;
           text-align: center;
           line-height: 9.6px;
         }
-        &_button{
-          width: 88px;
+        &_button {
+          width: 20.71vw; // 88px -> 88 / 4.25 = 20.71vw
           height: 22px;
           margin-top: 18.61px;
           border: none;
@@ -626,35 +626,35 @@
           background: #1090CB;
           color: #Fff;
           font-size: 10px;
-          font-weight: 500; 
+          font-weight: 500;
         }
-        &_svg{
+        &_svg {
           display: none;
         }
       }
-      &_leftCard{
+      &_leftCard {
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 0;
-        &_Title{
+        &_Title {
           padding-top: 20px;
           font-weight: 600;
           font-size: 10px;
           text-align: center;
-          width: 105px;
+          width: 24.71vw; // 105px -> 24.71vw
           line-height: 17px;
         }
-        &_subTitle{
+        &_subTitle {
           font-weight: 400;
           font-size: 5px;
           padding-top: 7px;
-          width: 115px;
+          width: 27.06vw; // 115px -> 27.06vw
           text-align: center;
           line-height: 8.5px;
         }
-        &_button{
-          width: 88px;
+        &_button {
+          width: 20.71vw; // 88px -> 20.71vw
           height: 22px;
           margin-top: 35px;
           border: none;
@@ -666,30 +666,30 @@
           cursor: pointer;
         }
       }
-      &_RightCard{
+      &_RightCard {
         display: flex;
         position: relative;
         flex-direction: column;
         align-items: center;
         row-gap: 0;
-        &_Title{
+        &_Title {
           padding-top: 20px;
           font-weight: 600;
           font-size: 10px;
           text-align: center;
-          width: 105px;
+          width: 24.71vw; // 105px -> 24.71vw
           line-height: 17px;
         }
-        &_subTitle{
+        &_subTitle {
           font-weight: 400;
           font-size: 6px;
           padding-top: 7px;
-          width: 115px;
+          width: 27.06vw; // 115px -> 27.06vw
           text-align: center;
           line-height: 9.6px;
         }
-        &_button{
-          width: 88px;
+        &_button {
+          width: 20.71vw; // 88px -> 20.71vw
           height: 22px;
           margin-top: 9px;
           border: none;
@@ -700,60 +700,60 @@
           font-weight: 500;
           cursor: pointer;
         }
-        &_svg{
+        &_svg {
           position: absolute;
           bottom: 197px;
           left: 87px;
-          width: 30px;
+          width: 7.06vw; // 30px -> 30 / 4.25 = 7.06vw
           height: 30px;
         }
       }
     }
   }
-  .CommonStylesCard{
-    min-width:138px;
+  .CommonStylesCard {
+    min-width: 32.47vw; // 138px -> 138 / 4.25 = 32.47vw
     height: 212px;
     border-radius: 20px;
     background: #F4F4F4;
     transition-duration: 0.3s;
-    &:hover{
+    &:hover {
       background: #1090CB;
       transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              width: 105px;
+      .section-3 {
+        &_Container {
+          &_leftCard {
+            &_Title {
+              width: 24.71vw; // 105px -> 24.71vw
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
           }
-          &_RightCard{
-            &_Title{
+          &_RightCard {
+            &_Title {
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
           }
-          &_MonitorCard{
-            &_Title{
+          &_MonitorCard {
+            &_Title {
               color: #Fff;
             }
-            &_subTitle{
+            &_subTitle {
               color: #Fff;
             }
-            &_button{
+            &_button {
               background: #FFFFFF;
               color: #1090CB;
             }
