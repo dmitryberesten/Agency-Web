@@ -126,8 +126,10 @@
     height: 586px;
     border-radius: 20px;
     background: #F4F4F4;
+    transition-duration: 0.3s;
     &:hover {
       background: #1090CB;
+      transition-duration: 0.6s;
       .section-3 {
         &_Container {
           &_leftCard {
@@ -153,6 +155,18 @@
               background: #FFFFFF;
               color: #1090CB;
             }
+          }
+          &_MonitorCard{
+              &_Title {
+                color: #Fff;
+              }
+              &_subTitle {
+                color: #Fff;
+              }
+              &_button {
+                background: #FFFFFF;
+                color: #1090CB;
+              }
           }
         }
       }
