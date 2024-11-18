@@ -8,6 +8,17 @@
 
   margin: 249px auto;
 
+  .section-4_photo-1,
+  .section-4_photo-2,
+  .section-4_photo-3,
+  .section-4_photo-4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 20px;
+  }
+
   .section-4_photos-1 {
     width: 779px;
     height: 387px;
@@ -99,13 +110,11 @@
       height: 346px;
 
       .section-4_photo-1 {
-        background-image: url('../../../img/section4/png/photo-1-1440.png');
         width: 247px;
         height: 259px;
       }
 
       .section-4_photo-2 {
-        background-image: url('../../../img/section4/png/photo-2-1440.png');
         width: 288px;
         height: 346px;
       }
@@ -124,13 +133,11 @@
       margin-top: 60px;
 
       .section-4_photo-3 {
-        background-image: url('../../../img/section4/png/photo-3-1440.png');
         width: 521px;
         height: 346px;
       }
 
       .section-4_photo-4 {
-        background-image: url('../../../img/section4/png/photo-4-1440.png');
         width: 542px;
         height: 346px;
       }
@@ -148,13 +155,11 @@
       height: 338px;
 
       .section-4_photo-1 {
-        background-image: url('../../../img/section4/png/photo-1-1024.png');
         width: 200px;
         height: 223px;
       }
 
       .section-4_photo-2 {
-        background-image: url('../../../img/section4/png/photo-2-1024.png');
         width: 253px;
         height: 338px;
       }
@@ -173,13 +178,11 @@
       margin-top: 27px;
 
       .section-4_photo-3 {
-        background-image: url('../../../img/section4/png/photo-3-1024.png');
         width: 433px;
         height: 282px;
       }
 
       .section-4_photo-4 {
-        background-image: url('../../../img/section4/png/photo-4-1024.png');
         width: 409px;
         height: 261px;
       }
@@ -197,13 +200,11 @@
       height: 338px;
 
       .section-4_photo-1 {
-        background-image: url('../../../img/section4/png/photo-1-768.png');
         width: 171px;
         height: 223px;
       }
 
       .section-4_photo-2 {
-        background-image: url('../../../img/section4/png/photo-2-768.png');
         width: 217px;
         height: 338px;
       }
@@ -240,13 +241,11 @@
       margin-top: 24px;
 
       .section-4_photo-3 {
-        background-image: url('../../../img/section4/png/photo-3-768.png');
         width: 371px;
         height: 282px;
       }
 
       .section-4_photo-4 {
-        background-image: url('../../../img/section4/png/photo-4-768.png');
         width: 298px;
         height: 312px;
       }
@@ -264,13 +263,11 @@
       height: 122px;
 
       .section-4_photo-1 {
-        background-image: url('../../../img/section4/png/photo-1-320.png');
         width: 60px;
         height: 80px;
       }
 
       .section-4_photo-2 {
-        background-image: url('../../../img/section4/png/photo-2-320.png');
         width: 76px;
         height: 122px;
       }
@@ -310,13 +307,11 @@
       margin-top: 7px;
 
       .section-4_photo-3 {
-        background-image: url('../../../img/section4/png/photo-3-320.png');
         width: 132px;
         height: 101px;
       }
 
       .section-4_photo-4 {
-        background-image: url('../../../img/section4/png/photo-4-320.png');
         width: 104px;
         height: 112px;
       }
