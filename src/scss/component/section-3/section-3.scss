@@ -1,3 +1,31 @@
+ @keyframes shake-top {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 0;
+  }
+  10% {
+    transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    transform: rotate(4deg);
+  }
+  80% {
+    transform: rotate(-2deg);
+  }
+  90% {
+    transform: rotate(2deg);
+  }
+}
+
+
 @media (max-width: 1920px){
   .section-3 {
     width: 100vw;
@@ -146,7 +174,7 @@
           }
           &_RightCard {
             &_Title {
-              color: #Fff;
+              color: #Fff; 
             }
             &_subTitle {
               color: #Fff;
@@ -167,6 +195,10 @@
                 background: #FFFFFF;
                 color: #1090CB;
               }
+              &_svg{
+                animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;    
+              }
+              
           }
         }
       }
@@ -296,6 +328,9 @@
               background: #FFFFFF;
               color: #1090CB;
             }
+            &_svg{
+              animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            }
           }
         }
       }
@@ -424,6 +459,9 @@
             &_button {
               background: #FFFFFF;
               color: #1090CB;
+            }
+            &_svg{
+              animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
             }
           }
         }
@@ -584,6 +622,9 @@
             &_button {
               background: #FFFFFF;
               color: #1090CB;
+            }
+            &_svg{
+              animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
             }
           }
           &_MonitorCard {
