@@ -3,22 +3,35 @@
   margin: 0;
   padding: 0;
 }
-
 .section-9-container {
   margin: 0 auto;
-  padding: 0 136px;
-  outline: 1px solid red;
   width: 100%;
   max-width: 1905px;
-
   h2 {
-    font: 500 40px 'Poppins', sans-serif;
     color: #000000;
     margin-bottom: 75px;
     text-align: center;
-    margin-left: 300px;
+    margin-right: 400px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    line-height: 37.9px;
   }
-  img {
-    padding-left: 400px;
+  .Ukraine-svg {
+    position: absolute;
+    left: 550px;
+    width: 600px;
+    height: 450px;
+  }
+  p {
+    font: 500 40px "Poppins", sans-serif;
+    color: rgba(119, 119, 119, 1);
+    width: 430px;
+    height: 10px;
+    font-size: 20px;
+    position: absolute;
+    left: 50px;
+    top: 210px;
+    line-height: 76.5px;
   }
 }
