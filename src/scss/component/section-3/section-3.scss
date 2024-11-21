@@ -23,924 +23,397 @@
 //   90% {
 //     transform: rotate(2deg);
 //   }
- }
- @media (max-width: 1920px){
-  .section-3{
+}
+.section-3_Container_itemContainer_svg{
+  display: none;
+}
+//  @media (max-width: 1920px){
+//   .section-3{
+//     width: 100vw;
+//     height: 676px;
+//     display: flex;
+//     align-items:center;
+//     justify-content: center;
+//     &_Container{
+//       width: 1702px; //переведи в vw
+//       height: 586px; 
+//       display: flex;
+//       justify-content: space-between;
+//       .CommonStylesCard{
+//         width: 535px; //переведи в vw
+//         height: 586px;
+//         display: flex; 
+//         justify-content: center;
+//         align-items: center;
+//         background-color: #f4f4f4;
+//         border-radius: 20px;
+//         .section-3_Container_itemContainer{
+//           width: 446px;// Переведи в vw
+//           height: 442px;
+//           display: flex;
+//           flex-flow: column wrap;
+//           align-items: center;
+//           justify-content: space-between;
+
+//           .textContainer{
+//             height: 333px;
+//             width: 446px; // Перевежи з px в vw
+//             display: flex;
+//             flex-flow: column wrap;
+//             justify-content: space-between;
+//             align-items: center;
+//             h3{
+//               font-size: 25px; // Переведи в vw
+//               font-weight: 600;
+//               line-height: 170%;
+//               text-align: center;
+//               width: 342px; // Переведи в vw
+//             }
+//             p{
+//               color: #545454;
+//               font-size: 16px; // Переведи в vw
+//               line-height: 170%;
+//               font-weight: 400;
+//               width: 446px; // Переведи в vw
+//               text-align: center;
+//             }
+//           }
+//           button{
+//             width: 143px; // переведи з px на vw
+//             height: 63px;
+//             border: none;
+//             background-color: #1090cb;
+//             border-radius: 10px;
+//             color: #f4f4f4;
+//             cursor: pointer;
+//           }
+//         }
+//       }
+//     }
+//   }
+//  }
+
+@media (max-width: 1920px) {
+  .section-3 {
     width: 100vw;
     height: 676px;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    &_Container{
-      width: 535px; //переведи в vw
-      height: 586px; 
+    &_Container {
+      width: 88.65vw; // 1702px / 1920 * 100
+      height: 586px;
       display: flex;
       justify-content: space-between;
-      .CommonStylesCard{
-        width: 536px; //переведи в vw
+      .CommonStylesCard {
+        width: 27.86vw; // 535px / 1920 * 100
         height: 586px;
-        display: flex; 
+        display: flex;
         justify-content: center;
         align-items: center;
         background-color: #f4f4f4;
         border-radius: 20px;
-      }
-      &_leftCard{
-        
+        .section-3_Container_itemContainer {
+          width: 23.23vw; // 446px / 1920 * 100
+          height: 442px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: space-between;
+
+          .textContainer {
+            height: 333px;
+            width: 23.23vw; // 446px / 1920 * 100
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 1.3vw; // 25px / 1920 * 100
+              font-weight: 600;
+              line-height: 170%;
+              text-align: center;
+              width: 17.81vw; // 342px / 1920 * 100
+            }
+            p {
+              color: #545454;
+              font-size: 0.83vw; // 16px / 1920 * 100
+              line-height: 170%;
+              font-weight: 400;
+              width: 23.23vw; // 446px / 1920 * 100
+              text-align: center;
+            }
+          }
+          button {
+            width: 7.45vw; // 143px / 1920 * 100
+            height: 63px;
+            border: none;
+            background-color: #1090cb;
+            border-radius: 10px;
+            color: #f4f4f4;
+            cursor: pointer;
+          }
+        }
       }
     }
   }
- }
-// @media (max-width: 1920px){
+}
+
+@media (max-width: 1440px) {
+  .section-3 {
+    width: 100vw;
+    height: 536px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_Container {
+      width: 83.33vw; // 1200px / 1440 * 100
+      height: 586px;
+      display: flex;
+      justify-content: space-between;
+      .CommonStylesCard {
+        width: 39.72vw; // 572px / 1440 * 100
+        height: 586px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        .section-3_Container_itemContainer {
+          width: 33.06vw; // 476px / 1440 * 100
+          height: 358px; // уточнити
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: space-between;
+
+          .textContainer {
+            height: 267px; // уточнити
+            width: 33.06vw; // 476px / 1440 * 100
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 1.74vw; // 25px / 1440 * 100
+              font-weight: 600;
+              line-height: 154%;
+              text-align: center;
+              width: 25.35vw; // 365px / 1440 * 100
+            }
+            p {
+              color: #545454;
+              font-size: 1.11vw; // 16px / 1440 * 100
+              line-height: 170%;
+              font-weight: 400;
+              width: 33.06vw; // 476px / 1440 * 100
+              text-align: center;
+            }
+          }
+          button {
+            width: 10.63vw; // 153px / 1440 * 100
+            height: 49px; // Залишено без змін
+            border: none;
+            background-color: #1090cb;
+            border-radius: 10px;
+            color: #f4f4f4;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .section-3 {
+    width: 100vw;
+    height: 536px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_Container {
+      width: 87.89vw; // 900px / 1024 * 100
+      height: 721px;
+      display: flex;
+      justify-content: space-between;
+      .CommonStylesCard {
+        width: 42.09vw; // 431px / 1024 * 100
+        height: 663px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        .section-3_Container_itemContainer {
+          width: 35.06vw; // 359px / 1024 * 100
+          height: 500px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: space-between;
+
+          .textContainer {
+            height: 376px; // уточнити
+            width: 35.06vw; // 359px / 1024 * 100
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 2.93vw; // 30px / 1024 * 100
+              font-weight: 600;
+              line-height: 170%;
+              text-align: center;
+              width: 30.47vw; // 312px / 1024 * 100 (уточнити)
+            }
+            p {
+              color: #545454;
+              font-size: 1.56vw; // 16px / 1024 * 100
+              line-height: 170%;
+              font-weight: 400;
+              width: 34.96vw; // 358px / 1024 * 100
+              text-align: center;
+            }
+          }
+          button {
+            width: 26.95vw; // 276px / 1024 * 100
+            height: 71px;
+            border: none;
+            background-color: #1090cb;
+            border-radius: 10px;
+            color: #f4f4f4;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .section-3 {
+    width: 100vw;
+    height: 663px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_Container {
+      width: 188.02vw; // 1443px / 768 * 100
+      height: 662px;
+      display: flex;
+      justify-content: space-between;
+      .CommonStylesCard {
+        width: 56.12vw; // 431px / 768 * 100
+        height: 663px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        .section-3_Container_itemContainer {
+          width: 44.92vw; // 345px / 768 * 100 (уточнити)
+          height: 500px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: space-between;
+
+          .textContainer {
+            height: 372px; // уточнити
+            width: 44.92vw; // 345px / 768 * 100
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 3.91vw; // 30px / 768 * 100
+              font-weight: 600;
+              line-height: 170%;
+              text-align: center;
+              width: 40.63vw; // 312px / 768 * 100
+            }
+            p {
+              color: #545454;
+              font-size: 2.08vw; // 16px / 768 * 100
+              line-height: 170%;
+              font-weight: 400;
+              width: 44.92vw; // 345px / 768 * 100
+              text-align: center;
+            }
+          }
+          button {
+            width: 35.94vw; // 276px / 768 * 100
+            height: 71px;
+            border: none;
+            background-color: #1090cb;
+            border-radius: 10px;
+            color: #f4f4f4;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+// @media (max-width: 320px) { не перероблено
 //   .section-3 {
 //     width: 100vw;
-//     height: 5886px;
+//     height: 12px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
 //     &_Container {
+//       width: 188.02vw; // переведи з px в vw
+//       height: 662px;
 //       display: flex;
-//       height: 100%;
-//       margin: 0 auto;
-//       width: 100vw;  
 //       justify-content: space-between;
-//       &_leftCard {
-//         display: flex;  
-//         align-items: center;
+//       .CommonStylesCard {
+//         width: 56.12vw; // переведи з px в vw
+//         height: 663px;
+//         display: flex;
 //         justify-content: center;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             // padding-top: 82px;
-//             font-weight: 600;
-//             font-size: 25px;
-//             text-align: center;
-//             width: 19vw;
-//             line-height: 42.5px;
-//           }
-//           &_subTitle {
-//             font-weight: 400;
-//             font-size: 16px;
-//             // padding-top: 67px;
-//             width: 23.2vw;
-//             text-align: center;
-//             line-height: 27.2px;
-//           }
-//           &_button {
-//             // margin-top: 92px;
-//             width: 7.4vw;
-//             height: 62px;
-//             font-weight: 500;
-//             font-size: 18px;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//             cursor: pointer;
-//           }
-//         }
-//       }
-//       &_RightCard {
-//         display: flex;
-//         flex-direction: column;
 //         align-items: center;
-//         row-gap: 0;
-//         &_itemContainer{
+//         background-color: #f4f4f4;
+//         border-radius: 20px;
+//         .section-3_Container_itemContainer {
+//           width: 44.92vw; // переведи з px в vw
+//           height: 500px;
 //           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
+//           flex-flow: column wrap;
 //           align-items: center;
-//           &_Title {
-//             padding-top: 82px;
-//             font-weight: 600;
-//             font-size: 25px;
-//             text-align: center;
-//             width: 19vw;
-//             line-height: 42.5px;
-//           }
-//           &_subTitle {
-//             font-weight: 400;
-//             font-size: 16px;
-//             padding-top: 24px;
-//             width: 23.2vw;
-//             text-align: center;
-//             line-height: 27.2px;
-//           }
-//           &_button {
-//             width: 7.4vw;
-//             height: 62px;
-//             margin-top: 62px;
-//             font-weight: 500;
-//             font-size: 18px;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//           }
-//           &_svg {
-//             display: none;
-//           }
-//         }
-//       }
-//       &_MonitorCard {
-//         display: flex;
-//         position: relative;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
 //           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             padding-top: 82px;
-//             font-weight: 600;
-//             font-size: 25px;
-//             text-align: center;
-//             width: 17.8vw;
-//             line-height: 42.5px;
-//           }
-//           &_subTitle {
-//             font-weight: 400;
-//             font-size: 16px;
-//             padding-top: 67px;
-//             width: 23.2vw;
-//             text-align: center;
-//             line-height: 27.2px;
-//           }
-//           &_button {
-//             width: 7.4vw;
-//             height: 62px;
-//             margin-top: 92px;
-//             font-weight: 500;
-//             font-size: 18px;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//           }
-//           &_svg {
-//             position: absolute;
-//             bottom: 516px;
-//             left: 168px;
-//             width: 7.29vw;
-//             height: 140px;
-//           }
-//         }
-//       }
-//     }
-//   }
-//   .CommonStylesCard {
-//     min-width: 27.8vw;
-//     height: 586px;
-//     border-radius: 20px;
-//     background: #F4F4F4;
-//     transition-duration: 0.3s;
-//     &:hover {
-//       background: #1090CB;
-//       transition-duration: 0.6s;
-//       .section-3 {
-//         &_Container {
-//           &_leftCard {
-//             &_itemContainer{
-//               &_Title {
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               }
-//             }
-//           }
-//           &_RightCard {
-//             &_itemContainer{
-//               &_Title {
-//                 color: #Fff; 
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               } 
-//             }
-//           }
-//           &_MonitorCard{
-//             &_itemContainer{
-//               &_Title {
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               }
-//               &_svg{
-//                 animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;    
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// } 
-// @media screen and (max-width: 1440px){
-//   .section-3 {
-//     width: 100vw;
-//     height: 100%;
-//     &_Container {
-//       display: flex;
-//       height: 100%;
-//       margin: 0 auto;
-//       width: 100vw;
-//       justify-content: space-between;
-//       &_leftCard {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             padding-top: 52px;
-//             font-weight: 600;
-//             font-size: 25px;
-//             text-align: center;
-//             width: 365px; // 365px -> 365 / 14.4 = 25.35vw
-//             line-height: 38.5px;
-//           }
-//           &_subTitle {
-//             font-weight: 400;
-//             font-size: 16px;
-//             padding-top: 48px;
-//             width: 476px; // 476px -> 476 / 14.4 = 33.06vw
-//             text-align: center;
-//             line-height: 27.2px;
-//           }
-//           &_button {
-//             margin-top: 42px;
-//             width: 153px; // 153px -> 153 / 14.4 = 10.63vw
-//             height: 49px;
-//             font-weight: 500;
-//             font-size: 16px;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//             cursor: pointer;
-//           }
-//         }
-//       }
-//       &_RightCard {
-//         position: relative;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             padding-top: 37px;
-//             font-weight: 600;
-//             font-size: 25px;
-//             text-align: center;
-//             width: 365px; // 365px -> 25.35vw
-//             line-height: 38.5px;
-//           }
-//           &_subTitle {
-//             font-weight: 400;
-//             font-size: 16px;
-//             width: 476px; // 476px -> 33.06vw
-//             padding-top: 33px;
-//             text-align: center;
-//             line-height: 27.2px;
-//           }
-//           &_button {
-//             width: 153px; // 153px -> 10.63vw
-//             height: 49px;
-//             margin-top: 36px;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//           }
-//           &_svg {
-//             display: block;
-//             position: absolute;
-//             bottom: 397px;
-//             left: 428px; 
-//             width: 120px; // 120px -> 120 / 14.4 = 8.33vw
-//             height: 120px;
-//           }
-//         }
-//       }
-//       &_MonitorCard {
-//         display: none;
-//       }
-//     }
-//   }
-//   .CommonStylesCard {
-//     min-width: 572px; // 572px -> 572 / 14.4 = 39.72vw
-//     height: 459px;
-//     border-radius: 20px;
-//     background: #F4F4F4;
-//     transition-duration: 0.3s;
-//     &:hover {
-//       background: #1090CB;
-//       transition-duration: 0.6s;
-//       .section-3 {
-//         &_Container {
-//           &_leftCard {
-//             &_itemCard{
-//               &_Title {
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               }
-//             }
-//           }
-//           &_RightCard {
-//             &_itemContainer{
-//               &_Title {
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               }
-//               &_svg{
-//                 animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-//               } 
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-// @media (max-width: 1024px){
-//   .section-3 {
-//     &_Container {
-//       display: flex;
-//       height: 100%;
-//       margin: 0 auto;
-//       width: 100%;
-//       justify-content: space-between;
-//       &_leftCard {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             padding-top: 93px;
-//             font-weight: 600;
-//             font-size: 30px;
-//             text-align: center;
-//             width: 325px; // 325px -> 325 / 10.24 = 31.74vw
-//             line-height: 51px;
-//           }
-//           &_subTitle {
-//             padding-top: 20px;
-//             font-weight: 400;
-//             font-size: 16px;
-//             width: 358px; // 358px -> 358 / 10.24 = 34.96vw
-//             text-align: center;
-//             line-height: 27.2px;
-//           }
-//           &_button {
-//             width: 276px; // 276px -> 276 / 10.24 = 26.95vw
-//             height: 71px;
-//             margin-top: 67px;
-//             border: none;
-//             font-size: 25px;
-//             font-weight: 500;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//             cursor: pointer;
-//           }
-//         }
-//       }
-//       &_RightCard {
-//         position: relative;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0px;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             padding-top: 93px;
-//             font-weight: 600;
-//             font-size: 30px;
-//             text-align: center;
-//             width: 325px; // 325px -> 31.74vw
-//             line-height: 51px;
-//           }
-//           &_subTitle {
-//             padding-top: 20px;
-//             font-weight: 400;
-//             font-size: 16px;
-//             width: 358px; // 358px -> 34.96vw
-//             text-align: center;
-//             line-height: 27.2px;
-//           }
-//           &_button {
-//             width: 276px; // 276px -> 26.95vw
-//             height: 71px;
-//             margin-top: 67px;
-//             font-size: 25px;
-//             font-weight: 500;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//           }
-//           &_svg {
-//             display: block;
-//             position: absolute;
-//             bottom: 616px;
-//             left: 341px;
-//             width: 8.79vw; // 90px -> 90 / 10.24 = 8.79vw
-//             height: 90px;
-//           }
-//         }
-//       }
-//       &_MonitorCard {
-//         display: none;
-//       }
-//     }
-//   }
-//   .CommonStylesCard {
-//     min-width: 42.09vw; // 431px -> 431 / 10.24 = 42.09vw
-//     height: 662px;
-//     border-radius: 20px;
-//     background: #F4F4F4;
-//     transition-duration: 0.3s;
-//     &:hover {
-//       background: #1090CB;
-//       transition-duration: 0.6s;
-//       .section-3 {
-//         &_Container {
-//           &_leftCard {
-//             &_itemContainer{
-//               &_Title {
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               }
-//             }
-//           }
-//           &_RightCard {
-//             &_itemContainer{
-//               &_Title {
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               }
-//               &_svg{
-//                 animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-// @media (max-width: 768px){
-//   .section-3 {
-//     &_Container {
-//       display: flex;
-//       overflow: scroll;
-//       column-gap: 74px;
-//       &_MonitorCard {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             padding-top: 92px;
-//             font-weight: 600;
-//             font-size: 30px;
-//             text-align: center;
-//             width: 40.63vw; // 312px -> 312 / 7.68 = 40.63vw
-//             line-height: 51px;
-//           }
-//           &_subTitle {
-//             padding-top: 81px;
-//             font-weight: 400;
-//             font-size: 16px;
-//             width: 44.92vw; // 345px -> 345 / 7.68 = 44.92vw
-//             text-align: center;
-//             line-height: 27.2px;
-//           }
-//           &_button {
-//             margin-top: 42px;
-//             width: 35.94vw; // 276px -> 276 / 7.68 = 35.94vw
-//             height: 71px;
-//             font-weight: 500;
-//             font-size: 25px;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//             cursor: pointer;
-//           }
-//           &_svg {
-//             display: none;
-//           }
-//         }
-//       }
-//       &_leftCard {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             padding-top: 92px;
-//             font-weight: 600;
-//             font-size: 30px;
-//             text-align: center;
-//             width: 40.63vw; // 312px -> 40.63vw
-//             line-height: 51px;
-//           }
-//           &_subTitle {
-//             font-weight: 400;
-//             font-size: 16px;
-//             padding-top: 71px;
-//             width: 44.92vw; // 345px -> 44.92vw
-//             text-align: center;
-//             line-height: 27.2px;
-//           }
-//           &_button {
-//             width: 35.94vw; //  -> 35.94vw
-//             height: 71px;
-//             font-weight: 500;
-//             font-size: 25px;
-//             margin-top: 56px;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//             cursor: pointer;
-//           }
-//         }
-//       }
-//       &_RightCard {
-//         position: relative;
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0px;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             padding-top: 92px;
-//             font-weight: 600;
-//             font-size: 30px;
-//             text-align: center;
-//             width: 40.63vw; // 312px -> 40.63vw
-//             line-height: 51px;
-//           }
-//           &_subTitle {
-//             font-weight: 400;
-//             padding-top: 71px;
-//             font-size: 16px;
-//             width: 46.61vw; // 358px -> 358 / 7.68 = 46.61vw
-//             text-align: center;
-//             line-height: 27.2px;
-//           }
-//           &_button {
-//             width: 35.94vw; // 276px -> 35.94vw
-//             height: 71px;
-//             margin-top: 56px;
-//             font-weight: 500;
-//             font-size: 25px;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//           }
-//           &_svg {
-//             position: absolute;
-//             width: 11.72vw; // 90px -> 90 / 7.68 = 11.72vw
-//             height: 90px;
-//             bottom: 618px;
-//             left: 269px;
-//           }
-//         }
-//       }
-//     }
-//   }
-//   .CommonStylesCard {
-//     min-width: 56.12vw; // -> 431 / 7.68 = 56.12vw
-//     height: 662px;
-//     border-radius: 20px;
-//     background: #F4F4F4;
-//     transition-duration: 0.3s;
-//     &:hover {
-//       background: #1090CB;
-//       transition-duration: 0.6s;
-//       .section-3 {
-//         &_Container {
-//           &_leftCard {
-//             &_itemContainer{
-//               &_Title {
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               }
-//             }
-//           }
-//           &_RightCard {
-//             &_itemContainer{
-//               &_Title {
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               }
-//               &_svg{
-//                 animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-//               }
-//             }
-//           }
-//           &_MonitorCard {
-//             &_itemContainer{
-//               &_Title {
-//                 color: white;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 color: #1090CB;
-//                 background: #Fff;
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-// @media (max-width: 425px){
-//   .section-3 {
-//     &_Container {
-//       display: flex;
-//       height: 100%;
-//       width: 100%;
-//       overflow: scroll;
-//       &_MonitorCard {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             padding-top: 21px;
-//             font-weight: 600;
-//             font-size: 10px;
-//             text-align: center;
-//             width: 24.71vw; // 105px -> 105 / 4.25 = 24.71vw
-//             line-height: 17px;
-//           }
-//           &_subTitle {
-//             font-weight: 400;
-//             font-size: 6px;
-//             width: 27.06vw; // 115px -> 115 / 4.25 = 27.06vw
-//             padding-top: 7px;
-//             text-align: center;
-//             line-height: 9.6px;
-//           }
-//           &_button {
-//             width: 20.71vw; // 88px -> 88 / 4.25 = 20.71vw
-//             height: 22px;
-//             margin-top: 18.61px;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//             font-size: 10px;
-//             font-weight: 500;
-//           }
-//           &_svg {
-//             display: none;
-//           }
-//         }
-//       }
-//       &_leftCard {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
-//           &_Title {
-//             padding-top: 20px;
-//             font-weight: 600;
-//             font-size: 10px;
-//             text-align: center;
-//             width: 24.71vw; // 105px -> 24.71vw
-//             line-height: 17px;
-//           }
-//           &_subTitle {
-//             font-weight: 400;
-//             font-size: 5px;
-//             padding-top: 7px;
-//             width: 27.06vw; // 115px -> 27.06vw
-//             text-align: center;
-//             line-height: 8.5px;
-//           }
-//           &_button {
-//             width: 20.71vw; // 88px -> 20.71vw
-//             height: 22px;
-//             margin-top: 35px;
-//             border: none;
-//             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//             font-size: 10px;
-//             font-weight: 500;
-//             cursor: pointer;
-//           }
-//         }
-//       }
-//       &_RightCard {
-//         display: flex;
-//         position: relative;
-//         flex-direction: column;
-//         align-items: center;
-//         row-gap: 0;
-//         &_itemContainer{
-//           display: flex;
-//           flex-flow:column wrap;
-//           justify-content: space-between;
-//           align-items: center;
 
-
-//           &_Title {
-//             padding-top: 20px;
-//             font-weight: 600;
-//             font-size: 10px;
-//             text-align: center;
-//             width: 24.71vw; // 105px -> 24.71vw
-//             line-height: 17px;
+//           .textContainer {
+//             height: 372px; // уточнити
+//             width: 44.92vw; //переведи з px в vw
+//             display: flex;
+//             flex-flow: column wrap;
+//             justify-content: space-between;
+//             align-items: center;
+//             h3 {
+//               font-size: 3.91vw; //переведи з px в vw
+//               font-weight: 600;
+//               line-height: 170%;
+//               text-align: center;
+//               width: 40.63vw; // переведи з px в vw
+//             }
+//             p {
+//               color: #545454;
+//               font-size: 2.08vw; // переведи з px в vw
+//               line-height: 170%;
+//               font-weight: 400;
+//               width: 44.92vw; // переведи з px в vw
+//               text-align: center;
+//             }
 //           }
-//           &_subTitle {
-//             font-weight: 400;
-//             font-size: 6px;
-//             padding-top: 7px;
-//             width: 27.06vw; // 115px -> 27.06vw
-//             text-align: center;
-//             line-height: 9.6px;
-//           }
-//           &_button {
-//             width: 20.71vw; // 88px -> 20.71vw
-//             height: 22px;
-//             margin-top: 9px;
+//           button {
+//             width: 35.94vw; // переведи з px в vw
+//             height: 71px;
 //             border: none;
+//             background-color: #1090cb;
 //             border-radius: 10px;
-//             background: #1090CB;
-//             color: #Fff;
-//             font-size: 10px;
-//             font-weight: 500;
+//             color: #f4f4f4;
 //             cursor: pointer;
-//           }
-//           &_svg {
-//             position: absolute;
-//             bottom: 197px;
-//             left: 87px;
-//             width: 7.06vw; // 30px -> 30 / 4.25 = 7.06vw
-//             height: 30px;
-//           }
-//         }
-//       }
-//     }
-//   }
-//   .CommonStylesCard {
-//     min-width: 32.47vw; // 138px -> 138 / 4.25 = 32.47vw
-//     height: 212px;
-//     border-radius: 20px;
-//     background: #F4F4F4;
-//     transition-duration: 0.3s;
-//     &:hover {
-//       background: #1090CB;
-//       transition-duration: 0.6s;
-//       .section-3 {
-//         &_Container {
-//           &_leftCard {
-//             &_itemContainer{
-//               &_Title {
-//                 width: 24.71vw; // 105px -> 24.71vw
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               }
-//             }
-//           }
-//           &_RightCard {
-//             &_itemContainer{
-//               &_Title {
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               }
-//             }
-//           }
-//           &_MonitorCard {
-//             &_itemContainer{
-//               &_Title {
-//                 color: #Fff;
-//               }
-//               &_subTitle {
-//                 color: #Fff;
-//               }
-//               &_button {
-//                 background: #FFFFFF;
-//                 color: #1090CB;
-//               } 
-//             }
 //           }
 //         }
 //       }
