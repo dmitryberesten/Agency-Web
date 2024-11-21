@@ -13,7 +13,7 @@
         font: 500 40px 'Poppins', sans-serif;
         color: #000000;
         margin-bottom: 75px;
-        text-align: center;
+        text-align: start;
     }
 
     .section-8-box {
@@ -24,6 +24,7 @@
         scrollbar-width: none;
         -ms-overflow-style: none;
         scroll-behavior: smooth;
+        gap: 101px;
 
         &::-webkit-scrollbar {
             display: none;
@@ -40,6 +41,17 @@
                 width: 100%;
                 border-radius: 45px;
             }
+            .card__h {
+                font: 600 27px 'Poppins', sans-serif;
+                margin: 48px 0 27px 0;
+                line-height: 48px;
+            }
+
+            .card__p {
+                font: 400 20px 'Poppins', sans-serif;
+                line-height: 42px;
+                color: #424242;
+            }
         }
     }
 }
@@ -51,7 +63,7 @@
         .section-8__header {
             font: 500 40px 'Poppins', sans-serif;
             margin-bottom: 75px;
-            text-align: center;
+            text-align: start;
         }
 
         .section-8-box {
@@ -88,7 +100,7 @@
         .section-8__header {
             font: 500 36px 'Poppins', sans-serif;
             margin-bottom: 63px;
-            text-align: center;
+            text-align: start;
             line-height: 64px;
             color: #000000;
         }
@@ -126,7 +138,7 @@
         .section-8__header {
             font: 500 44px 'Poppins', sans-serif;
             margin-bottom: 42px;
-            text-align: center;
+            text-align: start;
             line-height: 78px;
         }
 
@@ -165,7 +177,7 @@
         .section-8__header {
             font: 500 44px 'Poppins', sans-serif;
             margin-bottom: 42px;
-            text-align: center;
+            text-align: start;
             line-height: 78px;
             color: #000000;
         }
@@ -198,36 +210,37 @@
 
 }
 
+
 // @media (max-width: 425px) {
 //     .section-8-container {
-//         padding: 0 20px;
-
 //         .section-8__header {
 //             font: 500 20px 'Poppins', sans-serif;
-//             margin-bottom: 35px;
+//             margin-bottom: 23px;
+//             text-align: start;
 //         }
 
 //         .section-8-box {
-//             gap: 20px;
+//             // gap: 23.32px;
 
 //             .section-8__card {
-//                 flex: 0 0 43vw;
+//                 flex: 0 0 50.63vw; // 162px / 320px * 100vw
 
 //                 .section-8__img {
-//                     width: 43.36vw; // 333px / 768px * 100vw 43.36vw
-//                     height: 106px;
+//                     width: 50.63vw; // 162px / 320px * 100vw
+//                     height: 46.56vw; // 149px / 320px * 100vw
 //                 }
 
 //                 .card__h {
-//                     font: 600 20px 'Poppins', sans-serif;
-//                     margin: 25px 0;
-//                     line-height: 41px;
+//                     font: 600 13px 'Poppins', sans-serif;
+//                     margin: 19px 0;
+//                     line-height: 18px;
 //                     color: #000000;
 //                 }
 
 //                 .card__p {
-//                     font: 400 16px 'Poppins', sans-serif;
-//                     line-height: 34px;
+//                     font: 400 9px 'Poppins', sans-serif;
+//                     line-height: 12.65px;
+//                     color: #424242;
 //                 }
 //             }
 //         }
@@ -236,44 +249,47 @@
 
 // @media (max-width: 375px) {
 //     .section-8-container {
-//         padding: 0 16px;
-
 //         .section-8__header {
-//             font: 500 22px 'Poppins', sans-serif;
-//             margin-bottom: 30px;
+//             font: 500 20px 'Poppins', sans-serif;
+//             margin-bottom: 23px;
+//             text-align: center;
 //         }
 
 //         .section-8-box {
-//             gap: 16px;
+//             // gap: 23.32px;
 
 //             .section-8__card {
-//                 flex: 0 0 48%; // Дві картки в ряд
-//                 margin-right: 10px;
+//                 flex: 0 0 50.63vw; // 162px / 320px * 100vw
 
 //                 .section-8__img {
-//                     width: 43.36vw;
-//                     height: 148px;
+//                     width: 50.63vw; // 162px / 320px * 100vw
+//                     height: 46.56vw; // 149px / 320px * 100vw
 //                 }
 
 //                 .card__h {
-//                     font: 600 18px 'Poppins', sans-serif;
-//                     margin: 20px 0;
+//                     font: 600 13px 'Poppins', sans-serif;
+//                     margin: 19px 0;
+//                     line-height: 18px;
+//                     color: #000000;
 //                 }
 
 //                 .card__p {
-//                     font: 400 14px 'Poppins', sans-serif;
+//                     font: 400 9px 'Poppins', sans-serif;
+//                     line-height: 12.65px;
+//                     color: #424242;
 //                 }
 //             }
 //         }
 //     }
 // }
 
+
 @media (max-width: 320px) {
     .section-8-container {
         .section-8__header {
             font: 500 20px 'Poppins', sans-serif;
             margin-bottom: 23px;
-            text-align: center;
+            text-align: start;
         }
 
         .section-8-box {
