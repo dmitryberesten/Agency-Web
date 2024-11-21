@@ -44,6 +44,7 @@
           display: flex;
           flex-flow:column wrap;
           justify-content: space-between;
+          align-items:center ;
           &_Title {
             // padding-top: 82px;
             font-weight: 600;
@@ -80,6 +81,10 @@
         align-items: center;
         row-gap: 0;
         &_itemContainer{
+          display: flex;
+          flex-flow:column wrap;
+          justify-content: space-between;
+          align-items:center ;
           &_Title {
             padding-top: 82px;
             font-weight: 600;
@@ -119,6 +124,10 @@
         align-items: center;
         row-gap: 0;
         &_itemContainer{
+          display: flex;
+          flex-flow:column wrap;
+          justify-content: space-between;
+          align-items:center ;
           &_Title {
             padding-top: 82px;
             font-weight: 600;
