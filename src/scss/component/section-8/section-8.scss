@@ -18,37 +18,12 @@
 
     .section-8-box {
         display: flex;
-        gap: 100px;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         position: relative;
         scrollbar-width: none;
         -ms-overflow-style: none;
         scroll-behavior: smooth;
-
-
-        // недотіні ліві праві
-        // &::before,
-        // &::after {
-        //     content: '';
-        //     position: sticky;
-        //     top: 0;
-        //     bottom: 0;
-        //     width: 50px;
-        //     background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
-        //     pointer-events: none;
-        //     z-index: 10;
-        // }
-
-        // &::before {
-        //     left: 0;
-        //     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
-        // }
-
-        // &::after {
-        //     right: 0;
-        //     background: linear-gradient(to left, rgba(0, 0, 0, 0.5), transparent);
-        // }
 
         &::-webkit-scrollbar {
             display: none;
@@ -65,18 +40,6 @@
                 width: 100%;
                 border-radius: 45px;
             }
-
-            .card__h {
-                font: 600 27px 'Poppins', sans-serif;
-                letter-spacing: 1%;
-                color: #000000;
-                margin: 48px 0;
-            }
-
-            .card__p {
-                font: 400 20px 'Poppins', sans-serif;
-                color: #424242;
-            }
         }
     }
 }
@@ -92,11 +55,13 @@
         }
 
         .section-8-box {
+            gap: 101px;
+
             .section-8__card {
-                flex: 0 0 400px;
+                flex: 0 0 26.1781vw; // 20.83vw 400px / 1920px * 100vw
 
                 .section-8__img {
-                    width: 400px;
+                    width: 26.1781vw; // 400px / 1920px * 100vw
                     height: 367px;
                 }
 
@@ -104,13 +69,11 @@
                     font: 600 27px 'Poppins', sans-serif;
                     margin: 48px 0 27px 0;
                     line-height: 48px;
-                    letter-spacing: 1%;
                 }
 
                 .card__p {
                     font: 400 20px 'Poppins', sans-serif;
                     line-height: 42px;
-                    letter-spacing: 1%;
                     color: #424242;
                 }
             }
@@ -127,7 +90,6 @@
             margin-bottom: 63px;
             text-align: center;
             line-height: 64px;
-            letter-spacing: 1%;
             color: #000000;
         }
 
@@ -135,24 +97,22 @@
             gap: 84px;
 
             .section-8__card {
-                flex: 0 0 333px;
+                flex: 0 0 23.13vw; // 333px / 1440px * 100vw
 
                 .section-8__img {
-                    width: 333px;
-                    height: 306px;
+                    width: 23.13vw; // 333px / 1440px * 100vw
+                    height: 21.25vw; // 306px / 1440px * 100vw
                 }
 
                 .card__h {
                     font: 600 23px 'Poppins', sans-serif;
                     margin: 40px 0 20px 0;
                     line-height: 41px;
-                    letter-spacing: 1%;
                 }
 
                 .card__p {
                     font: 400 16px 'Poppins', sans-serif;
                     line-height: 34px;
-                    letter-spacing: 1%;
                 }
             }
         }
@@ -168,32 +128,29 @@
             margin-bottom: 42px;
             text-align: center;
             line-height: 78px;
-            letter-spacing: 1%;
         }
 
         .section-8-box {
             gap: 84px;
 
             .section-8__card {
-                flex: 0 0 333px;
+                flex: 0 0 32.52vw; // 333px / 1024px * 100vw
 
                 .section-8__img {
-                    width: 333px;
-                    height: 306px;
+                    width: 32.52vw; // 333px / 1024px * 100vw
+                    height: 29.88vw; // 306px / 1024px * 100vw
                 }
 
                 .card__h {
                     font: 600 23px 'Poppins', sans-serif;
                     margin: 40px 0 30px 0;
                     line-height: 41px;
-                    letter-spacing: 1%;
                     color: #000000;
                 }
 
                 .card__p {
                     font: 400 16px 'Poppins', sans-serif;
                     line-height: 34px;
-                    letter-spacing: 1%;
                     color: #424242;
                 }
             }
@@ -210,43 +167,106 @@
             margin-bottom: 42px;
             text-align: center;
             line-height: 78px;
-            letter-spacing: 1%;
             color: #000000;
         }
 
         .section-8-box {
             gap: 54px;
-            scroll-behavior: smooth;
 
             .section-8__card {
-                flex: 0 0 333px;
+                flex: 0 0 43.36vw; // 333px / 768px * 100vw 43.36vw
 
                 .section-8__img {
-                    width: 333px;
-                    height: 306px;
+                    width: 43.36vw; // 333px / 768px * 100vw 43.36vw
+                    height: 306px; // 306px / 768px * 100vw 39.84vw
                 }
 
                 .card__h {
                     font: 600 23px 'Poppins', sans-serif;
                     margin: 40px 0 30px 0;
                     line-height: 41px;
-                    letter-spacing: 1%;
                     color: #000000;
                 }
 
                 .card__p {
                     font: 400 16px 'Poppins', sans-serif;
                     line-height: 34px;
-                    letter-spacing: 1%;
                 }
             }
         }
     }
 
-    .section-8-box {
-        gap: 20px;
-    }
 }
+
+// @media (max-width: 425px) {
+//     .section-8-container {
+//         padding: 0 20px;
+
+//         .section-8__header {
+//             font: 500 20px 'Poppins', sans-serif;
+//             margin-bottom: 35px;
+//         }
+
+//         .section-8-box {
+//             gap: 20px;
+
+//             .section-8__card {
+//                 flex: 0 0 43vw;
+
+//                 .section-8__img {
+//                     width: 43.36vw; // 333px / 768px * 100vw 43.36vw
+//                     height: 106px;
+//                 }
+
+//                 .card__h {
+//                     font: 600 20px 'Poppins', sans-serif;
+//                     margin: 25px 0;
+//                     line-height: 41px;
+//                     color: #000000;
+//                 }
+
+//                 .card__p {
+//                     font: 400 16px 'Poppins', sans-serif;
+//                     line-height: 34px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media (max-width: 375px) {
+//     .section-8-container {
+//         padding: 0 16px;
+
+//         .section-8__header {
+//             font: 500 22px 'Poppins', sans-serif;
+//             margin-bottom: 30px;
+//         }
+
+//         .section-8-box {
+//             gap: 16px;
+
+//             .section-8__card {
+//                 flex: 0 0 48%; // Дві картки в ряд
+//                 margin-right: 10px;
+
+//                 .section-8__img {
+//                     width: 43.36vw;
+//                     height: 148px;
+//                 }
+
+//                 .card__h {
+//                     font: 600 18px 'Poppins', sans-serif;
+//                     margin: 20px 0;
+//                 }
+
+//                 .card__p {
+//                     font: 400 14px 'Poppins', sans-serif;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 @media (max-width: 320px) {
     .section-8-container {
@@ -257,26 +277,26 @@
         }
 
         .section-8-box {
+            gap: 23.32px;
+
             .section-8__card {
-                flex: 0 0 162px;
+                flex: 0 0 50.63vw; // 162px / 320px * 100vw
 
                 .section-8__img {
-                    width: 162px;
-                    height: 149px;
+                    width: 50.63vw; // 162px / 320px * 100vw
+                    height: 46.56vw; // 149px / 320px * 100vw
                 }
 
                 .card__h {
                     font: 600 13px 'Poppins', sans-serif;
                     margin: 19px 0;
                     line-height: 18px;
-                    letter-spacing: 1%;
                     color: #000000;
                 }
 
                 .card__p {
                     font: 400 9px 'Poppins', sans-serif;
                     line-height: 12.65px;
-                    letter-spacing: 1%;
                     color: #424242;
                 }
             }
