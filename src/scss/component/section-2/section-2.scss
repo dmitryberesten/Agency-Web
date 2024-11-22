@@ -118,21 +118,22 @@ $color-blue: #1090cb;
 }
 
 .phone-img {
-  background-image: url('../css/img/phone-no-bg.png');
+  background-image: url('../src/img/section2/phone-no-bg.png');
+  // background-image: url('../src/img/partials/component/section2/phone-no-bg.png');
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
 }
 
 .layers-img {
-  background-image: url('../css/img/layers.png');
+  background-image: url('../src/img/section2/layers.png');
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
 }
 
 .vr-dude-img {
-  background-image: url('../css/img/vr-dude.png');
+  background-image: url('../src/img/section2/vr-dude.png');
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
