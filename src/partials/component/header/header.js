@@ -2,6 +2,22 @@ const btnBurgerMenu = document.querySelector('.menu__btn');
 const backdrop = document.querySelector('.backdrop');
 const mobileVersion = document.querySelector('.mobile-version');
 
+function handleResize() {
+  const screenWidth = window.innerWidth;
+
+  if (screenWidth > 1023) {
+    mobileVersion.setAttribute('class', 'mobile-version');
+    backdrop.setAttribute('class', 'backdrop');
+    btnBurgerMenu.setAttribute('class', 'menu__btn');
+  } else {
+    return;
+  }
+}
+
+handleResize();
+
+window.addEventListener('resize', handleResize);
+
 document.addEventListener('DOMContentLoaded', () => {
   const navLinks = document.querySelectorAll('.nav-link');
 
