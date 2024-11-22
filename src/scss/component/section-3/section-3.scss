@@ -1,21 +1,611 @@
-@media screen and (min-width:320px) and (max-width:768px) {
+@media (max-width: 1920px){
+  .section-3{
+    width: 100vw;
+    height: 5886px;
+    &_Container{
+      display: flex;
+      height: 100%;
+      margin: 0 auto;
+      width: 100%;  
+      justify-content: space-between;
+        &_leftCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0;
+        &_Title{
+          padding-top: 82px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 42.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          padding-top: 67px;
+          width: 446px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          margin-top: 92px;
+          width: 143px;
+          height: 62px;
+          font-weight: 500;
+          font-size: 18px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+          cursor: pointer;
+        }
+      }
+      &_RightCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0;
+        &_Title{
+          padding-top: 82px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 42.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          padding-top: 24px;
+          width: 445px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 143px;
+          height: 62px;
+          margin-top: 62px;
+          font-weight: 500;
+          font-size: 18px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+        }
+        &_svg{
+          display: none;
+        }
+      }
+      &_MonitorCard{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0;
+        &_Title{
+          padding-top: 82px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 341px;
+          line-height: 42.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          padding-top: 67px;
+          width: 446px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 143px;
+          height: 62px;
+          margin-top: 92px;
+          font-weight: 500;
+          font-size: 18px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+        }
+        &_svg{
+          position: absolute;
+          bottom: 516px;
+          left: 168px;
+          width: 140px;
+          height: 140px;
+        }
+      }
+    }
+  }
+  .CommonStylesCard{
+    min-width: 535px;
+    height: 586px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    &:hover{
+      background: #1090CB;
+      .section-3{
+        &_Container{
+          &_leftCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+          &_RightCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+        }
+      }
+    }
+  }
+} 
+@media screen and (max-width: 1440px){
+  .section-3{
+    width: 100vw;
+    height: 100%;
+    &_Container{
+      display: flex;
+      height: 100%;
+      margin: 0 auto;
+      width: 100vw;  
+      justify-content: space-between;
+      &_leftCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0;
+        &_Title{
+          padding-top: 52px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 38.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          padding-top: 48px;
+          width: 476px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          margin-top: 42px;
+          width: 153px;
+          height: 49px;
+          font-weight: 500;
+          font-size: 16px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+          cursor: pointer;
+        }
+      }
+      &_RightCard{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0;
+        &_Title{
+          padding-top: 37px;
+          font-weight: 600;
+          font-size: 25px;
+          text-align: center;
+          width: 365px;
+          line-height: 38.5px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          width: 476px;
+          padding-top: 33px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 153px;
+          height: 49px;
+          margin-top: 36px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+        }
+        &_svg{
+          display: block;
+          position: absolute;
+          bottom: 397px;
+          left: 428px;
+          width: 120px;
+          height: 120px;
+        }
+      }
+      &_MonitorCard{
+        display: none;
+      }
+    }
+  }
+  .CommonStylesCard{
+    min-width: 572px;
+    height: 459px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    transition-duration: 0.3s;
+    &:hover{
+      background: #1090CB;
+      transition-duration: 0.6s;
+      .section-3{
+        &_Container{
+          &_leftCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+          &_RightCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+        }
+      }
+    }
+  } 
+}
+@media (max-width: 1024px){
+  .section-3{
+    &_Container{
+      display: flex;
+      height: 100%;
+      margin: 0 auto;
+      width: 100%;
+      justify-content: space-between;
+      &_leftCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0;
+        &_Title{
+          padding-top: 93px;
+          font-weight: 600;
+          font-size: 30px;
+          text-align: center;
+          width: 325px;
+          line-height: 51px;
+        }
+        &_subTitle{
+          padding-top: 20px;
+          font-weight: 400;
+          font-size: 16px;
+          width: 358px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 276px;
+          height: 71px;
+          margin-top: 67px;
+          border: none;
+          font-size: 25px;
+          font-weight: 500;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+          cursor: pointer;
+        }
+      }
+      &_RightCard{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0px;
+        &_Title{
+          padding-top: 93px;
+          font-weight: 600;
+          font-size: 30px;
+          text-align: center;
+          width: 325px;
+          line-height: 51px;
+        }
+        &_subTitle{
+          padding-top: 20px;
+          font-weight: 400;
+          font-size: 16px;
+          width: 358px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 276px;
+          height: 71px;
+          margin-top: 67px;
+          font-size: 25px;
+          font-weight: 500;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+        }
+        &_svg{
+          display: block;
+          position: absolute;
+          bottom: 616px;
+          left: 341px;
+          width: 90px;
+          height: 90px;
+        }
+      }
+      &_MonitorCard{
+        display: none;
+      }
+    }
+  }
+  .CommonStylesCard{
+    min-width: 431px;
+    height: 662px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    transition-duration: 0.3s;
+    &:hover{
+      background: #1090CB;
+      transition-duration: 0.6s;
+      .section-3{
+        &_Container{
+          &_leftCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+          &_RightCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .section-3{
+    &_Container{
+      display: flex;
+      overflow:scroll;
+      column-gap: 74px;
+      &_MonitorCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0;
+        &_Title{
+          padding-top: 92px;
+          font-weight: 600;
+          font-size: 30px;
+          text-align: center;
+          width: 312px;
+          line-height: 51px;
+        }
+        &_subTitle{
+          padding-top: 81px;
+          font-weight: 400;
+          font-size: 16px;
+          width: 345px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          margin-top: 42px;
+          width: 276px;
+          height: 71px;
+          font-weight: 500;
+          font-size: 25px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+          cursor: pointer;
+        }
+        &_svg{
+          display: none;
+        }
+      }
+      &_leftCard{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0  ;
+        &_Title{
+          padding-top: 92px;
+          font-weight: 600;
+          font-size: 30px;
+          text-align: center;
+          width: 312px;
+          line-height: 51px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          font-size: 16px;
+          padding-top: 71px;
+          width: 345px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 276px;
+          height: 71px;
+          font-weight: 500;
+          font-size: 25px;
+          margin-top: 56px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+          cursor: pointer;
+        }
+      }
+      &_RightCard{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 0px;
+        &_Title{
+          padding-top: 92px;
+          font-weight: 600;
+          font-size: 30px;
+          text-align: center;
+          width: 312px;
+          line-height: 51px;
+        }
+        &_subTitle{
+          font-weight: 400;
+          padding-top: 71px;
+          font-size: 16px;
+          width: 358px;
+          text-align: center;
+          line-height: 27.2px;
+        }
+        &_button{
+          width: 276px;
+          height: 71px;
+          margin-top: 56px;
+          font-weight: 500;
+          font-size: 25px;
+          border: none;
+          border-radius: 10px;
+          background: #1090CB;
+          color: #Fff;
+        }
+        &_svg{
+          position: absolute;
+          width: 90px;
+          height: 90px;
+          bottom: 618px;
+          left: 269px;
+        }
+      }
+    }
+  }
+  .CommonStylesCard{
+    min-width: 431px;
+    height: 662px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    transition-duration: 0.3s;
+    &:hover{
+      background: #1090CB;
+      transition-duration: 0.6s;
+      .section-3{
+        &_Container{
+          &_leftCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+          &_RightCard{
+            &_Title{
+              color: #Fff;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              background: #FFFFFF;
+              color: #1090CB;
+            }
+          }
+          &_MonitorCard{
+            &_Title{
+              color: white;
+            }
+            &_subTitle{
+              color: #Fff;
+            }
+            &_button{
+              color: #1090CB;
+              background: #Fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 425px){
   .section-3{
     &_Container{
       display: flex;
       height: 100%;
       width: 100%;
       overflow:scroll;
-      gap: 23px;
       &_MonitorCard{
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 22px;
+        row-gap: 0;
         &_Title{
-          padding-top: 29px;
+          padding-top: 21px;
           font-weight: 600;
           font-size: 10px;
-          text-align: center;
+          text-align: center; 
           width: 105px;
           line-height: 17px;
         }
@@ -23,12 +613,14 @@
           font-weight: 400;
           font-size: 6px;
           width: 115px;
+          padding-top: 7px;
           text-align: center;
-          line-height: 10px;
+          line-height: 9.6px;
         }
         &_button{
           width: 88px;
           height: 22px;
+          margin-top: 18.61px;
           border: none;
           border-radius: 10px;
           background: #1090CB;
@@ -44,9 +636,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 22px;
+        row-gap: 0;
         &_Title{
-          padding-top: 29px;
+          padding-top: 20px;
           font-weight: 600;
           font-size: 10px;
           text-align: center;
@@ -55,14 +647,16 @@
         }
         &_subTitle{
           font-weight: 400;
-          font-size: 6px;
+          font-size: 5px;
+          padding-top: 7px;
           width: 115px;
           text-align: center;
-          line-height: 10px;
+          line-height: 8.5px;
         }
         &_button{
           width: 88px;
           height: 22px;
+          margin-top: 35px;
           border: none;
           border-radius: 10px;
           background: #1090CB;
@@ -77,9 +671,9 @@
         position: relative;
         flex-direction: column;
         align-items: center;
-        row-gap: 22px;
+        row-gap: 0;
         &_Title{
-          padding-top: 29px;
+          padding-top: 20px;
           font-weight: 600;
           font-size: 10px;
           text-align: center;
@@ -89,13 +683,15 @@
         &_subTitle{
           font-weight: 400;
           font-size: 6px;
+          padding-top: 7px;
           width: 115px;
           text-align: center;
-          line-height: 10px;
+          line-height: 9.6px;
         }
         &_button{
           width: 88px;
           height: 22px;
+          margin-top: 9px;
           border: none;
           border-radius: 10px;
           background: #1090CB;
@@ -108,8 +704,8 @@
           position: absolute;
           bottom: 197px;
           left: 87px;
-          width: 29px;
-          height: 29px;
+          width: 30px;
+          height: 30px;
         }
       }
     }
@@ -119,8 +715,10 @@
     height: 212px;
     border-radius: 20px;
     background: #F4F4F4;
+    transition-duration: 0.3s;
     &:hover{
       background: #1090CB;
+      transition-duration: 0.6s;
       .section-3{
         &_Container{
           &_leftCard{
@@ -149,545 +747,6 @@
             }
           }
           &_MonitorCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-@media screen and (min-width:768px) and (max-width:1024px) {
-  .section-3{
-    &_Container{
-      display: flex;
-      height: 100%;
-      width: 100%;
-      overflow:scroll;
-      gap: 74px;
-      &_MonitorCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 36px;
-        &_Title{
-          padding-top: 64px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 153px;
-          height: 49px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-        &_svg{
-          display: none;
-        }
-      }
-      &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 36px;
-        &_Title{
-          padding-top: 64px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 153px;
-          height: 49px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 36px;
-        &_Title{
-          padding-top: 64px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 312px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 153px;
-          height: 49px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          position: absolute;
-          width: 90px;
-          height: 90px;
-          bottom: 618px;
-          left: 269px;
-        }
-      }
-    }
-  }
-  .CommonStylesCard{
-    min-width: 431px;
-    height: 662px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    &:hover{
-      background: #1090CB;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-@media screen and (min-width:1024px) and (max-width:1440px) {
-  .section-3{
-    &_Container{
-      display: flex;
-      height: 100%;
-      margin: 0 auto;
-      width: 900px;  
-      justify-content: space-between;
-      &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 70px;
-        &_Title{
-          padding-top: 93px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 325px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 267px;
-          height: 71px;
-          border: none;
-          font-size: 25px;
-          font-weight: 500;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 70px;
-        &_Title{
-          padding-top: 93px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 325px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 276px;
-          height: 71px;
-          font-size: 25px;
-          font-weight: 500;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          position: absolute;
-          bottom: 616px;
-          left: 299px;
-          width: 90px;
-          height: 90px;
-        }
-      }
-      &_MonitorCard{
-        display: none;
-      }
-    }
-  }
-  .CommonStylesCard{
-    min-width: 431px;
-    height: 662px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    &:hover{
-      background: #1090CB;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-        }
-      }
-    }
-  } 
-}
-@media screen and (min-width:1440px) and (max-width:1920px){
-  .section-3{
-    width: 100vw;
-    height: 459px;
-    &_Container{
-      display: flex;
-      height: 100%;
-      margin: 0 auto;
-      width: 1194px;  
-      justify-content: space-between;
-      &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 36px;
-        &_Title{
-          padding-top: 64px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 476px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 153px;
-          height: 49px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 36px;
-        &_Title{
-          padding-top: 64px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 476px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 153px;
-          height: 49px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          position: absolute;
-          bottom: 397px;
-          left: 428px;
-          width: 120px;
-          height: 120px;
-        }
-      }
-      &_MonitorCard{
-        display: none;
-      }
-    }
-  }
-  .CommonStylesCard{
-    min-width: 572px;
-    height: 459px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    &:hover{
-      background: #1090CB;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-        }
-      }
-    }
-  } 
-}
-@media screen and (min-width:1920px) {
-  .section-3{
-    width: 100vw;
-    height: 5886px;
-    &_Container{
-      display: flex;
-      height: 100%;
-      margin: 0 auto;
-      width: 1702px;  
-      justify-content: space-between;
-      &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 36px;
-        &_Title{
-          padding-top: 64px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 445px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 153px;
-          height: 49px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 36px;
-        &_Title{
-          padding-top: 64px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 476px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 153px;
-          height: 49px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          display: none;
-        }
-      }
-      &_MonitorCard{
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 36px;
-        &_Title{
-          padding-top: 64px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 325px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 153px;
-          height: 49px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          position: absolute;
-          bottom: 413px;
-          left: 419px;
-          width: 90px;
-          height: 90px;
-        }
-      }
-    }
-  }
-  .CommonStylesCard{
-    min-width: 535px;
-    height: 459px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    &:hover{
-      background: #1090CB;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_RightCard{
             &_Title{
               color: #Fff;
             }
