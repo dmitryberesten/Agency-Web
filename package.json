@@ -17,6 +17,7 @@
   "dependencies": {
     "body": "^5.1.0",
     "body-scroll-lock": "^4.0.0-beta.0",
+    "modern-normalize": "^3.0.1",
     "sass": "^1.80.6",
     "scss": "^0.2.4",
     "skroll": "^1.4.3",
