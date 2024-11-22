@@ -1,764 +1,426 @@
-@media (max-width: 1920px){
-  .section-3{
-    width: 100vw;
-    height: 5886px;
-    &_Container{
-      display: flex;
-      height: 100%;
-      margin: 0 auto;
-      width: 100%;  
-      justify-content: space-between;
-        &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 82px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          padding-top: 67px;
-          width: 446px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          margin-top: 92px;
-          width: 143px;
-          height: 62px;
-          font-weight: 500;
-          font-size: 18px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 82px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          padding-top: 24px;
-          width: 445px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 143px;
-          height: 62px;
-          margin-top: 62px;
-          font-weight: 500;
-          font-size: 18px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          display: none;
-        }
-      }
-      &_MonitorCard{
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 82px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 341px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          padding-top: 67px;
-          width: 446px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 143px;
-          height: 62px;
-          margin-top: 92px;
-          font-weight: 500;
-          font-size: 18px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          position: absolute;
-          bottom: 516px;
-          left: 168px;
-          width: 140px;
-          height: 140px;
-        }
-      }
-    }
+@keyframes shake-top {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 0;
   }
-  .CommonStylesCard{
-    min-width: 535px;
-    height: 586px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    &:hover{
-      background: #1090CB;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
+  10% {
+     transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    transform: rotate(4deg);
+  }
+  80% {
+    transform: rotate(-2deg);
+  }
+  90% {
+    transform: rotate(2deg);
+  }
+}
+.section-3_Container_itemContainer_svg{
+  display: none;
+}
+
+@media (max-width: 1920px) {
+  .section-3 {
+    width: 100vw;
+    height: 676px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_Container {
+      width: 88.65vw; // 1702px / 1920 * 100
+      height: 586px;
+      display: flex;
+      justify-content: space-between;
+      .CommonStylesCard { 
+        position: relative;
+        width: 27.86vw; // 535px / 1920 * 100
+        height: 586px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        .section-3_Container_itemContainer {
+          width: 23.23vw; // 446px / 1920 * 100
+          height: 442px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: space-between;
+
+          .textContainer {
+            height: 333px;
+            width: 23.23vw; // 446px / 1920 * 100
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 1.3vw; // 25px / 1920 * 100
+              font-weight: 600;
+              line-height: 170%;
+              text-align: center;
+              width: 17.81vw; // 342px / 1920 * 100
             }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
+            p {
+              color: #545454;
+              font-size: 0.83vw; // 16px / 1920 * 100
+              line-height: 170%;
+              font-weight: 400;
+              width: 23.23vw; // 446px / 1920 * 100
+              text-align: center;
             }
           }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
+          button {
+            width: 7.45vw; // 143px / 1920 * 100
+            height: 63px;
+            border: none;
+            background-color: #1090cb;
+            border-radius: 10px;
+            color: #f4f4f4;
+            cursor: pointer;
+          }
+          .rightCard{
+            position: absolute;
+            display: block;
+            width: 7.29vw;
+            height: 140px;
+            left: 10.99vw;
+            bottom: 516px;
           }
         }
       }
     }
   }
-} 
-@media screen and (max-width: 1440px){
-  .section-3{
+}
+
+@media (max-width: 1440px) {
+  .section-3 {
     width: 100vw;
-    height: 100%;
-    &_Container{
+    height: 536px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_Container {
+      width: 83.33vw; // 1200px / 1440 * 100
+      height: 586px;
       display: flex;
-      height: 100%;
-      margin: 0 auto;
-      width: 100vw;  
       justify-content: space-between;
-      &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 52px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 38.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          padding-top: 48px;
-          width: 476px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          margin-top: 42px;
-          width: 153px;
-          height: 49px;
-          font-weight: 500;
-          font-size: 16px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
+      .CommonStylesCard {
         position: relative;
+        width: 39.72vw; // 572px / 1440 * 100
+        height: 586px;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 37px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 38.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 476px;
-          padding-top: 33px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 153px;
-          height: 49px;
-          margin-top: 36px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          display: block;
-          position: absolute;
-          bottom: 397px;
-          left: 428px;
-          width: 120px;
-          height: 120px;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        .section-3_Container_itemContainer {
+          width: 33.06vw; // 476px / 1440 * 100
+          height: 373px; 
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: space-between;
+          
+          .textContainer {
+            height: 288px;
+            width: 33.06vw; // 476px / 1440 * 100
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 1.74vw; // 25px / 1440 * 100
+              font-weight: 600;
+              line-height: 154%;
+              text-align: center;
+              width: 25.35vw; // 365px / 1440 * 100
+            }
+            p {
+              color: #545454;
+              font-size: 1.11vw; // 16px / 1440 * 100
+              line-height: 170%;
+              font-weight: 400;
+              width: 33.06vw; // 476px / 1440 * 100
+              text-align: center;
+            }
+          }
+          button {
+            width: 10.63vw; // 153px / 1440 * 100
+            height: 49px;
+            border: none;
+            background-color: #1090cb;
+            border-radius: 10px;
+            color: #f4f4f4;
+            cursor: pointer;
+          }
+          .centerCard{
+            position: absolute;
+            display: block;
+            width: 8.33vw;
+            height: 120px;
+            left: 31.11vw;
+            bottom: 522px;
+          }
+          .rightCard{
+            display: none;
+          }
         }
       }
-      &_MonitorCard{
+      .monitor{
         display: none;
       }
     }
   }
-  .CommonStylesCard{
-    min-width: 572px;
-    height: 459px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    transition-duration: 0.3s;
-    &:hover{
-      background: #1090CB;
-      transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-        }
-      }
-    }
-  } 
 }
-@media (max-width: 1024px){
-  .section-3{
-    &_Container{
+
+@media (max-width: 1024px) {
+  .section-3 {
+    width: 100vw;
+    height: 536px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_Container {
+      width: 87.89vw; // 900px / 1024 * 100
+      height: 721px;
       display: flex;
-      height: 100%;
-      margin: 0 auto;
-      width: 100%;
       justify-content: space-between;
-      &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 93px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 325px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          padding-top: 20px;
-          font-weight: 400;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 276px;
-          height: 71px;
-          margin-top: 67px;
-          border: none;
-          font-size: 25px;
-          font-weight: 500;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
+      .CommonStylesCard {
+        width: 42.09vw; // 431px / 1024 * 100
+        height: 663px;
         position: relative;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        row-gap: 0px;
-        &_Title{
-          padding-top: 93px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 325px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          padding-top: 20px;
-          font-weight: 400;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 276px;
-          height: 71px;
-          margin-top: 67px;
-          font-size: 25px;
-          font-weight: 500;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          display: block;
-          position: absolute;
-          bottom: 616px;
-          left: 341px;
-          width: 90px;
-          height: 90px;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        .section-3_Container_itemContainer {
+          width: 35.06vw; // 359px / 1024 * 100
+          height: 500px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: space-between;
+          .textContainer {
+            height: 419px; 
+            width: 35.06vw; // 359px / 1024 * 100
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 2.93vw; // 30px / 1024 * 100
+              font-weight: 600;
+              line-height: 170%;
+              text-align: center;
+              width: 325px; width: 31.74vw; /* 325px / 1024 * 100 */
+            }
+            p {
+              color: #545454;
+              font-size: 1.56vw; // 16px / 1024 * 100
+              line-height: 170%;
+              font-weight: 400;
+              width: 34.96vw; // 358px / 1024 * 100
+              text-align: center;
+            }
+          }
+          button {
+            width: 26.95vw; // 276px / 1024 * 100
+            height: 71px;
+            border: none;
+            background-color: #1090cb;
+            border-radius: 10px;
+            color: #f4f4f4;
+            cursor: pointer;
+          }
+          .centerCard{
+            position: absolute;
+            display: block;
+            width: 8.79vw;
+            height: 90px;
+            left: 31.93vw;
+            bottom: 616px;
+          }
         }
       }
-      &_MonitorCard{
+      .monitor{
         display: none;
       }
     }
   }
-  .CommonStylesCard{
-    min-width: 431px;
-    height: 662px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    transition-duration: 0.3s;
-    &:hover{
-      background: #1090CB;
-      transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
+}
+@media (max-width: 768px) {
+  .section-3 {
+    width: 100vw;
+    height: 663px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    &_Container {
+      width: 187.66vw; // 1443px / 768 * 100
+      height: 662px;
+      display: flex;
+      justify-content: space-between;
+      .CommonStylesCard {
+        width: 56.12vw; // 431px / 768 * 100
+        height: 663px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        .section-3_Container_itemContainer {
+          width: 44.92vw; // 345px / 768 * 100 
+          height: 500px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: space-between;
+          .textContainer {
+            height: 429px; 
+            width: 44.92vw; // 345px / 768 * 100
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 3.91vw; // 30px / 768 * 100
+              font-weight: 600;
+              line-height: 170%;
+              text-align: center;
+              width: 40.63vw; // 312px / 768 * 100
             }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
+            p {
+              color: #545454;
+              font-size: 2.08vw; // 16px / 768 * 100
+              line-height: 170%;
+              font-weight: 400;
+              width: 44.92vw; // 345px / 768 * 100
+              text-align: center;
             }
           }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
+          button {
+            width: 35.94vw; // 276px / 768 * 100
+            height: 71px;
+            border: none;
+            background-color: #1090cb;
+            border-radius: 10px;
+            color: #f4f4f4;
+            cursor: pointer;
+          }
+          .centerCard{
+            position: absolute;
+            display: block;
+            width: 8.79vw;
+            height: 90px;
+            left: 42.97vw;
+            bottom: 616px;
           }
         }
       }
     }
   }
 }
-@media (max-width: 768px){
-  .section-3{
-    &_Container{
+@media (max-width: 320px) { 
+  .section-3 {
+    width: 100vw;
+    height: 213px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_Container {
+      width: 144.69vw; /* переведено з 463px у vw */
+      height: 213px;
       display: flex;
-      overflow:scroll;
-      column-gap: 74px;
-      &_MonitorCard{
+      justify-content: space-between;
+      .CommonStylesCard {
+        width: 43.13vw; /* переведено з 138px у vw */
+        height: 213px;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 92px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 312px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          padding-top: 81px;
-          font-weight: 400;
-          font-size: 16px;
-          width: 345px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          margin-top: 42px;
-          width: 276px;
-          height: 71px;
-          font-weight: 500;
-          font-size: 25px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-        &_svg{
-          display: none;
-        }
-      }
-      &_leftCard{ 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0  ;
-        &_Title{
-          padding-top: 92px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 312px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          padding-top: 71px;
-          width: 345px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 276px;
-          height: 71px;
-          font-weight: 500;
-          font-size: 25px;
-          margin-top: 56px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0px;
-        &_Title{
-          padding-top: 92px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 312px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          padding-top: 71px;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 276px;
-          height: 71px;
-          margin-top: 56px;
-          font-weight: 500;
-          font-size: 25px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          position: absolute;
-          width: 90px;
-          height: 90px;
-          bottom: 618px;
-          left: 269px;
-        }
-      }
-    }
-  }
-  .CommonStylesCard{
-    min-width: 431px;
-    height: 662px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    transition-duration: 0.3s;
-    &:hover{
-      background: #1090CB;
-      transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        .section-3_Container_itemContainer {
+          width: 36.88vw; /* переведено з 118px у vw */
+          height: 169px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: space-between;
+          
+          .textContainer {
+            height: 137px;
+            width: 36.88vw; /* переведено з 118px у vw */
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 3.13vw; /* переведено з 10px у vw */
+              font-weight: 600;
+              line-height: 170%;
+              text-align: center;
+              width: 32.81vw; /* переведено з 105px у vw */
             }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
+            p {
+              color: #545454;
+              font-size: 1.88vw; /* переведено з 6px у vw */
+              line-height: 170%;
+              font-weight: 400;
+              width: 35.94vw; /* переведено з 115px у vw */
+              text-align: center;
             }
           }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
+          button {
+            width: 27.81vw; /* переведено з 89px у vw */
+            height: 23px; 
+            border: none;
+            background-color: #1090cb;
+            border-radius: 10px;
+            color: #f4f4f4;
+            cursor: pointer;
           }
-          &_MonitorCard{
-            &_Title{
-              color: white;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              color: #1090CB;
-              background: #Fff;
-            }
+          .rightCard{ 
+            display: block;
+            width: 8.79vw;
+            height: 90px;
           }
         }
       }
     }
   }
 }
-@media (max-width: 425px){
-  .section-3{
-    &_Container{
-      display: flex;
-      height: 100%;
-      width: 100%;
-      overflow:scroll;
-      &_MonitorCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 21px;
-          font-weight: 600;
-          font-size: 10px;
-          text-align: center; 
-          width: 105px;
-          line-height: 17px;
+
+.CommonStylesCard {
+  transition-duration: 0.3s;
+  &:hover{
+    background: #1090CB;
+    transition-duration: 0.6s;
+    .section-3_Container_itemContainer {
+      .textContainer {
+        h3 {
+          color: #FFF;
         }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 6px;
-          width: 115px;
-          padding-top: 7px;
-          text-align: center;
-          line-height: 9.6px;
-        }
-        &_button{
-          width: 88px;
-          height: 22px;
-          margin-top: 18.61px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          font-size: 10px;
-          font-weight: 500; 
-        }
-        &_svg{
-          display: none;
+        p {
+          color: #FFF
         }
       }
-      &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 20px;
-          font-weight: 600;
-          font-size: 10px;
-          text-align: center;
-          width: 105px;
-          line-height: 17px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 5px;
-          padding-top: 7px;
-          width: 115px;
-          text-align: center;
-          line-height: 8.5px;
-        }
-        &_button{
-          width: 88px;
-          height: 22px;
-          margin-top: 35px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          font-size: 10px;
-          font-weight: 500;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 20px;
-          font-weight: 600;
-          font-size: 10px;
-          text-align: center;
-          width: 105px;
-          line-height: 17px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 6px;
-          padding-top: 7px;
-          width: 115px;
-          text-align: center;
-          line-height: 9.6px;
-        }
-        &_button{
-          width: 88px;
-          height: 22px;
-          margin-top: 9px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          font-size: 10px;
-          font-weight: 500;
-          cursor: pointer;
-        }
-        &_svg{
-          position: absolute;
-          bottom: 197px;
-          left: 87px;
-          width: 30px;
-          height: 30px;
-        }
-      }
-    }
-  }
-  .CommonStylesCard{
-    min-width:138px;
-    height: 212px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    transition-duration: 0.3s;
-    &:hover{
-      background: #1090CB;
-      transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              width: 105px;
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_MonitorCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-        }
+      button {
+        background-color: #FFF;
+        color: #1090CB;
       }
     }
   }
