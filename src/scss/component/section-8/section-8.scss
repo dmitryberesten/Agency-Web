@@ -41,6 +41,7 @@
                 width: 100%;
                 border-radius: 45px;
             }
+
             .card__h {
                 font: 600 27px 'Poppins', sans-serif;
                 margin: 48px 0 27px 0;
@@ -70,10 +71,10 @@
             gap: 101px;
 
             .section-8__card {
-                flex: 0 0 26.1781vw; // 20.83vw 400px / 1920px * 100vw
+                flex: 0 0 26.1781vw;
 
                 .section-8__img {
-                    width: 26.1781vw; // 400px / 1920px * 100vw
+                    width: 26.1781vw; 
                     height: 367px;
                 }
 
@@ -109,11 +110,11 @@
             gap: 84px;
 
             .section-8__card {
-                flex: 0 0 23.13vw; // 333px / 1440px * 100vw
+                flex: 0 0 23.13vw;
 
                 .section-8__img {
-                    width: 23.13vw; // 333px / 1440px * 100vw
-                    height: 21.25vw; // 306px / 1440px * 100vw
+                    width: 23.13vw; 
+                    height: 21.25vw; 
                 }
 
                 .card__h {
@@ -146,11 +147,11 @@
             gap: 84px;
 
             .section-8__card {
-                flex: 0 0 32.52vw; // 333px / 1024px * 100vw
+                flex: 0 0 32.52vw; 
 
                 .section-8__img {
-                    width: 32.52vw; // 333px / 1024px * 100vw
-                    height: 29.88vw; // 306px / 1024px * 100vw
+                    width: 32.52vw; 
+                    height: 29.88vw; 
                 }
 
                 .card__h {
@@ -186,11 +187,11 @@
             gap: 54px;
 
             .section-8__card {
-                flex: 0 0 43.36vw; // 333px / 768px * 100vw 43.36vw
+                flex: 0 0 43.36vw;
 
                 .section-8__img {
-                    width: 43.36vw; // 333px / 768px * 100vw 43.36vw
-                    height: 306px; // 306px / 768px * 100vw 39.84vw
+                    width: 43.36vw; 
+                    height: 306px; 
                 }
 
                 .card__h {
@@ -210,80 +211,6 @@
 
 }
 
-
-// @media (max-width: 425px) {
-//     .section-8-container {
-//         .section-8__header {
-//             font: 500 20px 'Poppins', sans-serif;
-//             margin-bottom: 23px;
-//             text-align: start;
-//         }
-
-//         .section-8-box {
-//             // gap: 23.32px;
-
-//             .section-8__card {
-//                 flex: 0 0 50.63vw; // 162px / 320px * 100vw
-
-//                 .section-8__img {
-//                     width: 50.63vw; // 162px / 320px * 100vw
-//                     height: 46.56vw; // 149px / 320px * 100vw
-//                 }
-
-//                 .card__h {
-//                     font: 600 13px 'Poppins', sans-serif;
-//                     margin: 19px 0;
-//                     line-height: 18px;
-//                     color: #000000;
-//                 }
-
-//                 .card__p {
-//                     font: 400 9px 'Poppins', sans-serif;
-//                     line-height: 12.65px;
-//                     color: #424242;
-//                 }
-//             }
-//         }
-//     }
-// }
-
-// @media (max-width: 375px) {
-//     .section-8-container {
-//         .section-8__header {
-//             font: 500 20px 'Poppins', sans-serif;
-//             margin-bottom: 23px;
-//             text-align: center;
-//         }
-
-//         .section-8-box {
-//             // gap: 23.32px;
-
-//             .section-8__card {
-//                 flex: 0 0 50.63vw; // 162px / 320px * 100vw
-
-//                 .section-8__img {
-//                     width: 50.63vw; // 162px / 320px * 100vw
-//                     height: 46.56vw; // 149px / 320px * 100vw
-//                 }
-
-//                 .card__h {
-//                     font: 600 13px 'Poppins', sans-serif;
-//                     margin: 19px 0;
-//                     line-height: 18px;
-//                     color: #000000;
-//                 }
-
-//                 .card__p {
-//                     font: 400 9px 'Poppins', sans-serif;
-//                     line-height: 12.65px;
-//                     color: #424242;
-//                 }
-//             }
-//         }
-//     }
-// }
-
-
 @media (max-width: 320px) {
     .section-8-container {
         .section-8__header {
@@ -296,11 +223,11 @@
             gap: 23.32px;
 
             .section-8__card {
-                flex: 0 0 50.63vw; // 162px / 320px * 100vw
+                flex: 0 0 50.63vw; 
 
                 .section-8__img {
-                    width: 50.63vw; // 162px / 320px * 100vw
-                    height: 46.56vw; // 149px / 320px * 100vw
+                    width: 50.63vw; 
+                    height: 46.56vw; 
                 }
 
                 .card__h {
