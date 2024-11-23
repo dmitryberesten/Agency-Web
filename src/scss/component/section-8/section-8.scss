@@ -41,11 +41,11 @@
                 width: 100%;
                 border-radius: 45px;
             }
-
             .card__h {
                 font: 600 27px 'Poppins', sans-serif;
                 margin: 48px 0 27px 0;
                 line-height: 48px;
+                color: #000000;
             }
 
             .card__p {
@@ -74,7 +74,7 @@
                 flex: 0 0 26.1781vw;
 
                 .section-8__img {
-                    width: 26.1781vw; 
+                    width: 26.01781vw;
                     height: 367px;
                 }
 
@@ -87,7 +87,6 @@
                 .card__p {
                     font: 400 20px 'Poppins', sans-serif;
                     line-height: 42px;
-                    color: #424242;
                 }
             }
         }
@@ -103,7 +102,6 @@
             margin-bottom: 63px;
             text-align: start;
             line-height: 64px;
-            color: #000000;
         }
 
         .section-8-box {
@@ -113,7 +111,7 @@
                 flex: 0 0 23.13vw;
 
                 .section-8__img {
-                    width: 23.13vw; 
+                    width: 23.13vw;
                     height: 21.25vw; 
                 }
 
@@ -147,24 +145,22 @@
             gap: 84px;
 
             .section-8__card {
-                flex: 0 0 32.52vw; 
+                flex: 0 0 32.52vw;
 
                 .section-8__img {
-                    width: 32.52vw; 
-                    height: 29.88vw; 
+                    width: 32.52vw;
+                    height: 29.88vw;
                 }
 
                 .card__h {
                     font: 600 23px 'Poppins', sans-serif;
                     margin: 40px 0 30px 0;
                     line-height: 41px;
-                    color: #000000;
                 }
 
                 .card__p {
                     font: 400 16px 'Poppins', sans-serif;
                     line-height: 34px;
-                    color: #424242;
                 }
             }
         }
@@ -180,7 +176,6 @@
             margin-bottom: 42px;
             text-align: start;
             line-height: 78px;
-            color: #000000;
         }
 
         .section-8-box {
@@ -190,7 +185,7 @@
                 flex: 0 0 43.36vw;
 
                 .section-8__img {
-                    width: 43.36vw; 
+                    width: 43.36vw;
                     height: 306px; 
                 }
 
@@ -198,7 +193,6 @@
                     font: 600 23px 'Poppins', sans-serif;
                     margin: 40px 0 30px 0;
                     line-height: 41px;
-                    color: #000000;
                 }
 
                 .card__p {
@@ -223,24 +217,22 @@
             gap: 23.32px;
 
             .section-8__card {
-                flex: 0 0 50.63vw; 
+                flex: 0 0 50.63vw;
 
                 .section-8__img {
-                    width: 50.63vw; 
-                    height: 46.56vw; 
+                    width: 50.63vw;
+                    height: 46.56vw;
                 }
 
                 .card__h {
                     font: 600 13px 'Poppins', sans-serif;
                     margin: 19px 0;
                     line-height: 18px;
-                    color: #000000;
                 }
 
                 .card__p {
                     font: 400 9px 'Poppins', sans-serif;
                     line-height: 12.65px;
-                    color: #424242;
                 }
             }
         }
