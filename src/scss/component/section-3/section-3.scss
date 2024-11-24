@@ -33,135 +33,60 @@
   }
 }
 
-// @media (max-width: 1920px) {
-//   .section-3 {
-//     width: 100vw;
-//     height: 676px;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     &_Container {
-//       width: 88.65vw; // 1702px / 1920 * 100
-//       height: 586px;
-//       display: flex;
-//       justify-content: space-between;
-//       &_CommonStylesCard {
-//         position: relative;
-//         width: 27.86vw; // 535px / 1920 * 100
-//         height: 586px;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         background-color: #f4f4f4;
-//         border-radius: 20px;
-//         .section-3_Container_itemContainer {
-//           width: 23.23vw; // 446px / 1920 * 100
-//           height: 442px;
-//           display: flex;
-//           flex-flow: column wrap;
-//           align-items: center;
-//           justify-content: space-between;
-
-//           .textContainer {
-//             height: 333px;
-//             width: 23.23vw; // 446px / 1920 * 100
-//             display: flex;
-//             flex-flow: column wrap;
-//             justify-content: space-between;
-//             align-items: center;
-//             h3 {
-//               font-size: 1.3vw; // 25px / 1920 * 100
-//               font-weight: 600;
-//               line-height: 170%;
-//               text-align: center;
-//               width: 17.81vw; // 342px / 1920 * 100
-//             }
-//             p {
-//               color: #545454;
-//               font-size: 0.83vw; // 16px / 1920 * 100
-//               line-height: 170%;
-//               font-weight: 400;
-//               width: 23.23vw; // 446px / 1920 * 100
-//               text-align: center;
-//             }
-//           }
-//           button {
-//             width: 7.45vw; // 143px / 1920 * 100
-//             height: 63px;
-//             border: none;
-//             background-color: #1090cb;
-//             border-radius: 10px;
-//             color: #f4f4f4;
-//             cursor: pointer;
-//           }
-//           .rightCard{
-//             position: absolute;
-//             display: block;
-//             width: 7.29vw;
-//             height: 140px;
-//             left: 10.99vw;
-//             bottom: 516px;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
-@media (max-width: 1440px) {
+@media (max-width: 1920px) {
   .section-3 {
     width: 100vw;
-    height: 459px;
+    height: 676px;
     display: flex;
     align-items: center;
     justify-content: center;
     &_Container {
-      min-width: 1200px; // переведи з px в vw
-      height: 459px;
+      min-width: 88.76vw; // 1702px -> 88.76vw (1702 / 1920 * 100)
+      height: 676px;
       display: flex;
       justify-content: space-between;
       &_CommonStylesCard {
-        width: 572px; // переведи з px в vw
-        height: 459px;
+        width: 27.92vw; // 536px -> 27.92vw (536 / 1920 * 100)
+        height: 586px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #f4f4f4;
         border-radius: 20px;
         &_itemContainer {
-          width: 476vw; // переведи з px в vw
-          height: 358px;
+          width: 23.23vw; // 446px -> 23.23vw (446 / 1920 * 100)
+          height: 442px;
           display: flex;
           position: relative;
           flex-flow: column;
           align-items: center;
           justify-content: space-between;
           &_textContainer {
-            width: 476px; // переведи з px в vw
-            height: 288px;
+            width: 23.23vw; // 446px -> 23.23vw
+            height: 333px;
             display: flex;
             flex-flow: column wrap;
             justify-content: space-between;
             align-items: center;
             h3 {
-              font-size: 25px; // переведи з px в vw
+              font-size: 1.3vw; // 25px -> 1.3vw (25 / 1920 * 100)
               font-weight: 600;
-              line-height: 154%;
-              width: 365px; // переведи з px в vw
+              line-height: 170%;
+              width: 17.81vw; // 342px -> 17.81vw (342 / 1920 * 100)
               text-align: center;
             }
             p {
-              width: 476px; // переведи з px в vw
-              font-size: 16px; // переведи з px в vw
+              width: 23.23vw; // 446px -> 23.23vw
+              font-size: 0.83vw; // 16px -> 0.83vw (16 / 1920 * 100)
               font-weight: 400;
               text-align: center;
               line-height: 170%;
             }
           }
           button {
-            width: 153px; // переведи з px в vw
-            height: 49px; 
-            font-size: 16px; // переведи з px в vw
+            width: 7.45vw; // 143px -> 7.45vw (143 / 1920 * 100)
+            height: 62px;
+            font-size: 0.94vw; // 18px -> 0.94vw (18 / 1920 * 100)
             font-weight: 500;
             border: none;
             border-radius: 10px;
@@ -172,17 +97,23 @@
       }
     }
   }
+  
   .centerCard {
-    position: absolute;
-    width: 120px; // переведи з px в vw
-    height: 120px; 
-    left: 425px; // переведи з px в vw
-    bottom: 353px; 
-  }
-  .monitor {
     display: none;
   }
+  .monitor {
+    display: flex;
+  }
+  .rightCard{
+    display: block;
+    position: absolute;
+    width: 7.2917vw; // 140px → 7.2917vw
+    height: 140px;
+    left: 9.4792vw; // 182px → 9.4792vw
+    bottom: 444px;
+  }
 }
+
 
 @media (max-width: 1440px) {
   .section-3 {
@@ -249,10 +180,11 @@
     }
   }
   .centerCard {
+    display: block;
     position: absolute;
     width: 8.3333vw; // 120px → 8.3333vw
     height: 120px; // Залишено без змін
-    left: 29.8611vw; // 425px → 29.8611vw
+    left: 25.5556vw;
     bottom: 353px;
   }
   .monitor {
@@ -260,11 +192,81 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .section-3 {
+    width: 100vw;
+    height: 683px;
+    display: flex;
+    align-items: center;
+    &_Container {
+      min-width: 87.8906vw; // 900px → 87.8906vw
+      height: 663px;
+      display: flex;
+      justify-content: space-between;
+      &_CommonStylesCard {
+        width: 42.0898vw; // 431px → 42.0898vw
+        height: 663px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        &_itemContainer {
+          width: 35.0586vw; // 359px → 35.0586vw
+          height: 500px;
+          display: flex;
+          position: relative;
+          flex-flow: column;
+          align-items: center;
+          justify-content: space-between;
+          &_textContainer {
+            width: 35.0586vw; // 359px → 35.0586vw
+            height: 361px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 2.9297vw; // 30px → 2.9297vw
+              font-weight: 600;
+              line-height: 170%;
+              width: 31.7383vw; // 325px → 31.7383vw
+              text-align: center;
+            }
+            p {
+              width: 35.0586vw; // 359px → 35.0586vw
+              font-size: 1.5625vw; // 16px → 1.5625vw
+              font-weight: 400;
+              text-align: center;
+              line-height: 170%;
+            }
+          }
+          button {
+            width: 26.9531vw; // 276px → 26.9531vw
+            height: 71px; 
+            font-size: 2.4414vw; // 25px → 2.4414vw
+          }
+        }
+      }
+    }
+  }
+  .centerCard {
+    display: block;
+    position: absolute;
+    width: 8.7891vw; // 90px → 8.7891vw
+    height: 90px; 
+    left: 27.5391vw; // 282px → 27.5391vw
+    bottom: 537px;
+  }
+  .monitor {
+    display: none;
+  }
+}
 
 @media (max-width: 768px) {
   .section-3 {
     width: 100vw;
-    height: 683px;
+    height: 721px;
     display: flex;
     align-items: center;
     overflow: scroll;
@@ -326,104 +328,114 @@
     }
   }
   .centerCard {
+    display: block;
     position: absolute;
     width: 11.71875vw; // 90px → 11.71875vw
     height: 90px;
     left: 35.4167vw; // 272px → 35.4167vw
     bottom: 546px;
   }
+  .rightCard{
+    display: none;
+  }
 }
 
-.rightCard {
-  display: none;
+
+
+@media (max-width: 320px) {
+  .section-3 {
+    width: 100vw;
+    height: 231px;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    &_Container {
+      min-width: 145vw; // Переведено з 464px у vw
+      height: 213px;
+      display: flex;
+      justify-content: space-between;
+      &_CommonStylesCard {
+        width: 43.125vw; // Переведено з 138px у vw
+        height: 213px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        &_itemContainer {
+          width: 36.875vw; // Переведено з 118px у vw
+          height: 169px;
+          display: flex;
+          position: relative;
+          flex-flow: column;
+          align-items: center;
+          justify-content: space-between;
+          &_textContainer {
+            width: 36.875vw; // Переведено з 118px у vw
+            height: 137px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 3.125vw; // Переведено з 10px у vw
+              width: 32.8125vw; // Переведено з 105px у vw
+            }
+            p {
+              width: 35.9375vw; // Переведено з 115px у vw
+              font-size: 1.875vw; // Переведено з 6px у vw
+            }
+          }
+          button {
+            width: 27.8125vw; // Переведено з 89px у vw
+            font-size: 3.125vw; // Переведено з 10px у vw
+            height: 23px;
+          }
+        }
+      }
+    }
+  }
+  .centerCard {
+    display: block;
+    position: absolute;
+    width: 9.0625vw; // Переведено з 29px у vw
+    height: 29px;
+    left: 90px; // Переведено з 94px у vw
+    bottom: 177px;
+  }
 }
 
-// @media (max-width: 320px) {
-//   .section-3 {
-//     width: 100vw;
-//     height: 213px;
-//     display: flex;
-//     align-items: center;
-//     overflow: scroll;
-//     &_Container {
-//       min-width: 145vw; // Переведено з 464px у vw
-//       height: 213px;
-//       display: flex;
-//       justify-content: space-between;
-//       &_CommonStylesCard {
-//         width: 43.125vw; // Переведено з 138px у vw
-//         height: 213px;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         background-color: #f4f4f4;
-//         border-radius: 20px;
-//         &_itemContainer {
-//           width: 36.875vw; // Переведено з 118px у vw
-//           height: 169px;
-//           display: flex;
-//           position: relative;
-//           flex-flow: column;
-//           align-items: center;
-//           justify-content: space-between;
-//           &_textContainer {
-//             width: 36.875vw; // Переведено з 118px у vw
-//             height: 137px;
-//             display: flex;
-//             flex-flow: column wrap;
-//             justify-content: space-between;
-//             align-items: center;
-//             h3 {
-//               font-size: 3.125vw; // Переведено з 10px у vw
-//               width: 32.8125vw; // Переведено з 105px у vw
-//             }
-//             p {
-//               width: 35.9375vw; // Переведено з 115px у vw
-//               font-size: 1.875vw; // Переведено з 6px у vw
-//             }
-//           }
-//           button {
-//             width: 27.8125vw; // Переведено з 89px у vw
-//             font-size: 3.125vw; // Переведено з 10px у vw
-//             height: 23px;
-//           }
-//         }
-//       }
-//     }
-//   }
-//   .centerCard {
-//     position: absolute;
-//     width: 9.0625vw; // Переведено з 29px у vw
-//     height: 29px;
-//     left: 29.375vw; // Переведено з 94px у vw
-//     bottom: 174px;
-//   }
-// }
-
-// .CommonStylesCard {
-//   transition-duration: 0.3s;
-//   &:hover {
-//     background: #1090cb;
-//     transition-duration: 0.6s;
-//     .section-3_Container_itemContainer {
-//       .textContainer {
-//         h3 {
-//           color: #fff;
-//         }
-//         p {
-//           color: #fff;
-//         }
-//       }
-//       button {
-//         background-color: #fff;
-//         color: #1090cb;
-//       }
-//       .rightCard {
-//         animation: shake-top 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-//       }
-//       .centerCard {
-//         animation: shake-top 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-//       }
-//     }
-//   }
-// }
+.section-3{
+  &_Container{
+    &_CommonStylesCard{
+      transition-duration: 0.3s;
+      &:hover{
+        background: #1090CB;
+        transition-duration: 0.6s;
+        .section-3{
+          &_Container{
+            &_CommonStylesCard{
+              &_itemContainer{
+                &_textContainer{
+                  h3{
+                    color: #FFF;
+                  }
+                  p{
+                    color: #fff;
+                  }
+                }
+                button{
+                  background: #fff;
+                  color: #1090CB;
+                }
+                &_svg{
+                  animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
