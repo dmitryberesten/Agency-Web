@@ -1,0 +1,243 @@
+@mixin textStyle($weight, $size, $line){
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $line;
+     
+}
+@mixin flexCenter(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1440px){
+
+    .section6{
+        .backGround{
+            height: 750px;
+            background-color:  #1090CB1A;
+            @include flexCenter();
+           
+            .conteiner1{
+                position: absolute;
+                top: 80px;
+                width:440px ;
+                height:331px ;
+                text-align: center; 
+                display: flex; 
+                flex-direction: column; 
+                align-items: center; 
+                justify-content: center;
+                div{
+                    @include flexCenter();
+                    width: 135px;
+                    height: 135px;
+                    background-color: #FFFFFF;
+                    border-radius: 100%;
+        
+                    img{
+                        width: 73px;
+                        height: 73px;
+                    }
+                }
+                h2{
+                    @include textStyle(500, 40px, 60px);
+                    .highlight { color: #1090CB; }
+                    margin: 10px 0;
+                }
+                p{
+                    @include textStyle(400, 18px, 31.5px);
+                    width: 440px;
+                    height: 96px;
+                    color: #696969;
+                    margin: 10px 0;
+                }
+            }
+        
+        }
+       
+    
+        .conteiner2 {
+            margin-left: 118px;
+             display: flex;
+             align-items: center;
+             height: 850px;
+               .content{
+                display: flex;
+                justify-content: center; 
+                flex: 1;
+                width: 516px; 
+                height: 453px;
+                
+                h3{
+                    @include textStyle(600, 30px, 51px);
+                    .highlight { color: #1090CB; }
+                    margin-bottom: 30px;
+                }
+                .p1{
+                    @include textStyle(400, 16px, 28.8px);
+                    color: #696969;
+                    width: 476px;
+                    height: 306px;
+                    margin-bottom: 30px;
+                }
+                .p2{
+                    @include textStyle(400, 16px, 28.8px);
+                    color: #696969;
+                    width: 476px;
+                    height: 306px; 
+                    margin-bottom: 30px;   
+                    margin-top: -160px;           
+                }
+                button{
+                    width: 193px;
+                    height: 51px;
+                    background-color: #FFFFFF;
+                    border: 1px solid #1090CB;
+                    border-radius: 5px;
+                    position: relative;
+                    top: -200px;
+                } 
+                }
+                .image {
+                    flex: 1;
+                    text-align: right;               
+                    img{
+                        width: 905px;
+                        height: 509px; 
+                    }
+                   
+                } 
+                .vector2{
+                    width: 260.08px;
+                    height: 101.63px;
+                }
+                .vector3{
+                    width: 270.1px;
+                    height: 101.42px;
+                //    margin-left: 1287.7px;
+    
+                }
+        }
+    
+       
+    
+        .table{
+            width: 1203px;
+            height: 441px;
+            background-color: #fcf6f6;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-left: auto;
+            margin-right: auto;  
+            margin-top: -242px;   
+            
+            .T{
+                display: flex;
+                justify-content: center; 
+                flex: 1;
+                width: 453px; 
+                height: 105px;
+            }    
+            .card{
+                width:453px;
+                height:105px;                
+                // border: 1px solid #FFFFFF; 
+                display: flex;
+                justify-content: end;
+                flex-direction: column;
+                align-items: center;
+          
+                position: relative;
+                text-align: start;
+          
+                img{
+                   position: absolute;
+          
+                }  
+             }
+
+             h4{
+                // margin-left: -90px;
+                margin-bottom: -6px;
+                @include textStyle(500, 25px, 44.48px);
+
+             }
+             .h1{
+                margin-left: -90px;
+                margin-bottom: -6px;
+             }
+             .h2{
+                margin-left: -130px;
+             }
+             .h3{
+                margin-left: -291px;
+             }
+             .h4{
+                margin-left: -136px;
+             }
+
+             p{
+                @include textStyle(400, 16px, 28.8px);
+                color: #696969;
+                
+             }
+             .p1{
+                width: 323px;
+                height: 53px;
+                margin-left: -18px;
+                margin-bottom: 5px;
+             }
+             .p2{
+                width: 355px;
+                height: 56px;
+                margin-left: 16px;
+                margin-bottom: 5px;
+             }
+             .p3{
+                width: 283px;
+                height: 56px;
+                margin-left: -56px;
+                margin-bottom: 5px;
+             }
+             .p4{
+                width: 386px;
+                height: 56px;
+                margin-left: 48px;
+                margin-bottom: 5px;
+             }
+             .svg{
+                width: 91px;
+                height: 90px;
+                background-color: #1090CB;
+                border-radius: 20px;
+                text-align: center;
+                display: flex; 
+                // flex-direction: column; 
+                align-items: center; 
+                justify-content: center;
+                margin-right: -25px;
+                
+             }
+
+             .mobile{
+                background-color: #F1E8FF;
+             }
+             .web{
+                background-color: #FFF2F2;
+             }
+             .seo{
+                background-color: #E2F3FF;
+             }
+             .arvr{
+                background-color: #FFE7FB;
+             }
+        }       
+
+    }
+}
