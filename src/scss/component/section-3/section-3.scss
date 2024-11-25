@@ -1,761 +1,437 @@
-@media (max-width: 1920px){
-  .section-3{
-    width: 100vw;
-    height: 5886px;
-    &_Container{
-      display: flex;
-      height: 100%;
-      margin: 0 auto;
-      width: 100%;  
-      justify-content: space-between;
-        &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 82px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          padding-top: 67px;
-          width: 446px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          margin-top: 92px;
-          width: 143px;
-          height: 62px;
-          font-weight: 500;
-          font-size: 18px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 82px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          padding-top: 24px;
-          width: 445px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 143px;
-          height: 62px;
-          margin-top: 62px;
-          font-weight: 500;
-          font-size: 18px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          display: none;
-        }
-      }
-      &_MonitorCard{
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 82px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 341px;
-          line-height: 42.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          padding-top: 67px;
-          width: 446px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 143px;
-          height: 62px;
-          margin-top: 92px;
-          font-weight: 500;
-          font-size: 18px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          position: absolute;
-          bottom: 516px;
-          left: 168px;
-          width: 140px;
-          height: 140px;
-        }
-      }
-    }
+@keyframes shake-top {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 0;
   }
-  .CommonStylesCard{
-    min-width: 535px;
-    height: 586px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    &:hover{
-      background: #1090CB;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
+  10% {
+    transform: rotate(2deg);
+  }
+  20%,
+  40%,
+  60% {
+    transform: rotate(-4deg);
+  }
+  30%,
+  50%,
+  70% {
+    transform: rotate(4deg);
+  }
+  80% {
+    transform: rotate(-2deg);
+  }
+  90% {
+    transform: rotate(2deg);
+  }
+}
+.section-3_Container_itemContainer_svg {
+  display: none;
+}
+.section-3 {
+  &_Container {
+    list-style: none;
+  }
+}
+
+@media (max-width: 1920px) {
+  .section-3 {
+    width: 100vw;
+    height: 676px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_Container {
+      min-width: 88.76vw; // 1702px -> 88.76vw (1702 / 1920 * 100)
+      height: 676px;
+      display: flex;
+      justify-content: space-between;
+      &_CommonStylesCard {
+        width: 27.92vw; // 536px -> 27.92vw (536 / 1920 * 100)
+        height: 586px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        &_itemContainer {
+          width: 23.23vw; // 446px -> 23.23vw (446 / 1920 * 100)
+          height: 442px;
+          display: flex;
+          position: relative;
+          flex-flow: column;
+          align-items: center;
+          justify-content: space-between;
+          &_textContainer {
+            width: 23.23vw; // 446px -> 23.23vw
+            height: 333px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 1.3vw; // 25px -> 1.3vw (25 / 1920 * 100)
+              font-weight: 600;
+              line-height: 170%;
+              width: 17.81vw; // 342px -> 17.81vw (342 / 1920 * 100)
+              text-align: center;
             }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
+            p {
+              width: 23.23vw; // 446px -> 23.23vw
+              font-size: 0.83vw; // 16px -> 0.83vw (16 / 1920 * 100)
+              font-weight: 400;
+              text-align: center;
+              line-height: 170%;
             }
           }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
+          button {
+            width: 7.45vw; // 143px -> 7.45vw (143 / 1920 * 100)
+            height: 62px;
+            font-size: 0.94vw; // 18px -> 0.94vw (18 / 1920 * 100)
+            font-weight: 500;
+            border: none;
+            border-radius: 10px;
+            background: #1090CB;
+            color: #FFF;
           }
         }
       }
     }
   }
-} 
-@media screen and (max-width: 1440px){
-  .section-3{
-    width: 100vw;
-    height: 100%;
-    &_Container{
-      display: flex;
-      height: 100%;
-      margin: 0 auto;
-      width: 100vw;  
-      justify-content: space-between;
-      &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 52px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 38.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          padding-top: 48px;
-          width: 476px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          margin-top: 42px;
-          width: 153px;
-          height: 49px;
-          font-weight: 500;
-          font-size: 16px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 37px;
-          font-weight: 600;
-          font-size: 25px;
-          text-align: center;
-          width: 365px;
-          line-height: 38.5px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          width: 476px;
-          padding-top: 33px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 153px;
-          height: 49px;
-          margin-top: 36px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          display: block;
-          position: absolute;
-          bottom: 397px;
-          left: 428px;
-          width: 120px;
-          height: 120px;
-        }
-      }
-      &_MonitorCard{
-        display: none;
-      }
-    }
+  
+  .centerCard {
+    display: none;
   }
-  .CommonStylesCard{
-    min-width: 572px;
+  .monitor {
+    display: flex;
+  }
+  .rightCard{
+    display: block;
+    position: absolute;
+    width: 7.2917vw; // 140px → 7.2917vw
+    height: 140px;
+    left: 9.4792vw; // 182px → 9.4792vw
+    bottom: 444px;
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .section-3 {
+    width: 100vw;
     height: 459px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    transition-duration: 0.3s;
-    &:hover{
-      background: #1090CB;
-      transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-        }
-      }
-    }
-  } 
-}
-@media (max-width: 1024px){
-  .section-3{
-    &_Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_Container {
+      min-width: 83.3333vw; // 1200px → 83.3333vw
+      height: 459px;
       display: flex;
-      height: 100%;
-      margin: 0 auto;
-      width: 100%;
       justify-content: space-between;
-      &_leftCard{
+      &_CommonStylesCard {
+        width: 39.7222vw; // 572px → 39.7222vw
+        height: 459px;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 93px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 325px;
-          line-height: 51px;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        &_itemContainer {
+          width: 33.0556vw; // 476px → 33.0556vw
+          height: 358px;
+          display: flex;
+          position: relative;
+          flex-flow: column;
+          align-items: center;
+          justify-content: space-between;
+          &_textContainer {
+            width: 33.0556vw; // 476px → 33.0556vw
+            height: 288px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 1.7361vw; // 25px → 1.7361vw
+              font-weight: 600;
+              line-height: 154%;
+              width: 25.4167vw; // 365px → 25.4167vw
+              text-align: center;
+            }
+            p {
+              width: 33.0556vw; // 476px → 33.0556vw
+              font-size: 1.1111vw; // 16px → 1.1111vw
+              font-weight: 400;
+              text-align: center;
+              line-height: 170%;
+            }
+          }
+          button {
+            width: 10.4167vw; // 153px → 10.4167vw
+            height: 49px;
+            font-size: 1.1111vw; // 16px → 1.1111vw
+            font-weight: 500;
+            border: none;
+            border-radius: 10px;
+            background: #1090CB;
+            color: #FFF;
+          }
         }
-        &_subTitle{
-          padding-top: 20px;
-          font-weight: 400;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 276px;
-          height: 71px;
-          margin-top: 67px;
-          border: none;
-          font-size: 25px;
-          font-weight: 500;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0px;
-        &_Title{
-          padding-top: 93px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 325px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          padding-top: 20px;
-          font-weight: 400;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 276px;
-          height: 71px;
-          margin-top: 67px;
-          font-size: 25px;
-          font-weight: 500;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          display: block;
-          position: absolute;
-          bottom: 616px;
-          left: 341px;
-          width: 90px;
-          height: 90px;
-        }
-      }
-      &_MonitorCard{
-        display: none;
       }
     }
   }
-  .CommonStylesCard{
-    min-width: 431px;
-    height: 662px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    transition-duration: 0.3s;
-    &:hover{
-      background: #1090CB;
-      transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-        }
-      }
-    }
+  .centerCard {
+    display: block;
+    position: absolute;
+    width: 8.3333vw; // 120px → 8.3333vw
+    height: 120px; // Залишено без змін
+    left: 25.5556vw;
+    bottom: 353px;
+  }
+  .monitor {
+    display: none;
   }
 }
-@media (max-width: 768px){
-  .section-3{
-    &_Container{
+
+@media (max-width: 1024px) {
+  .section-3 {
+    width: 100vw;
+    height: 683px;
+    display: flex;
+    align-items: center;
+    &_Container {
+      min-width: 87.8906vw; // 900px → 87.8906vw
+      height: 663px;
       display: flex;
-      overflow:scroll;
-      column-gap: 74px;
-      &_MonitorCard{
+      justify-content: space-between;
+      &_CommonStylesCard {
+        width: 42.0898vw; // 431px → 42.0898vw
+        height: 663px;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 92px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 312px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          padding-top: 81px;
-          font-weight: 400;
-          font-size: 16px;
-          width: 345px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          margin-top: 42px;
-          width: 276px;
-          height: 71px;
-          font-weight: 500;
-          font-size: 25px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-        &_svg{
-          display: none;
-        }
-      }
-      &_leftCard{ 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0  ;
-        &_Title{
-          padding-top: 92px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 312px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 16px;
-          padding-top: 71px;
-          width: 345px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 276px;
-          height: 71px;
-          font-weight: 500;
-          font-size: 25px;
-          margin-top: 56px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0px;
-        &_Title{
-          padding-top: 92px;
-          font-weight: 600;
-          font-size: 30px;
-          text-align: center;
-          width: 312px;
-          line-height: 51px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          padding-top: 71px;
-          font-size: 16px;
-          width: 358px;
-          text-align: center;
-          line-height: 27.2px;
-        }
-        &_button{
-          width: 276px;
-          height: 71px;
-          margin-top: 56px;
-          font-weight: 500;
-          font-size: 25px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-        }
-        &_svg{
-          position: absolute;
-          width: 90px;
-          height: 90px;
-          bottom: 618px;
-          left: 269px;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        &_itemContainer {
+          width: 35.0586vw; // 359px → 35.0586vw
+          height: 500px;
+          display: flex;
+          position: relative;
+          flex-flow: column;
+          align-items: center;
+          justify-content: space-between;
+          &_textContainer {
+            width: 35.0586vw; // 359px → 35.0586vw
+            height: 361px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 2.9297vw; // 30px → 2.9297vw
+              font-weight: 600;
+              line-height: 170%;
+              width: 31.7383vw; // 325px → 31.7383vw
+              text-align: center;
+            }
+            p {
+              width: 35.0586vw; // 359px → 35.0586vw
+              font-size: 1.5625vw; // 16px → 1.5625vw
+              font-weight: 400;
+              text-align: center;
+              line-height: 170%;
+            }
+          }
+          button {
+            width: 26.9531vw; // 276px → 26.9531vw
+            height: 71px; 
+            font-size: 2.4414vw; // 25px → 2.4414vw
+          }
         }
       }
     }
   }
-  .CommonStylesCard{
-    min-width: 431px;
-    height: 662px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    transition-duration: 0.3s;
-    &:hover{
-      background: #1090CB;
-      transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
-          }
-          &_MonitorCard{
-            &_Title{
-              color: white;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              color: #1090CB;
-              background: #Fff;
-            }
-          }
-        }
-      }
-    }
+  .centerCard {
+    display: block;
+    position: absolute;
+    width: 8.7891vw; // 90px → 8.7891vw
+    height: 90px; 
+    left: 27.5391vw; // 282px → 27.5391vw
+    bottom: 537px;
+  }
+  .monitor {
+    display: none;
   }
 }
-@media (max-width: 425px){
-  .section-3{
-    &_Container{
+
+@media (max-width: 768px) {
+  .section-3 {
+    width: 100vw;
+    height: 721px;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    &_Container {
+      min-width: 183.59vw; // було 1410px
+      height: 683px;
       display: flex;
-      height: 100%;
-      width: 100%;
-      overflow:scroll;
-      &_MonitorCard{
+      justify-content: space-between;
+      &_CommonStylesCard {
+        width: 56.12vw; // було 431px
+        height: 683px;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 21px;
-          font-weight: 600;
-          font-size: 10px;
-          text-align: center; 
-          width: 105px;
-          line-height: 17px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 6px;
-          width: 115px;
-          padding-top: 7px;
-          text-align: center;
-          line-height: 9.6px;
-        }
-        &_button{
-          width: 88px;
-          height: 22px;
-          margin-top: 18.61px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          font-size: 10px;
-          font-weight: 500; 
-        }
-        &_svg{
-          display: none;
-        }
-      }
-      &_leftCard{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 20px;
-          font-weight: 600;
-          font-size: 10px;
-          text-align: center;
-          width: 105px;
-          line-height: 17px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 5px;
-          padding-top: 7px;
-          width: 115px;
-          text-align: center;
-          line-height: 8.5px;
-        }
-        &_button{
-          width: 88px;
-          height: 22px;
-          margin-top: 35px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          font-size: 10px;
-          font-weight: 500;
-          cursor: pointer;
-        }
-      }
-      &_RightCard{
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 0;
-        &_Title{
-          padding-top: 20px;
-          font-weight: 600;
-          font-size: 10px;
-          text-align: center;
-          width: 105px;
-          line-height: 17px;
-        }
-        &_subTitle{
-          font-weight: 400;
-          font-size: 6px;
-          padding-top: 7px;
-          width: 115px;
-          text-align: center;
-          line-height: 9.6px;
-        }
-        &_button{
-          width: 88px;
-          height: 22px;
-          margin-top: 9px;
-          border: none;
-          border-radius: 10px;
-          background: #1090CB;
-          color: #Fff;
-          font-size: 10px;
-          font-weight: 500;
-          cursor: pointer;
-        }
-        &_svg{
-          position: absolute;
-          bottom: 197px;
-          left: 87px;
-          width: 30px;
-          height: 30px;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        &_itemContainer {
+          width: 44.92vw; // було 345px
+          height: 500px;
+          display: flex;
+          position: relative;
+          flex-flow: column;
+          align-items: center;
+          justify-content: space-between;
+          &_textContainer {
+            width: 44.92vw; // було 345px
+            height: 386px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 3.91vw; // було 30px
+              font-weight: 600;
+              line-height: 170%;
+              width: 40.63vw; // було 312px
+              text-align: center;
+            }
+            p {
+              width: 44.92vw; // було 345px
+              font-size: 2.08vw; // було 16px
+              font-weight: 400;
+              text-align: center;
+              line-height: 170%;
+            }
+          }
+          button {
+            width: 35.94vw; // було 276px
+            height: 71px;
+            font-weight: 500;
+            font-size: 3.26vw; // було 25px
+            border: none;
+            border-radius: 10px;
+            background: #1090CB;
+            color: #FFF;
+          }
         }
       }
     }
   }
-  .CommonStylesCard{
-    min-width:138px;
-    height: 212px;
-    border-radius: 20px;
-    background: #F4F4F4;
-    transition-duration: 0.3s;
-    &:hover{
-      background: #1090CB;
-      transition-duration: 0.6s;
-      .section-3{
-        &_Container{
-          &_leftCard{
-            &_Title{
-              width: 105px;
-              color: #Fff;
+  .centerCard {
+    display: block;
+    position: absolute;
+    width: 11.71875vw; // 90px → 11.71875vw
+    height: 90px;
+    left: 35.4167vw; // 272px → 35.4167vw
+    bottom: 546px;
+  }
+  .rightCard{
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 320px) {
+  .section-3 {
+    width: 100vw;
+    height: 231px;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    &_Container {
+      min-width: 145vw; // Переведено з 464px у vw
+      height: 213px;
+      display: flex;
+      justify-content: space-between;
+      &_CommonStylesCard {
+        width: 43.125vw; // Переведено з 138px у vw
+        height: 213px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 20px;
+        &_itemContainer {
+          width: 36.875vw; // Переведено з 118px у vw
+          height: 169px;
+          display: flex;
+          position: relative;
+          flex-flow: column;
+          align-items: center;
+          justify-content: space-between;
+          &_textContainer {
+            width: 36.875vw; // Переведено з 118px у vw
+            height: 137px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: center;
+            h3 {
+              font-size: 3.125vw; // Переведено з 10px у vw
+              width: 32.8125vw; // Переведено з 105px у vw
             }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
+            p {
+              width: 35.9375vw; // Переведено з 115px у vw
+              font-size: 1.875vw; // Переведено з 6px у vw
             }
           }
-          &_RightCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
-            }
+          button {
+            width: 27.8125vw; // Переведено з 89px у vw
+            font-size: 3.125vw; // Переведено з 10px у vw
+            height: 23px;
           }
-          &_MonitorCard{
-            &_Title{
-              color: #Fff;
-            }
-            &_subTitle{
-              color: #Fff;
-            }
-            &_button{
-              background: #FFFFFF;
-              color: #1090CB;
+        }
+      }
+    }
+  }
+  .centerCard {
+    display: block;
+    position: absolute;
+    width: 9.0625vw; // Переведено з 29px у vw
+    height: 29px;
+    left: 90px; // Переведено з 94px у vw
+    bottom: 177px;
+  }
+}
+
+.section-3{
+  &_Container{
+    &_CommonStylesCard{
+      transition-duration: 0.3s;
+      &:hover{
+        background: #1090CB;
+        transition-duration: 0.6s;
+        .section-3{
+          &_Container{
+            &_CommonStylesCard{
+              &_itemContainer{
+                &_textContainer{
+                  h3{
+                    color: #FFF;
+                  }
+                  p{
+                    color: #fff;
+                  }
+                }
+                button{
+                  background: #fff;
+                  color: #1090CB;
+                }
+                &_svg{
+                  animation: shake-top 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+                }
+              }
             }
           }
         }
