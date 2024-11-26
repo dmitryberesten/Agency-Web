@@ -1,6 +1,4 @@
 @mixin textStyle($weight, $size, $line){
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: $weight;
     font-size: $size;
     line-height: $line;
