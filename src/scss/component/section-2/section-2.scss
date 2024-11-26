@@ -7,13 +7,6 @@
   list-style: none;
 }
 
-body {
-  &::-webkit-scrollbar {
-    display: none;
-    max-width: 100% !important;
-  }
-}
-
 // variables
 $color-black: #000000;
 $color-white: #ffffff;
@@ -81,6 +74,9 @@ $color-blue: #1090cb;
       height: 58px;
       flex-shrink: 0;
       border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     &__sub-heading {
@@ -118,25 +114,30 @@ $color-blue: #1090cb;
 }
 
 .phone-img {
-  background-image: url('../src/img/section2/phone-no-bg.png');
-  // background-image: url('../src/img/partials/component/section2/phone-no-bg.png');
+  background-image: url('../../../img/section2/phone-no-bg.png');
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
 }
 
 .layers-img {
-  background-image: url('../src/img/section2/layers.png');
+  background-image: url('../../../img/section2/layers.png');
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
 }
 
 .vr-dude-img {
-  background-image: url('../src/img/section2/vr-dude.png');
+  background-image: url('../../../img/section2/vr-dude.png');
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
+}
+
+.face-icon {
+  // outline: 2px solid red;
+  fill: #ffffff;
+  // background-image: url('../../../img/section2/svg/sprite.svg#line');
 }
 
 // adaptive
@@ -200,13 +201,12 @@ $breakpoint-monitor: 1920px;
       &__icon-bg {
         width: 41.875px;
         height: 43.326px;
-        overflow: hidden;
+        // overflow: hidden;
 
         .face-icon {
+          fill: #ffffff;
           width: 18.771px;
           height: 19.422px;
-          margin-left: 12px;
-          margin-top: 12px;
         }
       }
 
@@ -445,7 +445,7 @@ $breakpoint-monitor: 1920px;
     width: 590px;
     height: 530px;
     right: 0px;
-    border-left: 2px solid #c7c7c7;
+    // border-left: 2px solid #c7c7c7;
   }
 
   .layers-img {
@@ -677,18 +677,17 @@ $breakpoint-monitor: 1920px;
   .phone-img {
     width: 817.208px;
     height: 545.351px;
-    flex-shrink: 0;
+    right: 0;
   }
 
   .layers-img {
     width: 664.397px;
     height: 581.636px;
-    flex-shrink: 0;
+    left: 0;
   }
 
   .vr-dude-img {
     width: 997.703px;
     height: 501.595px;
-    flex-shrink: 0;
   }
 }
