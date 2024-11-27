@@ -7,11 +7,30 @@
             width: 100vw;
             height: 993px;
             background: rgba(16, 144, 203, 0.10);
-            &_speakerContainer{
-                width: 180px;
-                height: 180px;
-                background: #fff;
-                border-radius: 50%;
+            &_upContainer{
+                width: 588px;
+                height: 446px;
+                background: fuchsia;
+                margin-top: 104px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                &_speakerCircle{
+                    width: 180px;
+                    height: 180px;
+                    background: #fff;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &_img{
+                        width: 97px;
+                        height: 97px;
+                    }
+                }
+                &_textContent{
+                    width: 588px;
+                }
             }
         }
     }
