@@ -55,15 +55,32 @@
                 top: 719px;
                 left: 94px;
                 display: flex;
-                justify-content:space-evenly;
+                justify-content:center;
+                align-items: center;
                 width: 1649px;
                 height: 604px;
                 background: #FFFFFF;
                 box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+                &_ItemContainer{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    width: 1451px;
+                    height: 402px;
+                }
                 &_item{
-                    min-width: 696px;
+                    width: 696px;
                     height: 149px;
                     background: firebrick;
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    &_mobileImgBg{
+                        width: 125px;
+                        height: 123px;
+                        background: #F1E8FF;
+                        border-radius: 20px;
+                    }
                 }
             }
         }
@@ -77,5 +94,8 @@
                 height: 848px;
             }
         }
+    }
+    span{
+        color: #1090CB;
     }
 }
