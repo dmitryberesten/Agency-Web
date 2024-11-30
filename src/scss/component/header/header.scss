@@ -222,10 +222,10 @@ header {
   }
   .menu__btn {
     z-index: 5000;
-    position: absolute;
-    right: 42px;
+    left: 939px;
     display: flex;
     align-items: center;
+    position: fixed;
     top: 20px;
     width: 26px;
     height: 26px;
