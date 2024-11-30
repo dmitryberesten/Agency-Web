@@ -2,8 +2,10 @@
     .section-6{
         width: 100vw;
         &_blueBackground{
+            position: relative;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
             width: 100vw;
             height: 993px;
             background: rgba(16, 144, 203, 0.10);
@@ -15,6 +17,7 @@
                 display: flex;
                 align-items: center;
                 flex-direction: column;
+                justify-content: space-between;
                 &_speakerCircle{
                     width: 180px;
                     height: 180px;
@@ -29,8 +32,49 @@
                     }
                 }
                 &_textContent{
-                    width: 588px;
+                    width: 563px;
+                    height: 236px;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    h3{
+                        font-size: 47px;
+                        font-weight: 500;
+                    }
+                    p{
+                        font-size: 25px;
+                        font-weight: 400;
+                        line-height: 174%;
+                        color: #696969;
+                    }
                 }
+            }
+            &_Services{
+                position: absolute;
+                top: 719px;
+                left: 94px;
+                display: flex;
+                justify-content:space-evenly;
+                width: 1649px;
+                height: 604px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+                &_item{
+                    min-width: 696px;
+                    height: 149px;
+                    background: firebrick;
+                }
+            }
+        }
+        &_whiteContainer{
+            width: 100vw;
+            height: 680px;
+            display: flex;
+            justify-content: center;
+            &_Content{
+                width: 1617px;
+                height: 848px;
             }
         }
     }
