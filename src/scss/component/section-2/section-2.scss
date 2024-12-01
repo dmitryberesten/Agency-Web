@@ -19,7 +19,7 @@ $color-blue: #1090cb;
 }
 
 .container {
-  max-width: 80%;
+  width: 80vw;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -53,6 +53,16 @@ $color-blue: #1090cb;
     display: flex;
     justify-content: space-between;
     position: relative;
+  }
+
+  .dashed-line {
+    background-image: url('../../../img/section2/svg/dashed-stripe.svg');
+    background-repeat: no-repeat;
+    // background-position: center center;
+    position: absolute;
+    outline: 2px solid red;
+    // width: 800px;
+    // height: 1000px;
   }
 
   &__article {
@@ -157,16 +167,16 @@ $breakpoint-monitor: 1920px;
 
   .section-2 {
     &__heading {
-      font-size: 20px;
+      font-size: 6.25vw;
       line-height: 160%;
-      width: 255px;
+      width: 79.7vw;
     }
 
     &__text {
-      font-size: 8px;
+      font-size: 2.5vw;
       line-height: 175%;
       margin-top: 18px;
-      width: 220px;
+      width: 68.75vw;
       margin-bottom: -70px;
     }
 
@@ -199,54 +209,55 @@ $breakpoint-monitor: 1920px;
       gap: 6.13px;
 
       &__icon-bg {
-        width: 41.875px;
+        width: 13.5vw;
         height: 43.326px;
         // overflow: hidden;
 
         .face-icon {
           fill: #ffffff;
-          width: 18.771px;
+          // width: 18.771px;
+          width: 5.9375vw;
           height: 19.422px;
         }
       }
 
       &__sub-heading {
-        font-size: 16px;
+        font-size: 5vw;
         line-height: 100%;
         width: 196px;
       }
 
       &__additional-heading {
-        font-size: 10px;
+        font-size: 3.125vw;
         line-height: 175%;
       }
     }
 
     &__heading {
-      font-size: 20px;
+      font-size: 6.25vw;
       line-height: 116%;
-      width: 242px;
+      width: 70vw;
     }
 
     &__text {
-      font-size: 10px;
+      font-size: 3.125vw;
       line-height: 170%;
-      width: 224px;
+      width: 70vw;
     }
   }
 
   .phone-img {
-    width: 330px;
+    width: 100vw;
     height: 290px;
     top: 300px;
-    left: -30px;
+    right: 0px;
   }
 
   .layers-img {
-    width: 321px;
+    width: 100vw;
     height: 304px;
     top: 300px;
-    left: -30px;
+    right: 0px;
   }
 
   .vr-dude-img {
@@ -262,16 +273,23 @@ $breakpoint-monitor: 1920px;
   }
 
   .section-2 {
+    .dashed-line {
+      width: 700px;
+      height: 1114px;
+      top: 60px;
+      left: -20px;
+    }
+
     &__heading {
-      font-size: 40px;
+      font-size: 5vw;
       line-height: 160%;
-      width: 638.715px;
+      width: 83vw;
     }
 
     &__text {
-      width: 521.831px;
-      font-size: 18px;
+      font-size: 2.3vw;
       line-height: 170%;
+      width: 67.8vw;
       margin-top: 22px;
     }
 
@@ -294,69 +312,68 @@ $breakpoint-monitor: 1920px;
   }
 
   .article {
-    gap: 28px;
+    gap: 3.64vw;
 
     &__top {
-      gap: 11.43px;
+      gap: 1.5vw;
 
       &__icon-bg {
-        width: 68.574px;
-        height: 68.574px;
-        flex-shrink: 0;
+        width: 9vw;
+        height: 8.92vw;
       }
 
       &__sub-heading {
-        font-size: 20px;
+        font-size: 2.6vw;
         line-height: 100%;
         font-weight: 500;
-        width: 285px;
+        width: 37vw;
         text-align: start;
       }
 
       &__additional-heading {
-        font-size: 15px;
+        font-size: 2vw;
         line-height: 175%;
         text-align: start;
       }
     }
 
     .text-end {
-      width: 386px;
+      width: 50vw;
     }
 
     &__heading {
-      font-size: 30px;
+      font-size: 4vw;
       line-height: 116%;
-      width: 341px;
+      width: 44.4vw;
     }
 
     &__text {
-      font-size: 16px;
+      font-size: 2vw;
       line-height: 170%;
-      width: 333px;
+      width: 43.35vw;
 
       &:nth-child(2) {
-        width: 500px;
+        width: 65vw;
       }
     }
   }
 
   .phone-img {
-    width: 450px;
+    width: 58.6vw;
     height: 400px;
     right: -30px;
     top: 100px;
   }
 
   .layers-img {
-    width: 500px;
+    width: 65vw;
     height: 400px;
     left: -75px;
     // bottom: 20px;
   }
 
   .vr-dude-img {
-    width: 700px;
+    width: 91vw;
     height: 900px;
     right: -30px;
     top: 30px;
@@ -371,19 +388,26 @@ $breakpoint-monitor: 1920px;
   }
 
   .section-2 {
+    .dashed-line {
+      width: 700px;
+      height: 1700px;
+      top: 60px;
+      left: -50px;
+    }
+
     &__heading {
-      font-size: 40px;
+      font-size: 4vw;
       line-height: 160%;
-      width: 757px;
+      width: 74vw;
     }
 
     &__text {
-      width: 521.831px;
+      font-size: 1.75vw;
+      line-height: 170%;
+      width: 51vw;
+      margin-top: 30px;
       margin-left: auto;
       margin-right: auto;
-      font-size: 18px;
-      line-height: 170%;
-      margin-top: 30px;
     }
 
     &__content {
@@ -405,57 +429,57 @@ $breakpoint-monitor: 1920px;
   }
 
   .article {
-    gap: 28px;
+    gap: 2.7vw;
 
     &__top {
-      gap: 11.43px;
+      gap: 1.1vw;
 
       &__icon-bg {
-        width: 68.574px;
-        height: 68.574px;
+        width: 6.7vw;
+        height: 6.6vw;
       }
 
       &__sub-heading {
-        font-size: 20px;
+        font-size: 2vw;
         line-height: 100%;
         font-weight: 500;
-        width: 285px;
+        width: 27.8vw;
       }
 
       &__additional-heading {
-        font-size: 15px;
+        font-size: 1.4vw;
         line-height: 175%;
       }
     }
 
     &__heading {
-      font-size: 30px;
+      font-size: 3vw;
       line-height: 116%;
-      width: 341px;
+      width: 33vw;
     }
 
     &__text {
-      font-size: 16px;
+      font-size: 1.5;
       line-height: 170%;
-      width: 428px;
+      width: 41.8vw;
     }
   }
 
   .phone-img {
-    width: 590px;
+    width: 57.6vw;
     height: 530px;
     right: 0px;
     // border-left: 2px solid #c7c7c7;
   }
 
   .layers-img {
-    width: 500px;
+    width: 48.8vw;
     height: 429px;
     left: 0;
   }
 
   .vr-dude-img {
-    width: 799px;
+    width: 78.02vw;
     height: 405px;
     left: 175px;
   }
@@ -469,29 +493,34 @@ $breakpoint-monitor: 1920px;
   }
 
   .section-2 {
+    .dashed-line {
+      width: 1100px;
+      height: 1600px;
+      top: 50px;
+      left: -100px;
+    }
+
     &__heading {
-      font-size: 33px;
+      font-size: 2.3vw;
       line-height: 160%;
+      width: 88.8vw;
       text-align: start;
       margin: 0;
       margin-left: 50px;
-      width: 1164px;
     }
 
     &__text {
-      width: 650px;
+      font-size: 1.25vw;
+      line-height: 170%;
+      width: 45vw;
+      margin-top: 22px;
       margin-left: auto;
       margin-right: auto;
-      font-size: 18px;
-      line-height: 170%;
-      margin-top: 22px;
     }
 
     &__content {
       display: flex;
       justify-content: space-between;
-      margin-top: 140px;
-      margin-bottom: 140px;
 
       &:nth-of-type(2) {
         flex-direction: row-reverse;
@@ -506,55 +535,56 @@ $breakpoint-monitor: 1920px;
   }
 
   .article {
-    gap: 56px;
+    gap: 3.9vw;
 
     &__top {
-      gap: 25px;
+      gap: 1.7vw;
 
       &__icon-bg {
-        width: 58px;
+        width: 4vw;
         height: 58px;
       }
 
       &__sub-heading {
-        font-size: 17px;
+        font-size: 1.6vw;
         line-height: 175%;
       }
 
       &__additional-heading {
-        font-size: 14px;
+        font-size: 0.97vw;
         line-height: 175%;
       }
     }
 
     &__heading {
-      font-size: 30px;
+      font-size: 2.9vw;
       line-height: 170%;
-      width: 571.381px;
+      width: 39.6vw;
     }
 
     &__text {
-      font-size: 16px;
+      font-size: 1.1vw;
       line-height: 170%;
-      width: 470px;
+      width: 32.6vw;
     }
   }
 
   .phone-img {
-    width: 738px;
+    width: 51.25vw;
     height: 511px;
+    right: 0;
   }
 
   .layers-img {
-    width: 600px;
+    width: 41.6vw;
     height: 545px;
+    left: 0;
   }
 
   .vr-dude-img {
-    width: 901px;
+    width: 62.5vw;
     height: 470px;
-    position: absolute;
-    left: 470px;
+    left: 200px;
   }
 }
 
@@ -565,19 +595,23 @@ $breakpoint-monitor: 1920px;
     width: 80%;
   }
 
+  .dashed-line {
+    width: 700px;
+  }
+
   .section-2 {
     &__heading {
-      font-size: 33px;
+      font-size: 1.7vw;
       line-height: 160%;
     }
 
     &__text {
-      width: 650px;
+      font-size: 0.93vw;
+      line-height: 170%;
+      width: 33.9vw;
+      margin-top: 22px;
       margin-left: auto;
       margin-right: auto;
-      font-size: 18px;
-      line-height: 170%;
-      margin-top: 22px;
     }
 
     &__content {
@@ -599,78 +633,37 @@ $breakpoint-monitor: 1920px;
   }
 
   .article {
-    gap: 60px;
+    gap: 3.125vw;
 
     &__top {
-      gap: 45.4px;
+      gap: 2.36vw;
 
       &__icon-bg {
-        width: 64.225px;
-        height: 61.899px;
+        width: 3.33vw;
+        height: 3.22vw;
       }
 
       &__sub-heading {
-        font-size: 22px;
+        font-size: 1.14vw;
         line-height: 175%;
       }
 
       &__additional-heading {
-        font-size: 18px;
+        font-size: 0.93vw;
         line-height: 175%;
       }
     }
 
     &__heading {
-      font-size: 35px;
+      font-size: 1.8vw;
       line-height: 170%;
-      width: 571.381px;
+      width: 29.7vw;
     }
 
     &__text {
-      font-size: 22px;
+      font-size: 1.14vw;
       line-height: 170%;
-      width: 470px;
-    }
-  }
-
-  .article {
-    gap: 60px;
-
-    &__top {
-      gap: 45.4px;
-
-      &__icon-bg {
-        width: 64.225px;
-        height: 61.899px;
-      }
-
-      &__sub-heading {
-        font-size: 22px;
-        line-height: 175%;
-      }
-
-      &__additional-heading {
-        font-size: 18px;
-        line-height: 175%;
-      }
-    }
-
-    &__heading {
-      font-size: 35px;
-      line-height: 170%;
-      width: 571.381px;
-    }
-
-    &__text {
-      font-size: 22px;
-      font-style: normal;
-      line-height: 170%;
-      // width: 470px;
-      width: 527.088px;
-
-      &:nth-child(2) {
-        width: 573px;
-      }
+      width: 24.4vw;
     }
   }
 
