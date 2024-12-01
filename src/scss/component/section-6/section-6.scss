@@ -1,50 +1,52 @@
+@mixin widthAndHeight($weight,$height){
+    width: $weight;
+    height: $height;
+}
+@mixin justifyAndAlign($justify: null,$align: null){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin text($fW,$font-size){
+    font-weight: $fW;
+    font-size: $font-size;
+}
 @media(max-width:1920px){
     .section-6{
         width: 100vw;
         &_blueBackground{
             position: relative;
-            display: flex;
+            @include justifyAndAlign(null,center);
             flex-direction: column;
-            align-items: center;
-            width: 100vw;
-            height: 993px;
+            @include widthAndHeight(100vw,993px);
             background: rgba(16, 144, 203, 0.10);
             &_upContainer{
-                width: 588px;
-                height: 446px;
+                @include widthAndHeight(588px,446px);
                 background: fuchsia;
                 margin-top: 104px;
-                display: flex;
-                align-items: center;
+                @include justifyAndAlign(space-between,center);
                 flex-direction: column;
-                justify-content: space-between;
                 &_speakerCircle{
-                    width: 180px;
-                    height: 180px;
+                    @include widthAndHeight(180px,180px);
                     background: #fff;
                     border-radius: 50%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @include justifyAndAlign(center,center);
                     &_img{
-                        width: 97px;
-                        height: 97px;
+                        @include widthAndHeight(97px,97px);
                     }
                 }
                 &_textContent{
-                    width: 563px;
-                    height: 236px;
+                    @include widthAndHeight(563px,236px);
                     text-align: center;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    @include justifyAndAlign(space-between, null);
                     h3{
-                        font-size: 47px;
-                        font-weight: 500;
+                        @include text(500,47px);
                     }
                     p{
-                        font-size: 25px;
-                        font-weight: 400;
+                        @include text(400,25px);
                         line-height: 174%;
                         color: #696969;
                     }
@@ -55,31 +57,58 @@
                 top: 719px;
                 left: 94px;
                 display: flex;
-                justify-content:center;
-                align-items: center;
-                width: 1649px;
-                height: 604px;
+                @include justifyAndAlign(center,center);
+                @include widthAndHeight(1649px,604px);
                 background: #FFFFFF;
                 box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
                 &_ItemContainer{
+                    position: relative;
                     display: flex;
                     justify-content: space-between;
                     flex-wrap: wrap;
-                    width: 1451px;
-                    height: 402px;
+                    @include widthAndHeight(1451px,486px);
+                    &_horizontalLine{
+                        position: absolute;
+                        @include widthAndHeight(1445px,1px);
+                        top: 176px;
+                        background: #D2D2D2;
+                    }
+                    &_verticalLine{
+                        position: absolute;
+                        @include widthAndHeight(1px,486px);
+                        left: 727px;
+                        bottom: 21px;
+                        background: #D2D2D2;
+                    }
                 }
                 &_item{
-                    width: 696px;
-                    height: 149px;
+                    @include widthAndHeight(696px,149px);
                     background: firebrick;
                     list-style: none;
-                    display: flex;
-                    align-items: center;
+                    @include justifyAndAlign(space-between,center);
                     &_mobileImgBg{
-                        width: 125px;
-                        height: 123px;
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(125px,123px);
                         background: #F1E8FF;
                         border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(56px,56px);
+                        }
+                    }
+                    &_textContainer{
+                        @include widthAndHeight(529px,149px);
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500,32px)
+                        }
+                        p{
+                            @include text(400,20px);
+                            line-height: 178%;
+                            width: 393px;
+                            color: #797979;
+                        }
                     }
                 }
             }
