@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sectionElement.scrollIntoView({ behavior: 'smooth' });
         backdrop.setAttribute('class', 'backdrop');
         mobileVersion.setAttribute('class', 'backdrop');
+        btnBurgerMenu.setAttribute('class', 'menu__btn open');
       }
     });
   });
