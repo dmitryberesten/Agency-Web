@@ -54,9 +54,8 @@
             }
             &_Services{
                 position: absolute;
-                top: 719px;
-                left: 94px;
-                display: flex;
+                top: 639px;
+                left: 132px;
                 @include justifyAndAlign(center,center);
                 @include widthAndHeight(1649px,604px);
                 background: #FFFFFF;
@@ -83,10 +82,9 @@
                 }
                 &_item{
                     @include widthAndHeight(696px,149px);
-                    background: firebrick;
                     list-style: none;
                     @include justifyAndAlign(space-between,center);
-                    &_mobileImgBg{
+                    &_mobileBg{
                         @include justifyAndAlign(center,center);
                         @include widthAndHeight(125px,123px);
                         background: #F1E8FF;
@@ -95,7 +93,7 @@
                             @include widthAndHeight(56px,56px);
                         }
                     }
-                    &_textContainer{
+                    &_MobileTextContainer{
                         @include widthAndHeight(529px,149px);
                         padding-top: 14px;
                         @include justifyAndAlign(space-between,null);
@@ -110,17 +108,100 @@
                             color: #797979;
                         }
                     }
+                    &_WebApplicationBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(125px,123px);
+                        background: #FFF2F2;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(56px,56px)
+                        }
+                    }
+                    &_ApplicationTextContainer{
+                        @include widthAndHeight(529px,149px);   
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 32px)
+                        }
+                        p{ 
+                            @include text(400,20px);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_SeoBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(125px,123px);
+                        background: #E2F3FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(56px,56px)
+                        }
+                    }
+                    &_SeoTextContainer{
+                        @include widthAndHeight(529px,149px);   
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 32px)
+                        }
+                        p{ 
+                            width: 318px;
+                            @include text(400,20px);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_VrBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(125px,123px);
+                        background: #FFE7FB;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(56px,56px)
+                        }
+                    }
+                    &_VrTextContainer{
+                        @include widthAndHeight(529px,149px);   
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 32px)
+                        }
+                        p{ 
+                            @include text(400,20px);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
                 }
             }
         }
         &_whiteContainer{
             width: 100vw;
-            height: 680px;
+            height: 1409px;
             display: flex;
             justify-content: center;
+            align-items: center;
             &_Content{
                 width: 1617px;
                 height: 848px;
+                background: darkcyan;
+                &_TextAndButton{
+                    width: 665px;
+                    h3{
+                        @include text(600,42px);
+                        line-height: 170%;
+                    }
+                    p{
+                        @include text(400, 26px);
+                        line-height: 180%;
+                    }
+                }
             }
         }
     }
