@@ -25,14 +25,29 @@
       position: absolute;
       &.succulent {
         bottom: -40px;
-        left: 310px;
         width: 90px;
+        left: 310;
       }
       &.bell {
         top: -40px;
          right: 90px;
          width: 90px;
         }
+      }
+      @media (min-width: 300px) {
+        .decoration {
+       
+          &.succulent {
+            bottom: -40px;
+            left: 35px;
+            width: 90px;
+          }
+          &.bell {
+            top: -40px;
+             right: 30px;
+             width: 90px;
+            }
+          }
       }
     }
   
