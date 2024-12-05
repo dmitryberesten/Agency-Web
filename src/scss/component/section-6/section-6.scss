@@ -28,7 +28,7 @@
                 &_speakerCircle{
                     @include widthAndHeight(9.38vw,180px);
                     background: #fff;
-                    border-radius: 50%;
+                    border-radius: 4.6875vw;
                     @include justifyAndAlign(center,center);
                     &_img{
                         @include widthAndHeight(5.05vw,97px);
@@ -253,7 +253,7 @@
                 &_speakerCircle{
                     @include widthAndHeight(9.38vw,135px);
                     background: #fff;
-                    border-radius: 50%;
+                    border-radius: 67.5px;
                     @include justifyAndAlign(center,center);
                     &_img{
                         @include widthAndHeight(5.07vw,73px);
