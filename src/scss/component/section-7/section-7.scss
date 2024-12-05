@@ -9,43 +9,46 @@
   
     .stat-item {
       text-align: center;
-  
+    
       h2 {
-        font-size: 48px;
+        font-size: 4vw;
         margin: 0;
       }
-  
+    
       p {
-        font-size: 18px;
+        font-size: 1.5vw;
         margin: 10px 0 0;
       }
+    
     }
   
     .decoration {
       position: absolute;
+    
       &.succulent {
         bottom: -40px;
-        width: 90px;
-        left: 310;
+        width: 6vw;
+        left: 9vw;
       }
+    
       &.bell {
         top: -40px;
-         right: 90px;
-         width: 90px;
-        }
+        right: 2.5vw;
+        width: 6vw;
       }
-      @media (min-width: 300px) {
+      }
+      @media (max-width: 800px) {
         .decoration {
-       
           &.succulent {
-            bottom: -40px;
-            left: 35px;
-            width: 90px;
+            bottom: -17px;
+            left: 10.5vw;
+            width: 10vw;
           }
           &.bell {
-            top: -40px;
-             right: 30px;
-             width: 90px;
+            top: -17px;
+            right: 3.5vw;
+            width: 10vw;
+      
             }
           }
       }
