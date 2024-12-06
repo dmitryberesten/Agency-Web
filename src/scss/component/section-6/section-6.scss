@@ -293,7 +293,7 @@
                     &_horizontalLine{
                         position: absolute;
                         @include widthAndHeight(69.96vw,1px);
-                        top: 149px;
+                        top: 125px;
                         left: 0;
                         background: #D2D2D2;
                     }
@@ -319,86 +319,86 @@
                         }
                     }
                     &_MobileTextContainer{
-                        @include widthAndHeight(22.43vw,105px); // !
+                        @include widthAndHeight(26.81vw,105px); 
                         padding-top: 14px;
                         @include justifyAndAlign(space-between,null);
                         flex-direction: column;
                         h3{
-                            @include text(500,1.67vw)
+                            @include text(500,1.74vw)
                         }
                         p{
                             @include text(400,1.11vw);
                             line-height: 178%;
-                            width: 20.47vw;
+                            width: 22.43vw;
                             color: #797979;
                         }
                     }
                     &_WebApplicationBg{
                         @include justifyAndAlign(center,center);
-                        @include widthAndHeight(6.51vw,123px);
+                        @include widthAndHeight(6.25vw,90px);
                         background: #FFF2F2;
                         border-radius: 20px;
                         &_img{
-                            @include widthAndHeight(2.92vw,56px)
+                            @include widthAndHeight(2.85vw,41px)
                         }
                     }
                     &_ApplicationTextContainer{
-                        @include widthAndHeight(27.57vw,149px);   
+                        @include widthAndHeight(26.81vw,107px);   
                         padding-top: 14px;
                         @include justifyAndAlign(space-between,null);
                         flex-direction: column;
                         h3{
-                            @include text(500, 1.67vw)
+                            @include text(500, 1.74vw)
                         }
                         p{ 
-                            @include text(400,1.04vw);
+                            @include text(400,1.11vw);
                             line-height: 178%;
                             color: #797979;
                         }
                     }
                     &_SeoBg{
                         @include justifyAndAlign(center,center);
-                        @include widthAndHeight(6.51vw,123px);
+                        @include widthAndHeight(6.25vw,90px);
                         background: #E2F3FF;
                         border-radius: 20px;
                         &_img{
-                            @include widthAndHeight(2.92vw,56px)
+                            @include widthAndHeight(2.85vw,41px)
                         }
                     }
                     &_SeoTextContainer{
-                        @include widthAndHeight(27.57vw,149px);   
+                        @include widthAndHeight(26.81vw,105px);   
                         padding-top: 14px;
                         @include justifyAndAlign(space-between,null);
                         flex-direction: column;
                         h3{
-                            @include text(500, 1.67vw)
+                            @include text(500, 1.74vw)
                         }
                         p{ 
-                            width: 16.56vw;
-                            @include text(400,1.04vw);
+                            width: 17.57vw;
+                            @include text(400,1.11vw);
                             line-height: 178%;
                             color: #797979;
                         }
                     }
                     &_VrBg{
                         @include justifyAndAlign(center,center);
-                        @include widthAndHeight(6.51vw,123px);
+                        @include widthAndHeight(6.25vw,90px);
                         background: #FFE7FB;
                         border-radius: 20px;
                         &_img{
-                            @include widthAndHeight(2.92vw,56px)
+                            @include widthAndHeight(2.29vw,33px)
                         }
                     }
                     &_VrTextContainer{
-                        @include widthAndHeight(27.57vw,149px);   
+                        @include widthAndHeight(26.81vw,109px);   
                         padding-top: 14px;
                         @include justifyAndAlign(space-between,null);
                         flex-direction: column;
                         h3{
-                            @include text(500, 1.67vw)
+                            @include text(500, 1.74vw)
                         }
                         p{ 
-                            @include text(400,1.04vw);
+                            @include text(400,1.11vw);
                             line-height: 178%;
                             color: #797979;
                         }
@@ -408,46 +408,272 @@
         }
         &_whiteContainer{
             width: 100vw;
-            height: 1409px;
+            height: 957px;
             display: flex;
             justify-content: center;
             align-items: center;
             &_Content{
-                width: 84.24vw;
-                height: 848px;
+                width: 90.38vw;
+                height: 548px;
                 display: flex;
                 justify-content: space-between;
                 &_TextAndButton{
-                    width: 34.60vw;
-                    height: 848px;
+                    width: 35.83vw;
+                    height: 545 px;
                     @include justifyAndAlign(space-between,null);
                     flex-direction: column;
                     h3{
-                        @include text(600,2.19vw);
+                        @include text(600,2.08vw);
                         line-height: 170%;
                     }
                     &_list{
-                        width: 32.81vw;
-                        height: 500px;
+                        width: 33.04vw;
+                        height: 290px;
                         @include justifyAndAlign(space-between,null);
                         flex-direction: column;
 
                         &_Item{
-                            @include text(400, 1.35vw);
+                            @include text(400, 1.11vw);
                             line-height: 180%;
                             list-style: none;
                         }
                     }
                     &_Button{
-                        width: 13.33vw;
-                        height: 67px;
+                        width: 13.41vw;
+                        height: 51px;
                         border-radius: 10px;
                         border-color: #1090CB;
-                        @include text(400, 1.15vw);
+                        @include text(400, 1.11vw);
                         color: #1090CB;
                     }
                 }
-                &_imgContainer{
+                &_imgContainer{          // уточнити розмір
+                    width: 46.04vw;
+                    height: 764px;
+                    img{
+                        width: 46.04vw;
+                    }
+                }
+            }
+        }
+    }
+    span{
+        color: #1090CB;
+    }
+}
+@media(max-width:1024px){
+    .section-6{
+        width: 100vw;
+        &_blueBackground{
+            position: relative;
+            @include justifyAndAlign(null,center);
+            flex-direction: column;
+            @include widthAndHeight(100vw,743px);
+            background: rgba(16, 144, 203, 0.10);
+            &_upContainer{
+                @include widthAndHeight(42.97vw,331px);
+                margin-top: 104px;
+                @include justifyAndAlign(space-between,center);
+                flex-direction: column;
+                &_speakerCircle{
+                    @include widthAndHeight(13.18vw,135px);
+                    background: #fff;
+                    border-radius: 67.5px;
+                    @include justifyAndAlign(center,center);
+                    &_img{
+                        @include widthAndHeight(7.13vw,73px);
+                    }
+                }
+                &_textContent{
+                    @include widthAndHeight(42.97vw,178px);
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    @include justifyAndAlign(space-between, null);
+                    h3{
+                        @include text(500,4.88vw);
+                    }
+                    p{
+                        @include text(400,1.76vw);
+                        line-height: 174%;
+                        color: #696969;
+                    }
+                }
+            }
+            &_Services{
+                position: absolute;
+                top: 586px;
+                left: 4.98vw;
+                @include justifyAndAlign(center,center);
+                @include widthAndHeight(89.06vw,334px);
+                background: #FFFFFF;
+                box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+                &_ItemContainer{
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    @include widthAndHeight(74.33vw,220px);
+                    &_horizontalLine{
+                        position: absolute;
+                        @include widthAndHeight(64.78vw,1px);
+                        top: 111px;
+                        left: 4.3vw;
+                        background: #D2D2D2;
+                    }
+                    &_verticalLine{
+                        position: absolute;
+                        @include widthAndHeight(0.052vw,223px);
+                        left: 36.94vw;
+                        top: 6px;
+                        background: #D2D2D2;
+                    }
+                }
+                &_item{
+                    @include widthAndHeight(32.15vw,90px);
+                    list-style: none;
+                    @include justifyAndAlign(space-between,center);
+                    &_mobileBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(8.70vw,90px);
+                        background: #F1E8FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.05vw,35px);
+                        }
+                    }
+                    &_MobileTextContainer{
+                        @include widthAndHeight(22.05vw,72px); 
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        padding-top: 0;
+                        h3{
+                            @include text(500,1.95vw)
+                        }
+                        p{
+                            @include text(400,0.98vw);
+                            line-height: 178%;
+                            width: 22.43vw;
+                            color: #797979;
+                        }
+                    }
+                    &_WebApplicationBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(8.70vw,90px);
+                        background: #FFF2F2;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(4.00vw,41px)
+                        }
+                    }
+                    &_ApplicationTextContainer{
+                        @include widthAndHeight(22.05vw,72px);
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        padding-top: 0;
+                        h3{
+                            @include text(500, 1.95vw)
+                        }
+                        p{ 
+                            @include text(400,0.98vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_SeoBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(8.79vw,90px);
+                        background: #E2F3FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(3.91vw,40px)
+                        }
+                    }
+                    &_SeoTextContainer{
+                        @include widthAndHeight(22.05vw,72px);   
+                        padding-top: 0;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.95vw)
+                        }
+                        p{ 
+                            width: 15.08vw;
+                            @include text(400,0.98vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_VrBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(22.05vw,90px);
+                        background: #FFE7FB;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.29vw,33px)
+                        }
+                    }
+                    &_VrTextContainer{
+                        @include widthAndHeight(26.81vw,109px);   
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.74vw)
+                        }
+                        p{ 
+                            @include text(400,1.11vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                }
+            }
+        }
+        &_whiteContainer{
+            width: 100vw;
+            height: 957px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &_Content{
+                width: 90.38vw;
+                height: 548px;
+                display: flex;
+                justify-content: space-between;
+                &_TextAndButton{
+                    width: 35.83vw;
+                    height: 545 px;
+                    @include justifyAndAlign(space-between,null);
+                    flex-direction: column;
+                    h3{
+                        @include text(600,2.08vw);
+                        line-height: 170%;
+                    }
+                    &_list{
+                        width: 33.04vw;
+                        height: 290px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+
+                        &_Item{
+                            @include text(400, 1.11vw);
+                            line-height: 180%;
+                            list-style: none;
+                        }
+                    }
+                    &_Button{
+                        width: 13.41vw;
+                        height: 51px;
+                        border-radius: 10px;
+                        border-color: #1090CB;
+                        @include text(400, 1.11vw);
+                        color: #1090CB;
+                    }
+                }
+                &_imgContainer{          // уточнити розмір
                     width: 46.04vw;
                     height: 764px;
                     img{
