@@ -197,6 +197,7 @@
             &_Content{
                 width: 84.24vw;
                 height: 848px;
+                position: relative;
                 display: flex;
                 justify-content: space-between;
                 &_TextAndButton{
@@ -225,7 +226,7 @@
                         height: 67px;
                         border-radius: 10px;
                         border-color: #1090CB;
-                        background: none;
+                        background: #fff;
                         @include text(400, 1.15vw);
                         color: #1090CB;
                     }
@@ -237,6 +238,23 @@
                         width: 46.04vw;
                     }
                 }
+                &_left-Dashed-Line{
+                    position: absolute;
+                    height: 120px;
+                    width: 15.94vw;
+                    top: 768px;
+                    left: 3.33vw;
+                    z-index: -1;
+                }
+                &_right-Dashed-Line{
+                    position: absolute;
+                    height: 99px;
+                    width: 18.7vw;
+                    top: 768px;
+                    left: 69.33vw;
+                    z-index: -1;
+                }
+                
             }
         }
     }
@@ -470,6 +488,21 @@
                         width: 37.15vw
                         ;
                     }
+                }
+                &_left-Dashed-Line{
+                    position: absolute;
+                    height: 120px;
+                    width: 15.94vw;
+                    top: 0;
+                    left: 0;
+                    z-index: -1;
+                }
+                &_right-Dashed-Line{
+                    position: absolute;
+                    height: 99px;
+                    width: 18.7vw;
+                    top: 0;
+                    left: 0;
                 }
             }
         }
