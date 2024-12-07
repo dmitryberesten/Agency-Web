@@ -448,6 +448,7 @@
             &_Content{
                 width: 90.38vw;
                 height: 548px;
+                position: relative;
                 display: flex;
                 justify-content: space-between;
                 &_TextAndButton{
@@ -475,7 +476,7 @@
                         width: 13.41vw;
                         height: 51px;
                         border-radius: 10px;
-                        background: none;
+                        background: #fff;
                         border-color: #1090CB;
                         @include text(400, 1.11vw);
                         color: #1090CB;
@@ -491,18 +492,18 @@
                 }
                 &_left-Dashed-Line{
                     position: absolute;
-                    height: 120px;
-                    width: 15.94vw;
-                    top: 0;
-                    left: 0;
+                    height: 102px;
+                    width: 18.06vw;
+                    top: 485px;
+                    left: 0.9vw;
                     z-index: -1;
                 }
                 &_right-Dashed-Line{
                     position: absolute;
-                    height: 99px;
-                    width: 18.7vw;
-                    top: 0;
-                    left: 0;
+                    height: 101px;
+                    width: 18.75vw;
+                    top: 498px;
+                    left: 75vw;
                 }
             }
         }
@@ -729,7 +730,7 @@
                         height: 51px;
                         border-radius: 10px;
                         border-color: #1090CB;
-                        background: none;
+                        background: #fff;
                         @include text(400, 2.34vw);
                         color: #1090CB;
                     }
@@ -743,6 +744,21 @@
                     img{
                         width: 47.56vw;
                     }
+                }
+                &_left-Dashed-Line{
+                    position: absolute;
+                    height: 119px;
+                    width: 20.91vw; // непонятна ширина
+                    top: 763px;
+                    left: 9.9vw;
+                    z-index: -1;
+                }
+                &_right-Dashed-Line{
+                    position: absolute;
+                    height: 86px;
+                    width: 24.72vw;
+                    top: 641px;
+                    left: 59vw;
                 }
             }
         }
@@ -977,6 +993,21 @@
                     img{
                         width: 47.56vw;
                     }
+                }
+                &_left-Dashed-Line{
+                    position: absolute;
+                    min-height: 85px;
+                    width: 24.74vw; // непонятна ширина
+                    top: 382px;
+                    left:18.74vw;
+                    z-index: -1;
+                }
+                &_right-Dashed-Line{
+                    position: absolute;
+                    height: 40px;
+                    width: 11.72vw;
+                    top: 719px;
+                    left: 78vw;
                 }
             }
         }
