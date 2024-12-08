@@ -1209,7 +1209,7 @@
                 position: relative;
                 display: flex;
                 align-items: center;
-                padding-top: 90px;
+                padding-top: 0;
                 &_TextAndButton{
                     width: 84.69vw;
                     height: 466px;
@@ -1244,13 +1244,28 @@
                 }
                 &_imgContainer{
                     position: absolute;
-                    top: 230px;
+                    top: 185px;
                     left: 15vw;
                     width: 56.88vw;
                     height: 157px;
                     img{
                         width: 47.56vw;
                     }
+                }
+                &_left-Dashed-Line{
+                    position: absolute;
+                    height: 56px;
+                    width: 39.0625vw;
+                    top: 416px;
+                    left:53.74vw;
+                    z-index: -1;
+                }
+                &_right-Dashed-Line{
+                    position: absolute;
+                    height: 30px;
+                    width: 20.9375vw;
+                    top: 311px;
+                    left: 56vw;
                 }
             }
         }
