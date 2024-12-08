@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 1920px) {
+  .section-9 {
+    width: 100vw; /*перевести в vw*/
+    height: 587px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .section-9-container {
+      width: 1606px; /*перевести в vw*/
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .section-9-map {
+        width: 891px; /*перевести в vw*/
+        opacity: 80%;
+      }
+
+      .section-9-div {
+        width: 611px; /*перевести в vw*/
+        height: 316px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: start;
+
+        .svg-div-section-9 {
+          width: 115px;
+          height: 115px;
+          background-color: #f5f3da;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 84px;
+          }
+        }
+
+        .text-section-9 {
+          font-family: "Poppins";
+          width: 611px; /*перевести в vw*/
+          height: 176px;
+          display: flex;
+          justify-content: space-between;
+          flex-flow: column wrap;
+          align-items: center;
+
+          h2 {
+            color: #000000;
+            width: 386px; /*перевести в vw*/
+            height: 77px;
+            font-size: 45px;
+            font-weight: 600; /*перевести в vw*/
+            line-height: 170%;
+          }
+
+          p {
+            width: auto; /*перевести в vw*/
+            height: 38px;
+            color: #777777;
+            font-size: 20px;
+            font-weight: 400; /*перевести в vw*/
+            line-height: 37.9px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .section-9 {
+    width: 100vw; /*перевести в vw*/
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .section-9-container {
+      width: 1173px; /*перевести в vw*/
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+
+      .section-9-div {
+        width: 437px; /*перевести в vw*/
+        height: 261px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: start;
+
+        .svg-div-section-9 {
+          width: 77px;
+          height: 77px;
+          background-color: #f5f3da;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            width: 84px;
+          }
+        }
+
+        .text-section-9 {
+          font-family: "Poppins";
+          width: 437px; /*перевести в vw*/
+          height: 168px;
+          display: flex;
+          justify-content: space-between;
+          flex-flow: column wrap;
+          align-items: center;
+
+          h2 {
+            color: #000000;
+            width: 386px; /*перевести в vw*/
+            height: 77px;
+            font: 600 45px; /*перевести в vw*/
+            line-height: 170%;
+          }
+
+          p {
+            width: 437px; /*перевести в vw*/
+            height: 76px;
+            color: #777777;
+            font: 400 20px; /*перевести в vw*/
+            line-height: 190%;
+          }
+        }
+      }
+
+      .section-9-map {
+        width: 608px; /*перевести в vw*/
+        opacity: 80%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .section-9 {
+    width: 100vw; /*перевести в vw*/
+    height: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .section-9-container {
+      width: 900px; /*перевести в vw*/
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: column wrap;
+      align-items: center;
+      section-9-map {
+        width: 900px; /*перевести в vw*/
+        opacity: 80%;
+      }
+
+      .section-9-div {
+        width: 688px; /*перевести в vw*/
+        height: 202px;
+
+        position: relative;
+
+        .svg-div-section-9 {
+          width: 110px;
+          height: 110px;
+          background-color: #f5f3da;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          right: 0px;
+
+          img {
+            width: 80px;
+          }
+        }
+
+        .text-section-9 {
+          font-family: "Poppins";
+          width: 623px; /*перевести в vw*/
+          height: 202px;
+          display: flex;
+          justify-content: space-between;
+          flex-flow: column nowrap;
+          align-items: start;
+
+          h2 {
+            color: #000000;
+            width: 551px; /*перевести в vw*/
+            height: 110px;
+            font-size: 60px;
+            font-weight: 600; /*перевести в vw*/
+            text-align: left;
+          }
+
+          p {
+            width: 617px; /*перевести в vw*/
+            height: 76px;
+            color: #777777;
+            font-size: 20px;
+            font-weight: 400; /*перевести в vw*/
+            line-height: 189%;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .section-9 {
+    width: 100vw; /*перевести в vw*/
+    height: 689px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .section-9-container {
+      width: 689px; /*перевести в vw*/
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: column wrap;
+
+      .section-9-map {
+        width: 632px; /*перевести в vw*/
+        opacity: 80%;
+      }
+
+      .section-9-div {
+        width: 689px; /*перевести в vw*/
+        height: 181px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: start;
+
+        .svg-div-section-9 {
+          width: 110px;
+          height: 110px;
+          background-color: #f5f3da;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+
+          img {
+            width: 80px;
+          }
+        }
+
+        .text-section-9 {
+          font-family: "Poppins";
+          width: 603px; /*перевести в vw*/
+          height: 181px;
+          display: flex;
+          justify-content: space-between;
+          flex-flow: column nowrap;
+          align-items: center;
+
+          h2 {
+            color: #000000;
+            width: 549px; /*перевести в vw*/
+            height: 109px;
+            font-size: 64px;
+            font-weight: 600; /*перевести в vw*/
+            line-height: 170%;
+          }
+
+          p {
+            width: 601px; /*перевести в vw*/
+            height: 76px;
+            color: #777777;
+            font-size: 20px;
+            font-weight: 400; /*перевести в vw*/
+            line-height: 189%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .section-9 {
+    width: 100vw; /*перевести в vw*/
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .section-9-container {
+      width: 307px; /*перевести в vw*/
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: column wrap;
+
+      .section-9-map {
+        width: 307px; /*перевести в vw*/
+        opacity: 80%;
+      }
+
+      .section-9-div {
+        width: 293px; /*перевести в vw*/
+        height: 81px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: start;
+
+        .svg-div-section-9 {
+          width: 53px;
+          height: 53px;
+          background-color: #f5f3da;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          img {
+            width: 39px;
+          }
+        }
+
+        .text-section-9 {
+          font-family: "Poppins";
+          width: 225px; /*перевести в vw*/
+          height: 81px;
+          display: flex;
+          justify-content: space-between;
+          flex-flow: column wrap;
+          align-items: end;
+
+          h2 {
+            color: #000000;
+            width: 215px; /*перевести в vw*/
+            height: 43px;
+            font-size: 25px;
+            font-weight: 600; /*перевести в vw*/
+            line-height: 170%;
+          }
+
+          p {
+            width: 225px; /*перевести в vw*/
+            height: 38px;
+            color: #777777;
+            font-size: 10px;
+            font-weight: 400; /*перевести в vw*/
+            line-height: 189%;
+          }
+        }
+      }
+    }
+  }
+}
