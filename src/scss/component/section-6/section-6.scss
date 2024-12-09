@@ -564,8 +564,8 @@
                     position: absolute;
                     height: 106px;
                     width: 16.15vw;
-                    bottom: 357px;
-                    left: 71.04vw ;
+                    bottom: 282px;
+                    left: 75.04vw ;
                 }
                 &_ItemContainer{
                     position: relative;
@@ -815,6 +815,13 @@
                 @include widthAndHeight(89.06vw,404px);
                 background: #FFFFFF;
                 box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+                &_UpImg{
+                    position: absolute;
+                    height: 107px;
+                    width: 16.28vw;
+                    bottom: 354px;
+                    left: 75.04vw ;
+                }
                 &_ItemContainer{
                     position: relative;
                     display: flex;
