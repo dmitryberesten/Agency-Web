@@ -42,4 +42,15 @@
     right: 3.5vw;
     width: 10vw;
   }
+  .stats-section .stat-item {
+    text-align: center;
+  }
+  .stats-section .stat-item h2 {
+    font-size: 5vw;
+    margin: 0;
+  }
+  .stats-section .stat-item p {
+    font-size: 2vw;
+    margin: 10px 0 0;
+  }
 }/*# sourceMappingURL=section-7.css.map */
