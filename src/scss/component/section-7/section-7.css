@@ -23,13 +23,13 @@
 }
 .stats-section .decoration.succulent {
   bottom: -40px;
-  width: 6vw;
-  left: 9vw;
+  width: 6.5vw;
+  left: 18vw;
 }
 .stats-section .decoration.bell {
-  top: -40px;
+  top: -60px;
   right: 2.5vw;
-  width: 6vw;
+  width: 8vw;
 }
 @media (max-width: 800px) {
   .stats-section .decoration.succulent {
@@ -38,9 +38,32 @@
     width: 10vw;
   }
   .stats-section .decoration.bell {
-    top: -17px;
+    top: -30px;
     right: 3.5vw;
     width: 10vw;
+  }
+  .stats-section .stat-item {
+    text-align: center;
+  }
+  .stats-section .stat-item h2 {
+    font-size: 4.5vw;
+    margin: 0;
+  }
+  .stats-section .stat-item p {
+    font-size: 1.8vw;
+    margin: 10px 0 0;
+  }
+}
+@media (max-width: 450px) {
+  .stats-section .decoration.succulent {
+    bottom: -17px;
+    left: 10.5vw;
+    width: 10vw;
+  }
+  .stats-section .decoration.bell {
+    top: -20px;
+    right: 3.5vw;
+    width: 12vw;
   }
   .stats-section .stat-item {
     text-align: center;
