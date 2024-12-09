@@ -11,7 +11,7 @@
     font-weight: $fW;
     font-size: $font-size;
 }
-@media(max-width:1920px){
+@media(min-width:1441px){
     .section-6{
         width: 100vw;
         &_blueBackground{
@@ -21,32 +21,31 @@
             @include widthAndHeight(100vw,993px);
             background: rgba(16, 144, 203, 0.10);
             &_upContainer{
-                @include widthAndHeight(588px,446px);
-                background: fuchsia;
+                @include widthAndHeight(30.63vw,446px);
                 margin-top: 104px;
                 @include justifyAndAlign(space-between,center);
                 flex-direction: column;
                 &_speakerCircle{
-                    @include widthAndHeight(180px,180px);
+                    @include widthAndHeight(9.38vw,180px);
                     background: #fff;
-                    border-radius: 50%;
+                    border-radius: 24.34vw;
                     @include justifyAndAlign(center,center);
                     &_img{
-                        @include widthAndHeight(97px,97px);
+                        @include widthAndHeight(5.05vw,97px);
                     }
                 }
                 &_textContent{
-                    @include widthAndHeight(563px,236px);
+                    @include widthAndHeight(29.34vw,236px);
                     text-align: center;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
                     @include justifyAndAlign(space-between, null);
                     h3{
-                        @include text(500,47px);
+                        @include text(500,2.45vw);
                     }
                     p{
-                        @include text(400,25px);
+                        @include text(400,1.30vw);
                         line-height: 174%;
                         color: #696969;
                     }
@@ -54,11 +53,10 @@
             }
             &_Services{
                 position: absolute;
-                top: 719px;
-                left: 94px;
-                display: flex;
+                top: 639px;
+                left: 6.88vw;
                 @include justifyAndAlign(center,center);
-                @include widthAndHeight(1649px,604px);
+                @include widthAndHeight(85.89vw,604px);
                 background: #FFFFFF;
                 box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
                 &_ItemContainer{
@@ -66,47 +64,124 @@
                     display: flex;
                     justify-content: space-between;
                     flex-wrap: wrap;
-                    @include widthAndHeight(1451px,486px);
+                    @include widthAndHeight(75.57vw,486px);
                     &_horizontalLine{
                         position: absolute;
-                        @include widthAndHeight(1445px,1px);
+                        @include widthAndHeight(75.26vw,1px);
                         top: 176px;
+                        left: 0;
                         background: #D2D2D2;
                     }
                     &_verticalLine{
                         position: absolute;
-                        @include widthAndHeight(1px,486px);
-                        left: 727px;
+                        @include widthAndHeight(0.052vw,486px);
+                        left: 37.87vw;
                         bottom: 21px;
                         background: #D2D2D2;
                     }
                 }
+                &_UpImg{
+                    position: absolute;
+                    height: 126px;
+                    width: 6.56vw;
+                    bottom: 542px;
+                    left: 74.04vw ;
+                }
                 &_item{
-                    @include widthAndHeight(696px,149px);
-                    background: firebrick;
+                    @include widthAndHeight(36.25vw,149px);
                     list-style: none;
                     @include justifyAndAlign(space-between,center);
-                    &_mobileImgBg{
+                    &_mobileBg{
                         @include justifyAndAlign(center,center);
-                        @include widthAndHeight(125px,123px);
+                        @include widthAndHeight(6.51vw,123px);
                         background: #F1E8FF;
                         border-radius: 20px;
                         &_img{
-                            @include widthAndHeight(56px,56px);
+                            @include widthAndHeight(2.92vw,56px);
                         }
                     }
-                    &_textContainer{
-                        @include widthAndHeight(529px,149px);
+                    &_MobileTextContainer{
+                        @include widthAndHeight(27.57vw,149px);
                         padding-top: 14px;
                         @include justifyAndAlign(space-between,null);
                         flex-direction: column;
                         h3{
-                            @include text(500,32px)
+                            @include text(500,1.67vw)
                         }
                         p{
-                            @include text(400,20px);
+                            @include text(400,1.04vw);
                             line-height: 178%;
-                            width: 393px;
+                            width: 20.47vw;
+                            color: #797979;
+                        }
+                    }
+                    &_WebApplicationBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(6.51vw,123px);
+                        background: #FFF2F2;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.92vw,56px)
+                        }
+                    }
+                    &_ApplicationTextContainer{
+                        @include widthAndHeight(27.57vw,149px);   
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.67vw)
+                        }
+                        p{ 
+                            @include text(400,1.04vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_SeoBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(6.51vw,123px);
+                        background: #E2F3FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.92vw,56px)
+                        }
+                    }
+                    &_SeoTextContainer{
+                        @include widthAndHeight(27.57vw,149px);   
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.67vw)
+                        }
+                        p{ 
+                            width: 16.56vw;
+                            @include text(400,1.04vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_VrBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(6.51vw,123px);
+                        background: #FFE7FB;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.92vw,56px)
+                        }
+                    }
+                    &_VrTextContainer{
+                        @include widthAndHeight(27.57vw,149px);   
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.67vw)
+                        }
+                        p{ 
+                            @include text(400,1.04vw);
+                            line-height: 178%;
                             color: #797979;
                         }
                     }
@@ -115,16 +190,1090 @@
         }
         &_whiteContainer{
             width: 100vw;
-            height: 680px;
+            height: 1409px;
             display: flex;
             justify-content: center;
+            align-items: center;
             &_Content{
-                width: 1617px;
+                width: 84.24vw;
                 height: 848px;
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                &_TextAndButton{
+                    width: 34.60vw;
+                    height: 848px;
+                    @include justifyAndAlign(space-between,null);
+                    flex-direction: column;
+                    h3{
+                        @include text(600,2.19vw);
+                        line-height: 170%;
+                    }
+                    &_list{
+                        width: 32.81vw;
+                        height: 500px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+
+                        &_Item{
+                            @include text(400, 1.35vw);
+                            line-height: 180%;
+                            list-style: none;
+                        }
+                    }
+                    &_Button{
+                        width: 13.33vw;
+                        height: 67px;
+                        border-radius: 10px;
+                        border-color: #1090CB;
+                        background: #fff;
+                        @include text(400, 1.15vw);
+                        color: #1090CB;
+                    }
+                }
+                &_imgContainer{
+                    width: 46.04vw;
+                    height: 764px;
+                    img{
+                        width: 46.04vw;
+                    }
+                }
+                &_left-Dashed-Line{
+                    position: absolute;
+                    height: 120px;
+                    width: 15.94vw;
+                    top: 768px;
+                    left: 3.33vw;
+                    z-index: -1;
+                }
+                &_right-Dashed-Line{
+                    position: absolute;
+                    height: 99px;
+                    width: 18.7vw;
+                    top: 768px;
+                    left: 69.33vw;
+                    z-index: -1;
+                }
+                
             }
         }
     }
     span{
         color: #1090CB;
+    }
+}
+@media screen and (max-width:1440px){
+    .section-6{
+        width: 100vw;
+        &_blueBackground{
+            position: relative;
+            @include justifyAndAlign(null,center);
+            flex-direction: column;
+            @include widthAndHeight(100vw,993px);
+            background: rgba(16, 144, 203, 0.10);
+            &_upContainer{
+                @include widthAndHeight(30.56vw,331px);
+                margin-top: 104px;
+                @include justifyAndAlign(space-between,center);
+                flex-direction: column;
+                &_speakerCircle{
+                    @include widthAndHeight(9.38vw,135px);
+                    background: #fff;
+                    border-radius: 24.34vw;
+                    @include justifyAndAlign(center,center);
+                    &_img{
+                        @include widthAndHeight(5.07vw,73px);
+                    }
+                }
+                &_textContent{
+                    @include widthAndHeight(30.56vw,174px);
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    @include justifyAndAlign(space-between, null);
+                    h3{
+                        @include text(500,2.78vw);
+                    }
+                    p{
+                        @include text(400,1.25vw);
+                        line-height: 174%;
+                        color: #696969;
+                    }
+                }
+            }
+            &_Services{
+                position: absolute;
+                top: 639px;
+                left: 6.88vw;
+                @include justifyAndAlign(center,center);
+                @include widthAndHeight(83.54vw,441px);
+                background: #FFFFFF;
+                box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+                &_UpImg{
+                    position: absolute;
+                    height: 92px;
+                    width: 6.39vw;
+                    bottom: 400px;
+                    left: 75.04vw ;
+                }
+                &_ItemContainer{
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    @include widthAndHeight(73.54vw,294px);
+                    &_horizontalLine{
+                        position: absolute;
+                        @include widthAndHeight(69.96vw,1px);
+                        top: 125px;
+                        left: 0;
+                        background: #D2D2D2;
+                    }
+                    &_verticalLine{
+                        position: absolute;
+                        @include widthAndHeight(0.052vw,294px);
+                        left: 36.94vw;
+                        top: 6px;
+                        background: #D2D2D2;
+                    }
+                }
+                &_item{
+                    @include widthAndHeight(35.28vw,109px);
+                    list-style: none;
+                    @include justifyAndAlign(space-between,center);
+                    &_mobileBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(6.25vw,90px);
+                        background: #F1E8FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.84vw,41px);
+                        }
+                    }
+                    &_MobileTextContainer{
+                        @include widthAndHeight(26.81vw,105px); 
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500,1.74vw)
+                        }
+                        p{
+                            @include text(400,1.11vw);
+                            line-height: 178%;
+                            width: 22.43vw;
+                            color: #797979;
+                        }
+                    }
+                    &_WebApplicationBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(6.25vw,90px);
+                        background: #FFF2F2;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.85vw,41px)
+                        }
+                    }
+                    &_ApplicationTextContainer{
+                        @include widthAndHeight(26.81vw,107px);   
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.74vw)
+                        }
+                        p{ 
+                            @include text(400,1.11vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_SeoBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(6.25vw,90px);
+                        background: #E2F3FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.85vw,41px)
+                        }
+                    }
+                    &_SeoTextContainer{
+                        @include widthAndHeight(26.81vw,105px);   
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.74vw)
+                        }
+                        p{ 
+                            width: 17.57vw;
+                            @include text(400,1.11vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_VrBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(6.25vw,90px);
+                        background: #FFE7FB;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.29vw,33px)
+                        }
+                    }
+                    &_VrTextContainer{
+                        @include widthAndHeight(26.81vw,109px);   
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.74vw)
+                        }
+                        p{ 
+                            @include text(400,1.11vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                }
+            }
+        }
+        &_whiteContainer{
+            width: 100vw;
+            height: 957px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &_Content{
+                width: 90.38vw;
+                height: 548px;
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                &_TextAndButton{
+                    width: 35.83vw;
+                    height: 545 px;
+                    @include justifyAndAlign(space-between,null);
+                    flex-direction: column;
+                    h3{
+                        @include text(600,2.08vw);
+                        line-height: 170%;
+                    }
+                    &_list{
+                        width: 33.04vw;
+                        height: 290px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+
+                        &_Item{
+                            @include text(400, 1.11vw);
+                            line-height: 180%;
+                            list-style: none;
+                        }
+                    }
+                    &_Button{
+                        width: 13.41vw;
+                        height: 51px;
+                        border-radius: 10px;
+                        background: #fff;
+                        border-color: #1090CB;
+                        @include text(400, 1.11vw);
+                        color: #1090CB;
+                    }
+                }
+                &_imgContainer{
+                    width: 37.15vw;
+                    height: 764px;
+                    img{
+                        width: 37.15vw
+                        ;
+                    }
+                }
+                &_left-Dashed-Line{
+                    position: absolute;
+                    height: 102px;
+                    width: 18.06vw;
+                    top: 485px;
+                    left: 0.9vw;
+                    z-index: -1;
+                }
+                &_right-Dashed-Line{
+                    position: absolute;
+                    height: 101px;
+                    width: 18.75vw;
+                    top: 498px;
+                    left: 75vw;
+                }
+            }
+        }
+    }
+    span{
+        color: #1090CB;
+    }
+}
+@media (max-width:1024px){
+    .section-6{
+        width: 100vw;
+        &_blueBackground{
+            position: relative;
+            @include justifyAndAlign(null,center);
+            flex-direction: column;
+            @include widthAndHeight(100vw,743px);
+            background: rgba(16, 144, 203, 0.10);
+            &_upContainer{
+                @include widthAndHeight(42.97vw,331px);
+                margin-top: 104px;
+                @include justifyAndAlign(space-between,center);
+                flex-direction: column;
+                &_speakerCircle{
+                    @include widthAndHeight(13.18vw,135px);
+                    background: #fff;
+                    border-radius: 24.34vw;
+                    @include justifyAndAlign(center,center);
+                    &_img{
+                        @include widthAndHeight(7.13vw,73px);
+                    }
+                }
+                &_textContent{
+                    @include widthAndHeight(42.97vw,178px);
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    @include justifyAndAlign(space-between, null);
+                    h3{
+                        @include text(500,4.88vw);
+                    }
+                    p{
+                        @include text(400,1.76vw);
+                        line-height: 174%;
+                        color: #696969;
+                    }
+                }
+            }
+            &_Services{
+                position: absolute;
+                top: 531px;
+                left: 4.98vw;
+                @include justifyAndAlign(center,center);
+                @include widthAndHeight(89.06vw,334px);
+                background: #FFFFFF;
+                box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+                &_UpImg{
+                    position: absolute;
+                    height: 106px;
+                    width: 16.15vw;
+                    bottom: 357px;
+                    left: 71.04vw ;
+                }
+                &_ItemContainer{
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    @include widthAndHeight(74.33vw,220px);
+                    &_horizontalLine{
+                        position: absolute;
+                        @include widthAndHeight(64.78vw,1px);
+                        top: 100px;
+                        left: 4.3vw;
+                        background: #D2D2D2;
+                    }
+                    &_verticalLine{
+                        position: absolute;
+                        @include widthAndHeight(0.052vw,223px);
+                        left: 36.94vw;
+                        top: 6px;
+                        background: #D2D2D2;
+                    }
+                }
+                &_item{
+                    @include widthAndHeight(32.15vw,90px);
+                    list-style: none;
+                    @include justifyAndAlign(space-between,center);
+                    &_mobileBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(8.70vw,90px);
+                        background: #F1E8FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.05vw,35px);
+                        }
+                    }
+                    &_MobileTextContainer{
+                        @include widthAndHeight(22.05vw,72px); 
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        padding-top: 0;
+                        h3{
+                            @include text(500,1.95vw)
+                        }
+                        p{
+                            @include text(400,0.98vw);
+                            line-height: 178%;
+                            width: 22.43vw;
+                            color: #797979;
+                        }
+                    }
+                    &_WebApplicationBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(8.70vw,90px);
+                        background: #FFF2F2;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(4.00vw,41px)
+                        }
+                    }
+                    &_ApplicationTextContainer{
+                        @include widthAndHeight(22.05vw,72px);
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        padding-top: 0;
+                        h3{
+                            @include text(500, 1.95vw);
+                            width:16.54vw ;
+                        }
+                        p{ 
+                            @include text(400,0.98vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_SeoBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(8.79vw,90px);
+                        background: #E2F3FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(3.91vw,40px)
+                        }
+                    }
+                    &_SeoTextContainer{
+                        @include widthAndHeight(22.05vw,72px);   
+                        padding-top: 0;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.95vw)
+                        }
+                        p{ 
+                            width: 15.08vw;
+                            @include text(400,0.98vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_VrBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(8.79vw,90px);
+                        background: #FFE7FB;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(3.22vw,33px)
+                        }
+                    }
+                    &_VrTextContainer{
+                        @include widthAndHeight(19.92vw,73px);   
+                        padding-top: 0  ;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.95vw)
+                        }
+                        p{ 
+                            @include text(400,0.98vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                }
+            }
+        }
+        &_whiteContainer{
+            width: 100vw;
+            height: 1030px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &_Content{
+                width: 87.60vw;
+                height: 805px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding-top: 90px;
+                &_TextAndButton{
+                    width: 58.20vw;
+                    height: 806px;
+                    @include justifyAndAlign(space-between,null);
+                    flex-direction: column;
+                    h3{
+                        @include text(600,3.91vw);
+                        line-height: 170%;
+                    }
+                    &_list{
+                        width: 28.49vw;
+                        height: 435px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+
+                        &_Item{
+                            @include text(400, 1.56vw);
+                            line-height: 180%;
+                            list-style: none;
+                        }
+                    }
+                    &_Button{
+                        width: 24.41vw;
+                        height: 51px;
+                        border-radius: 10px;
+                        border-color: #1090CB;
+                        background: #fff;
+                        @include text(400, 2.34vw);
+                        color: #1090CB;
+                    }
+                }
+                &_imgContainer{
+                    position: absolute;
+                    top: 248px;
+                    left: 34.11vw;
+                    width: 47.56vw;
+                    height: 447px;
+                    img{
+                        width: 47.56vw;
+                    }
+                }
+                &_left-Dashed-Line{
+                    position: absolute;
+                    height: 119px;
+                    width: 20.91vw; // непонятна ширина
+                    top: 763px;
+                    left: 9.9vw;
+                    z-index: -1;
+                }
+                &_right-Dashed-Line{
+                    position: absolute;
+                    height: 86px;
+                    width: 24.72vw;
+                    top: 641px;
+                    left: 59vw;
+                }
+            }
+        }
+    }
+    span{
+        color: #1090CB;
+    }
+}
+@media (max-width:768px){
+    .section-6{
+        width: 100vw;
+        &_blueBackground{
+            position: relative;
+            @include justifyAndAlign(null,center);
+            flex-direction: column;
+            @include widthAndHeight(100vw,799px);
+            background: rgba(16, 144, 203, 0.10);
+            &_upContainer{
+                @include widthAndHeight(51.56vw,369px);
+                margin-top: 104px;
+                @include justifyAndAlign(space-between,center);
+                flex-direction: column;
+                &_speakerCircle{
+                    @include widthAndHeight(24.34vw,187px);
+                    background: #fff;
+                    border-radius: 50%; 
+                    @include justifyAndAlign(center,center);
+                    &_img{
+                        @include widthAndHeight(13.14vw,101px);
+                    }
+                }
+                &_textContent{
+                    @include widthAndHeight(51.56vw,168px);
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    @include justifyAndAlign(space-between, null);
+                    h3{
+                        @include text(500,6.51vw);
+                    }
+                    p{
+                        @include text(400,2.34vw);
+                        line-height: 175%;
+                        color: #696969;
+                    }
+                }
+            }
+            &_Services{
+                position: absolute;
+                top: 531px;
+                left: 4.98vw;
+                @include justifyAndAlign(center,center);
+                @include widthAndHeight(89.06vw,404px);
+                background: #FFFFFF;
+                box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+                &_ItemContainer{
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    @include widthAndHeight(80.02vw,269px);
+                    &_horizontalLine{
+                        position: absolute;
+                        @include widthAndHeight(64.67vw,1px);
+                        top: 120px;
+                        left: 7.55vw;
+                        background: #D2D2D2;
+                    }
+                    &_verticalLine{
+                        position: absolute;
+                        @include widthAndHeight(0.052vw,269px);
+                        left: 40.10vw;
+                        top: 0px;
+                        background: #D2D2D2;
+                    }
+                }
+                &_item{
+                    @include widthAndHeight(38.37vw,104px);
+                    list-style: none;
+                    @include justifyAndAlign(space-between,center);
+                    &_mobileBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(13.02vw,100px);
+                        background: #F1E8FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(3.51vw,45px);
+                        }
+                    }
+                    &_MobileTextContainer{
+                        @include widthAndHeight(22.36vw,102px); 
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        padding-top: 0;
+                        h3{
+                            @include text(500,2.60vw)
+                        }
+                        p{
+                            @include text(400,1.30vw);
+                            line-height: 178%;
+                            width: 22.43vw;
+                            color: #797979;
+                        }
+                    }
+                    &_WebApplicationBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(13.02vw,100px);
+                        background: #FFF2F2;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(5.85vw,45px)
+                        }
+                    }
+                    &_ApplicationTextContainer{
+                        @include widthAndHeight(22.77vw,79px);
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        padding-top: 0;
+                        h3{
+                            @include text(500, 2.60vw)
+                        }
+                        p{ 
+                            @include text(400,1.30vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_SeoBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(13.02vw,100px);
+                        background: #E2F3FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(5.73vw,44px)
+                        }
+                    }
+                    &_SeoTextContainer{
+                        @include widthAndHeight(22.36vw,73px);   
+                        padding-top: 0;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 2.60vw)
+                        }
+                        p{ 
+                            width: 15.08vw;
+                            @include text(400,1.30vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_VrBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(13.02vw,100px);
+                        background: #FFE7FB;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(4.69vw,36px)
+                        }
+                    }
+                    &_VrTextContainer{
+                        @include widthAndHeight(22.36vw,88px);   
+                        padding-top: 0  ;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            width: 12.36vw;
+                            @include text(500, 2.60vw);
+                            line-height: 113%
+                        }
+                        p{ 
+                            @include text(400,1.30vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                }
+            }
+        }
+        &_whiteContainer{
+            width: 100vw;
+            height: 1088px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &_Content{
+                width: 85.03vw;
+                height: 799px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding-top: 90px;
+                &_TextAndButton{
+                    width: 81.64vw;
+                    height: 799px;
+                    @include justifyAndAlign(space-between,null);
+                    flex-direction: column;
+                    h3{
+                        @include text(600,5.21vw);
+                        line-height: 170%;
+                    }
+                    &_list{
+                        width: 81.64vw;
+                        height: 444px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+
+                        &_Item{
+                            @include text(400, 2.08vw);
+                            line-height: 180%;
+                            list-style: none;
+                        }
+                    }
+                    &_Button{
+                        width: 36.06vw;
+                        height: 73px;
+                        border-radius: 10px;
+                        border-color: #1090CB;
+                        background: none;
+                        @include text(400, 2.34vw);
+                        color: #1090CB;
+                    }
+                }
+                &_imgContainer{
+                    position: absolute;
+                    top: 248px;
+                    left: 34.11vw;
+                    width: 47.56vw;
+                    height: 447px;
+                    img{
+                        width: 47.56vw;
+                    }
+                }
+                &_left-Dashed-Line{
+                    position: absolute;
+                    min-height: 85px;
+                    width: 24.74vw; // непонятна ширина
+                    top: 382px;
+                    left:18.74vw;
+                    z-index: -1;
+                }
+                &_right-Dashed-Line{
+                    position: absolute;
+                    height: 40px;
+                    width: 11.72vw;
+                    top: 719px;
+                    left: 78vw;
+                }
+            }
+        }
+    }
+    span{
+        color: #1090CB;
+    }
+    .first{
+        width: 27.20vw;
+    }
+}
+@media (max-width:320px){
+    .section-6{
+        width: 100vw;
+        &_blueBackground{
+            position: relative;
+            @include justifyAndAlign(null,center);
+            flex-direction: column;
+            @include widthAndHeight(100vw,313px);
+            background: rgba(16, 144, 203, 0.10);
+            &_upContainer{
+                @include widthAndHeight(60.31vw ,180px);
+                margin-top: 26px;
+                @include justifyAndAlign(space-between,center);
+                flex-direction: column;
+                &_speakerCircle{
+                    @include widthAndHeight(28.44vw,91px);
+                    background: #fff;
+                    border-radius: 50%; 
+                    @include justifyAndAlign(center,center);
+                    &_img{
+                        @include widthAndHeight(15.31vw,49px);
+                    }
+                }
+                &_textContent{
+                    @include widthAndHeight(60.31vw,82px);
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    @include justifyAndAlign(space-between, null);
+                    h3{
+                        @include text(500,6.51vw);
+                    }
+                    p{
+                        @include text(400,2.34vw);
+                        line-height: 175%;
+                        color: #696969;
+                    }
+                }
+            }
+            &_Services{
+                position: absolute;
+                top: 238px;
+                left: 4.98vw;
+                @include justifyAndAlign(center,center);
+                @include widthAndHeight(89.06vw,119px);
+                background: #FFFFFF;
+                box-shadow: 0px 4px 114px 0px rgba(0, 0, 0, 0.09);
+                &_UpImg{
+                    position: absolute;
+                    height: 40px;
+                    width: 14.69vw;
+                    bottom: 99px;
+                    left: 67.04vw ;
+                }
+                &_ItemContainer{
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    @include widthAndHeight(75.94vw,83px);
+                    &_horizontalLine{
+                        position: absolute;
+                        @include widthAndHeight(64.69vw,1px);
+                        top: 35px;
+                        left: 7.55vw;
+                        background: #D2D2D2;
+                    }
+                    &_verticalLine{
+                        position: absolute;
+                        @include widthAndHeight(0.31vw,83px);
+                        left: 37.1vw;
+                        top: 0px;
+                        background: #D2D2D2;
+                    }
+                }
+                &_item{
+                    @include widthAndHeight(35.63vw,28px);
+                    list-style: none;
+                    @include justifyAndAlign(space-between,center);
+                    &_mobileBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(9.38vw,28px);
+                        background: #F1E8FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(2.5vw,13px);
+                        }
+                    }
+                    &_MobileTextContainer{
+                        @include widthAndHeight(22.5vw,21px); 
+                        padding-top: 14px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        padding-top: 0;
+                        h3{
+                            @include text(500,1.875vw);
+                        }
+                        p{
+                            @include text(400,1.25vw);
+                            line-height: 178%;
+                            width: 22.5vw;
+                            color: #797979;
+                        }
+                    }
+                    &_WebApplicationBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(9.375vw,28px);
+                        background: #FFF2F2;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(4.6875vw,14px)
+                        }
+                    }
+                    &_ApplicationTextContainer{
+                        @include widthAndHeight(22.5vw,21px);
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        padding-top: 0;
+                        h3{
+                            @include text(500, 1.875vw);
+                        }
+                        p{ 
+                            @include text(400,1.25vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_SeoBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(9.375vw,28px);
+                        background: #E2F3FF;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(5.625vw,14px)
+                        }
+                    }
+                    &_SeoTextContainer{
+                        @include widthAndHeight(22.5vw,22px);   
+                        padding-top: 0;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.875vw)
+                        }
+                        p{ 
+                            width: 15.08vw;
+                            @include text(400,1.25vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                    &_VrBg{
+                        @include justifyAndAlign(center,center);
+                        @include widthAndHeight(9.375vw,28px);
+                        background: #FFE7FB;
+                        border-radius: 20px;
+                        &_img{
+                            @include widthAndHeight(4.6875vw,11px)
+                        }
+                    }
+                    &_VrTextContainer{
+                        @include widthAndHeight(22.19vw,20px);   
+                        padding-top: 0  ;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+                        h3{
+                            @include text(500, 1.875vw);
+                        }
+                        p{ 
+                            @include text(400,1.25vw);
+                            line-height: 178%;
+                            color: #797979;
+                        }
+                    }
+                }
+            }
+        }
+        &_whiteContainer{
+            width: 100vw;
+            height: 584px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &_Content{
+                width: 84.69vw;
+                height: 466px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding-top: 0;
+                &_TextAndButton{
+                    width: 84.69vw;
+                    height: 466px;
+                    @include justifyAndAlign(space-between,null);
+                    flex-direction: column;
+                    align-items: center;
+                    h3{
+                        @include text(600,5.21vw);
+                        line-height: 170%;
+                    }
+                    &_list{
+                        width: 81.64vw;
+                        height: 294px;
+                        @include justifyAndAlign(space-between,null);
+                        flex-direction: column;
+
+                        &_Item{
+                            @include text(400, 2.08vw);
+                            line-height: 180%;
+                            list-style: none;
+                        }
+                    }
+                    &_Button{
+                        width: 75.94vw;
+                        height: 41px;
+                        border-radius: 10px;
+                        border-color: #1090CB;
+                        background: none;
+                        @include text(400, 6.25vw);
+                        color: #1090CB;
+                    }
+                }
+                &_imgContainer{
+                    position: absolute;
+                    top: 185px;
+                    left: 15vw;
+                    width: 56.88vw;
+                    height: 157px;
+                    img{
+                        width: 47.56vw;
+                    }
+                }
+                &_left-Dashed-Line{
+                    position: absolute;
+                    height: 56px;
+                    width: 39.0625vw;
+                    top: 416px;
+                    left:53.74vw;
+                    z-index: -1;
+                }
+                &_right-Dashed-Line{
+                    position: absolute;
+                    height: 30px;
+                    width: 20.9375vw;
+                    top: 311px;
+                    left: 56vw;
+                }
+            }
+        }
+    }
+    span{
+        color: #1090CB;
+    }
+    .first{
+        width: 78.13vw;
     }
 }
