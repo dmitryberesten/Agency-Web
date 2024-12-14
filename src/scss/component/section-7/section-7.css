@@ -8,7 +8,7 @@
   color: #fff;
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 2000px) {
   .stats-section-7 {
     background-color: #1090CB;
     display: flex;
