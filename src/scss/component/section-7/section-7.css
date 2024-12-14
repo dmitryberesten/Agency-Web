@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .stats-section-7 {
   background-color: #1090CB;
   display: flex;
@@ -8,7 +9,7 @@
   color: #fff;
 }
 
-@media (max-width: 2000px) {
+@media (min-width: 1920px) {
   .stats-section-7 {
     background-color: #1090CB;
     display: flex;
@@ -19,33 +20,33 @@
     color: #fff;
     max-width: 1916.03px;
     width: 100%;
-    height: 388px;
+    height: 20.21vw; /* Переведено з 388px */
     gap: 0px;
     opacity: 0px;
   }
   .h2-section-7 {
     display: flex;
     justify-content: center;
-    width: 215px;
-    height: 116px;
+    width: 11.2vw; /* Переведено з 215px */
+    height: 6.04vw; /* Переведено з 116px */
     font-family: "Poppins";
-    font-size: 65px;
+    font-size: 3.39vw; /* Переведено з 65px */
     font-weight: 600;
-    line-height: 115.64px;
+    line-height: 6.02vw; /* Переведено з 115.64px */
     letter-spacing: 0.01em;
     margin: 0 auto;
   }
   .p-section-7 {
-    width: 215px;
-    height: 28px;
+    width: 11.2vw; /* Переведено з 215px */
+    height: 1.46vw; /* Переведено з 28px */
     display: flex;
     justify-content: center;
     gap: 0px;
     opacity: 0px;
     font-family: "Poppins";
-    font-size: 16px;
+    font-size: 0.83vw; /* Переведено з 16px */
     font-weight: 400;
-    line-height: 28.46px;
+    line-height: 1.48vw; /* Переведено з 28.46px */
     letter-spacing: 0.01em;
     -webkit-text-decoration-skip-ink: none;
             text-decoration-skip-ink: none;
@@ -55,18 +56,79 @@
   }
   .decoration-section-7.succulent {
     position: absolute;
-    width: 137.05px;
-    height: 103px;
-    left: 411px;
-    top: 335px;
+    width: 7.14vw; /* Переведено з 137.05px */
+    height: 5.37vw; /* Переведено з 103px */
+    left: 21.41vw; /* Переведено з 411px */
+    top: 17.45vw; /* Переведено з 335px */
   }
   .decoration-section-7.bell {
     position: absolute;
-    width: 147.15px;
-    height: 115.14px;
-    transform: rotate(-11.44 deg);
-    right: 208.5px;
-    top: -65px;
+    width: 7.67vw; /* Переведено з 147.15px */
+    height: 6vw; /* Переведено з 115.14px */
+    transform: rotate(-11.44deg);
+    right: 10.87vw; /* Переведено з 208.5px */
+    top: -3.39vw; /* Переведено з -65px */
+  }
+}
+@media (max-width: 1920px) {
+  .stats-section-7 {
+    background-color: #1090CB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    position: relative;
+    color: #fff;
+    max-width: 1916.03px;
+    width: 100%;
+    height: 20.21vw; /* Переведено з 388px */
+    gap: 0px;
+    opacity: 0px;
+  }
+  .h2-section-7 {
+    display: flex;
+    justify-content: center;
+    width: 11.2vw; /* Переведено з 215px */
+    height: 6.04vw; /* Переведено з 116px */
+    font-family: "Poppins";
+    font-size: 3.39vw; /* Переведено з 65px */
+    font-weight: 600;
+    line-height: 6.02vw; /* Переведено з 115.64px */
+    letter-spacing: 0.01em;
+    margin: 0 auto;
+  }
+  .p-section-7 {
+    width: 11.2vw; /* Переведено з 215px */
+    height: 1.46vw; /* Переведено з 28px */
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Poppins";
+    font-size: 0.83vw; /* Переведено з 16px */
+    font-weight: 400;
+    line-height: 1.48vw; /* Переведено з 28.46px */
+    letter-spacing: 0.01em;
+    -webkit-text-decoration-skip-ink: none;
+            text-decoration-skip-ink: none;
+  }
+  .stat-item-section-7 {
+    display: block;
+  }
+  .decoration-section-7.succulent {
+    position: absolute;
+    width: 7.14vw; /* Переведено з 137.05px */
+    height: 5.37vw; /* Переведено з 103px */
+    left: 21.41vw; /* Переведено з 411px */
+    top: 17.45vw; /* Переведено з 335px */
+  }
+  .decoration-section-7.bell {
+    position: absolute;
+    width: 7.67vw; /* Переведено з 147.15px */
+    height: 6vw; /* Переведено з 115.14px */
+    transform: rotate(-11.44deg);
+    right: 10.87vw; /* Переведено з 208.5px */
+    top: -3.39vw; /* Переведено з -65px */
   }
 }
 @media (max-width: 1440px) {
@@ -74,66 +136,60 @@
     background-color: #1090CB;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 50px 0;
     position: relative;
     color: #fff;
-    max-width: 1440px;
+    max-width: 1916.03px;
     width: 100%;
-    height: 388px;
+    height: 20.21vw; /* Переведено з 388px */
     gap: 0px;
     opacity: 0px;
   }
   .h2-section-7 {
     display: flex;
     justify-content: center;
-    width: 215px;
-    height: 116px;
-    gap: 0px;
-    opacity: 0px;
+    width: 11.2vw; /* Переведено з 215px */
+    height: 6.04vw; /* Переведено з 116px */
     font-family: "Poppins";
-    font-size: 65px;
+    font-size: 3.39vw; /* Переведено з 65px */
     font-weight: 600;
-    line-height: 115.64px;
+    line-height: 6.02vw; /* Переведено з 115.64px */
     letter-spacing: 0.01em;
-    text-align: center;
-    justify-content: center;
+    margin: 0 auto;
   }
   .p-section-7 {
+    width: 11.2vw; /* Переведено з 215px */
+    height: 1.46vw; /* Переведено з 28px */
     display: flex;
     justify-content: center;
-    width: 215px;
-    height: 28px;
     gap: 0px;
     opacity: 0px;
     font-family: "Poppins";
-    font-size: 16px;
+    font-size: 0.83vw; /* Переведено з 16px */
     font-weight: 400;
-    line-height: 28.46px;
+    line-height: 1.48vw; /* Переведено з 28.46px */
     letter-spacing: 0.01em;
-    text-align: center;
     -webkit-text-decoration-skip-ink: none;
             text-decoration-skip-ink: none;
   }
   .stat-item-section-7 {
     display: block;
-    align-items: center;
   }
   .decoration-section-7.succulent {
     position: absolute;
-    width: 103px;
-    height: 103px;
-    gap: 0px;
-    opacity: 0px;
-    left: 321px;
-    top: 335px;
+    width: 7.14vw; /* Переведено з 137.05px */
+    height: 5.37vw; /* Переведено з 103px */
+    left: 21.41vw; /* Переведено з 411px */
+    top: 17.45vw; /* Переведено з 335px */
   }
   .decoration-section-7.bell {
     position: absolute;
-    width: 112.26px;
-    height: 112.26px;
-    transform: rotate(-15.07 deg);
-    right: 154px;
-    top: -65px;
+    width: 7.67vw; /* Переведено з 147.15px */
+    height: 6vw; /* Переведено з 115.14px */
+    transform: rotate(-11.44deg);
+    right: 10.87vw; /* Переведено з 208.5px */
+    top: -3.39vw; /* Переведено з -65px */
   }
 }
 @media (max-width: 1024px) {
@@ -142,29 +198,28 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0;
+    padding: 4.88vw 0; /* Переведено з 50px */
     position: relative;
     color: #fff;
-    max-width: 1024px;
+    max-width: 100vw; /* Переведено з 1024px */
     width: 100%;
-    height: 293px;
+    height: 28.62vw; /* Переведено з 293px */
     gap: 0px;
     opacity: 0px;
   }
   .h2-section-7 {
     display: flex;
     justify-content: center;
-    width: 42px;
-    height: 116px;
+    width: 4.1vw; /* Переведено з 42px */
+    height: 11.33vw; /* Переведено з 116px */
     gap: 0px;
     opacity: 0px;
     font-family: "Poppins";
-    font-size: 65px;
+    font-size: 6.35vw; /* Переведено з 65px */
     font-weight: 600;
-    line-height: 115.64px;
+    line-height: 11.29vw; /* Переведено з 115.64px */
     letter-spacing: 0.01em;
     text-align: center;
-    justify-content: center;
   }
   .stat-item-section-7 {
     display: block;
@@ -173,14 +228,14 @@
   .p-section-7 {
     display: flex;
     justify-content: center;
-    width: 114px;
-    height: 28px;
+    width: 11.13vw; /* Переведено з 114px */
+    height: 2.73vw; /* Переведено з 28px */
     gap: 0px;
     opacity: 0px;
     font-family: "Poppins";
-    font-size: 16px;
+    font-size: 1.56vw; /* Переведено з 16px */
     font-weight: 400;
-    line-height: 28.46px;
+    line-height: 2.78vw; /* Переведено з 28.46px */
     letter-spacing: 0.01em;
     text-align: center;
     -webkit-text-decoration-skip-ink: none;
@@ -188,22 +243,22 @@
   }
   .decoration-section-7.succulent {
     position: absolute;
-    width: 125px;
-    height: 108px;
+    width: 12.21vw; /* Переведено з 125px */
+    height: 10.55vw; /* Переведено з 108px */
     gap: 0px;
     opacity: 0px;
-    left: 159px;
-    top: 230px;
+    left: 15.53vw; /* Переведено з 159px */
+    top: 22.46vw; /* Переведено з 230px */
   }
   .decoration-section-7.bell {
     position: absolute;
-    width: 108.92px;
-    height: 126.1px;
+    width: 10.64vw; /* Переведено з 108.92px */
+    height: 12.31vw; /* Переведено з 126.1px */
     gap: 0px;
     opacity: 0px;
-    transform: rotate(-15.07 deg);
-    right: 79.5px;
-    top: -65px;
+    transform: rotate(-15.07deg);
+    right: 7.76vw; /* Переведено з 79.5px */
+    top: -6.35vw; /* Переведено з -65px */
   }
 }
 @media (max-width: 768px) {
@@ -212,28 +267,27 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0;
+    padding: 6.53vw 0; /* Переведено з 50px */
     position: relative;
     color: #fff;
-    max-width: 766px;
-    height: 263px;
+    max-width: 100vw; /* Переведено з 766px */
+    height: 34.34vw; /* Переведено з 263px */
     gap: 0px;
     opacity: 0px;
   }
   .h2-section-7 {
     display: flex;
     justify-content: center;
-    width: 37px;
-    height: 89px;
+    width: 4.83vw; /* Переведено з 37px */
+    height: 11.62vw; /* Переведено з 89px */
     gap: 0px;
     opacity: 0px;
     font-family: "Poppins";
-    font-size: 50px;
+    font-size: 6.53vw; /* Переведено з 50px */
     font-weight: 600;
-    line-height: 88.95px;
+    line-height: 11.61vw; /* Переведено з 88.95px */
     letter-spacing: 0.01em;
     text-align: center;
-    justify-content: center;
   }
   .stat-item-section-7 {
     display: block;
@@ -242,14 +296,14 @@
   .p-section-7 {
     display: flex;
     justify-content: center;
-    width: 161px;
-    height: 28px;
+    width: 21.02vw; /* Переведено з 161px */
+    height: 3.65vw; /* Переведено з 28px */
     gap: 0px;
     opacity: 0px;
     font-family: "Poppins";
-    font-size: 16px;
+    font-size: 2.09vw; /* Переведено з 16px */
     font-weight: 400;
-    line-height: 28.46px;
+    line-height: 3.71vw; /* Переведено з 28.46px */
     letter-spacing: 0.01em;
     text-align: center;
     -webkit-text-decoration-skip-ink: none;
@@ -257,22 +311,22 @@
   }
   .decoration-section-7.succulent {
     position: absolute;
-    width: 80.79px;
-    height: 108px;
+    width: 10.55vw; /* Переведено з 80.79px */
+    height: 14.1vw; /* Переведено з 108px */
     gap: 0px;
     opacity: 0px;
-    left: 120px;
-    top: 205px;
+    left: 15.66vw; /* Переведено з 120px */
+    top: 26.77vw; /* Переведено з 205px */
   }
   .decoration-section-7.bell {
     position: absolute;
-    width: 105.62px;
-    height: 124.21px;
+    width: 13.79vw; /* Переведено з 105.62px */
+    height: 16.22vw; /* Переведено з 124.21px */
     gap: 0px;
     opacity: 0px;
-    transform: rotate(-19.79 deg);
-    right: 61px;
-    top: -65px;
+    transform: rotate(-19.79deg);
+    right: 7.97vw; /* Переведено з 61px */
+    top: -8.49vw; /* Переведено з -65px */
   }
 }
 @media (max-width: 320px) {
@@ -281,25 +335,25 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0;
+    padding: 15.63vw 0; /* Переведено з 50px */
     position: relative;
     color: #fff;
-    max-width: 319.87px;
-    height: 142.73px;
+    max-width: 100vw; /* Переведено з 319.87px */
+    height: 44.62vw; /* Переведено з 142.73px */
     gap: 0px;
     opacity: 0px;
   }
   .p-section-7 {
     display: flex;
     justify-content: center;
-    width: 50px;
-    height: 6.02px;
+    width: 15.63vw; /* Переведено з 50px */
+    height: 1.88vw; /* Переведено з 6.02px */
     gap: 0px;
     opacity: 0px;
     font-family: "Poppins";
-    font-size: 4px;
+    font-size: 1.25vw; /* Переведено з 4px */
     font-weight: 400;
-    line-height: 7.12px;
+    line-height: 2.23vw; /* Переведено з 7.12px */
     letter-spacing: 0.01em;
     text-align: center;
     -webkit-text-decoration-skip-ink: none;
@@ -308,14 +362,14 @@
   .h2-section-7 {
     display: flex;
     justify-content: center;
-    width: 25px;
-    height: 41.28px;
+    width: 7.81vw; /* Переведено з 25px */
+    height: 12.91vw; /* Переведено з 41.28px */
     gap: 0px;
     opacity: 0px;
     font-family: "Poppins";
-    font-size: 25px;
+    font-size: 7.81vw; /* Переведено з 25px */
     font-weight: 600;
-    line-height: 48.03px;
+    line-height: 15.02vw; /* Переведено з 48.03px */
     letter-spacing: 0.01em;
     text-align: center;
     -webkit-text-decoration-skip-ink: none;
@@ -327,21 +381,21 @@
   }
   .decoration-section-7.succulent {
     position: absolute;
-    width: 33.74px;
-    height: 52.61px;
+    width: 10.55vw; /* Переведено з 33.74px */
+    height: 16.44vw; /* Переведено з 52.61px */
     gap: 0px;
     opacity: 0px;
-    left: 50px;
-    top: 114px;
+    left: 15.63vw; /* Переведено з 50px */
+    top: 35.63vw; /* Переведено з 114px */
   }
   .decoration-section-7.bell {
     position: absolute;
-    width: 43.61px;
-    height: 42.84px;
+    width: 13.63vw; /* Переведено з 43.61px */
+    height: 13.39vw; /* Переведено з 42.84px */
     gap: 0px;
     opacity: 0px;
-    transform: rotate(-22.77 deg);
-    right: 27.5px;
-    top: -23px;
+    transform: rotate(-22.77deg);
+    right: 8.6vw; /* Переведено з 27.5px */
+    top: -7.19vw; /* Переведено з -23px */
   }
 }/*# sourceMappingURL=section-7.css.map */
