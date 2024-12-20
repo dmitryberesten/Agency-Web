@@ -151,14 +151,7 @@ $color-blue: #1090cb;
 
 // adaptive
 
-$breakpoint-mobile: 320px;
-$breakpoint-tablet: 768px;
-$breakpoint-netbook: 1024px;
-$breakpoint-desktop: 1440px;
-$breakpoint-monitor: 1920px;
-
 // TODO mobile
-
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .container {
     width: 90%;
@@ -246,17 +239,25 @@ $breakpoint-monitor: 1920px;
   }
 
   .phone-img {
+    display: block;
     width: 100vw;
     height: 290px;
-    top: 300px;
-    right: 0px;
+    top: 100vw;
+    left: 0vw;
+    // left: -60px;
+    // top: 300px;
+    // right: 0px;
   }
 
   .layers-img {
+    display: block;
     width: 100vw;
     height: 304px;
-    top: 300px;
-    right: 0px;
+    // top: 100px;
+    top: 100vw;
+    // left: -80px;
+    // top: 300px;
+    // right: 0px;
   }
 
   .vr-dude-img {
@@ -380,7 +381,6 @@ $breakpoint-monitor: 1920px;
 }
 
 // TODO netbook
-
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   .container {
     min-width: 90%;
@@ -485,7 +485,6 @@ $breakpoint-monitor: 1920px;
 }
 
 // TODO desktop
-
 @media screen and (min-width: 1440px) and (max-width: 1920px) {
   .container {
     width: 85%;
@@ -588,7 +587,6 @@ $breakpoint-monitor: 1920px;
 }
 
 // TODO monitor
-
 @media screen and (min-width: 1920px) {
   .container {
     width: 80%;
