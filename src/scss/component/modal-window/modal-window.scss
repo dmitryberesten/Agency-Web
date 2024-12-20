@@ -1,470 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oi&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yuji+Mai&display=swap');
+
+// === FONTS
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1920px) {
-  .modalSection {
+  section {
     width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* затемнение */
+    height: 1365px;
+    z-index: 5001;
 
-    z-index: 1000; /* чтобы перекрывать другие элементы */
-  }
-  .modal {
-    width: 1600px;
-    height: 1055px;
-    top: 155px;
-    left: 160px;
-    gap: 0px;
-    border-radius: 37px;
-    background: rgba(255, 255, 255, 1);
-    background-image: url(../../../img/modalwindow/Intersect.png),
-      url(../../../img/modalwindow/Intersect-1.png);
-    background-repeat: no-repeat;
-    background-position-x: left, right;
-    background-position-y: bottom;
+    overflow: hidden;
+
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 
-    position: fixed;
-    z-index: 10;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    .modalsLeft {
-      margin-top: 50px;
+    .pop-up {
+      position: relative;
+
+      width: 1600px;
+      height: 1005px;
+      z-index: 9;
+
+      padding: 50px;
+
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+
+      border-radius: 37px;
+      background: #fff;
+      box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.25);
+
+      background-image: url(../../../img/modalwindow/hero-man.svg),
+        url(../../../img/modalwindow/desktop/left-vector.svg),
+        url(../../../img/modalwindow/desktop/right-vector.svg);
+
+      background-repeat: no-repeat;
+
+      background-position: 64px 263px, bottom left, bottom right;
     }
-    .divForm {
-      .modalForm {
-        height: 600px;
+    .modal-header {
+      width: 1492.365px;
+      height: 133.802px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+
+      .close {
+        width: 35px;
+        height: 35px;
+
+        background-color: transparent;
+        border: none;
+
+        cursor: pointer;
+      }
+    }
+    h1 {
+      color: #000;
+
+      font-family: Poppins;
+      font-size: 80px;
+      font-weight: 600;
+      line-height: 204.3%;
+
+      position: absolute;
+      top: 161px;
+      left: 120px;
+    }
+    form {
+      position: absolute;
+      bottom: 133px;
+      right: 129px;
+
+      width: 589px;
+      height: 758px;
+
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      .data {
+        width: 589px;
+        height: 625px;
+
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 200px;
+        flex-flow: column wrap;
         justify-content: space-between;
+        align-items: center;
 
         input {
-          display: flex;
           width: 589px;
-          height: 91px;
-          gap: 0px;
-          border-radius: 10px;
-          opacity: 0px;
-          border: 3px solid rgba(139, 146, 149, 1);
-          padding: 30px;
-          text-align: start !important;
-          position: relative;
-        }
-        input :active {
-          border: 3px solid rgba(19, 146, 203, 1);
-        }
-        label {
-          position: absolute;
-          top: 0;
-          left: 0;
-          transform: translateY(-50%);
-          transition: all 0.2s ease;
-          font-size: 16px;
-          visibility: hidden;
-          color: #888;
-        }
+          height: 81px;
 
-        input:focus + label,
-        input:not(:placeholder-shown) + label {
-          padding: 2px 5px;
-          top: 20px;
-          font-size: 12px;
-          visibility: visible;
-          color: rgba(19, 146, 203, 1);
-          border-radius: 5px;
-        }
-        .problem {
-          height: 200px;
-        }
-        .problem ::placeholder {
-          display: flex;
-        }
-        .sendUs {
-          width: 589px;
-          height: 91px;
-          top: 986px;
-          left: 1042px;
-          gap: 0px;
-          border: none;
-          border-radius: 10px;
-          opacity: 0px;
-          background: rgba(19, 146, 203, 1);
+          padding: 10px 30px;
+
+          color: #8b9295;
+
           font-family: Poppins;
           font-size: 40px;
           font-weight: 400;
-          line-height: 81.72px;
-          text-align: center;
-          text-underline-position: from-font;
-          text-decoration-skip-ink: none;
-          color: rgba(255, 255, 255, 1);
+          line-height: 204.3%;
+
+          border-radius: 10px;
+          border: 3px solid #8b9295;
         }
+        textarea {
+          width: 589px;
+          height: 333px;
+
+          padding: 10px 30px;
+
+          color: #8b9295;
+
+          font-family: Poppins;
+          font-size: 40px;
+          font-weight: 400;
+          line-height: 204.3%;
+
+          resize: none;
+
+          border-radius: 10px;
+          border: 3px solid #8b9295;
+        }
+
+        input:focus,
+        textarea:focus {
+          color: #1090cb;
+          border: 3px solid #1090cb;
+        }
+      }
+      .send-us {
+        width: 589px;
+        height: 91px;
+
+        color: #fff;
+
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 204.3%;
+
+        background: #1392cb;
+
+        border: none;
+        border-radius: 10px;
+
+        cursor: pointer;
+      }
+      .send-us:hover {
+        background: #1d7eab;
       }
     }
   }
 }
-
 @media (max-width: 1440px) {
-  .modal {
-    width: 1100px;
-    height: 1000px;
-    .modalsLeft {
-      margin-top: 50px;
+  section {
+    width: 100vw;
+    height: 100vh;
+    z-index: 5001;
 
-      h2 {
-        height: 123px;
-        top: 360px;
-        left: 249px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Poppins;
-        font-size: 60px;
-        font-weight: 600;
-        line-height: 122.58px;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .pop-up {
+      position: relative;
+
+      width: 1100px;
+      height: 1000px;
+
+      padding: 50px;
+
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+
+      border-radius: 37px;
+      background: #fff;
+      box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.25);
+
+      background-image: url(../../../img/modalwindow/hero-man.svg),
+        url(../../../img/modalwindow/desktop/left-vector.svg),
+        url(../../../img/modalwindow/desktop/right-vector.svg);
+
+      background-repeat: no-repeat;
+
+      background-size: 513px 627px, auto, auto;
+
+      background-position: 19px 281px, bottom left, bottom right;
+    }
+    .modal-header {
+      width: 1010px;
+      height: 95px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+
+      .close {
+        width: 25px;
+        height: 25px;
+
+        background-color: transparent;
+        border: none;
+
+        cursor: pointer;
       }
-
-      .image {
-        width: 513px;
+      .logo {
+        height: 95px;
       }
     }
-    .divForm {
-      .modalForm {
-        height: 735px;
+    h1 {
+      font-family: Poppins;
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 122.58px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    form {
+      position: absolute;
+      bottom: 126px;
+      right: 88px;
+
+      width: 405px;
+      height: 734.6px;
+
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      .data {
+        width: 405px;
+        height: 608.3px;
+
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 200px;
+        flex-flow: column wrap;
         justify-content: space-between;
-        margin-right: 10px;
+        align-items: center;
 
         input {
-          display: flex;
-          width: 404px;
-          height: 100px;
+          width: 405px;
+          height: 76.26px;
+
+          padding: 10px 30px;
+
+          color: #8b9295;
+
+          font-family: Poppins;
+          font-size: 30px;
+          font-weight: 400;
+          line-height: 61.29px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+
+          border-radius: 10px;
+          border: 3px solid #8b9295;
         }
-        input :active {
-          border: 3px solid rgba(19, 146, 203, 1);
-        }
-        label {
-          position: absolute;
-          top: 0;
-          left: 0;
-          transform: translateY(-50%);
-          transition: all 0.2s ease;
-          font-size: 16px;
-          visibility: hidden;
-          color: #888;
+        textarea {
+          width: 404.68px;
+          height: 325.12px;
+
+          padding: 10px 20px;
+
+          color: #8b9295;
+
+          font-family: Poppins;
+          font-size: 30px;
+          font-weight: 400;
+          line-height: 61.29px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+
+          resize: none;
+
+          border-radius: 10px;
+          border: 3px solid #8b9295;
         }
 
-        input:focus + label,
-        input:not(:placeholder-shown) + label {
-          padding: 2px 5px;
-          top: 20px;
-          font-size: 12px;
-          visibility: visible;
-          color: rgba(19, 146, 203, 1);
-          border-radius: 5px;
+        input:focus,
+        textarea:focus {
+          color: #1090cb;
+          border: 3px solid #1090cb;
         }
-        .problem {
-          height: 325px;
-        }
-        .problem ::placeholder {
-          display: flex;
-        }
-        .sendUs {
-          width: 404px;
-          height: 100px;
-        }
+      }
+      .send-us {
+        width: 404.68px;
+        height: 86.26px;
+
+        color: #fff;
+
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 204.3%;
+        line-height: 81.72px;
+
+        background: #1392cb;
+
+        border: none;
+        border-radius: 10px;
+
+        cursor: pointer;
+      }
+      .send-us:hover {
+        background: #1d7eab;
       }
     }
   }
 }
 @media (max-width: 1024px) {
-  .modal {
-    width: 800px;
-    height: 1000px;
+  section {
+    width: 100vw;
+    height: 100vh;
+    z-index: 5001;
 
-    .modalsLeft {
-      margin-top: 50px;
+    overflow: hidden;
 
-      h2 {
-        height: 123px;
-        top: 309px;
-        left: 178px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Poppins;
-        font-size: 60px;
-        font-weight: 600;
-        line-height: 122.58px;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .pop-up {
+      position: relative;
+
+      width: 800px;
+      height: 1000px;
+
+      padding: 50px;
+
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+
+      border-radius: 37px;
+      background: #fff;
+      box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.25);
+
+      background-image: url(../../../img/modalwindow/hero-man.svg),
+        url(../../../img/modalwindow/desktop/left-vector.svg),
+        url(../../../img/modalwindow/desktop/right-vector.svg);
+
+      background-repeat: no-repeat;
+
+      background-size: 415px 507px, auto, auto;
+
+      background-position: 0 310px, bottom left, bottom right;
+    }
+    .modal-header {
+      width: 722px;
+      height: 95px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+
+      .close {
+        width: 25px;
+        height: 25px;
+
+        background-color: transparent;
+        border: none;
+
+        cursor: pointer;
       }
-
-      .image {
-        width: 400px;
+      .logo {
+        height: 95px;
       }
     }
-    .divForm {
-      .modalForm {
+    h1 {
+      font-family: Poppins;
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 122.58px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+
+      left: 66px;
+    }
+    form {
+      position: absolute;
+      bottom: 126px;
+      right: 65px;
+
+      width: 294.54px;
+      height: 735.92px;
+
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      .data {
         width: 294.54px;
-        height: 735.92px;
+        height: 609.5px;
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
 
         input {
-          display: flex;
-          width: 294px;
-          height: 86px;
+          width: 294.32px;
+          height: 86.26px;
+
+          padding: 10px 20px;
+
+          color: #8b9295;
+
+          font-family: Poppins;
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 44.95px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+
+          border-radius: 10px;
+          border: 3px solid #8b9295;
         }
-        input :active {
-          border: 3px solid rgba(19, 146, 203, 1);
-        }
-        label {
-          position: absolute;
-          top: 0;
-          left: 0;
-          transform: translateY(-50%);
-          transition: all 0.2s ease;
-          font-size: 16px;
-          visibility: hidden;
-          color: #888;
+        textarea {
+          width: 294.32px;
+          height: 325.12px;
+
+          padding: 10px 20px;
+
+          color: #8b9295;
+
+          font-family: Poppins;
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 44.95px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+
+          resize: none;
+
+          border-radius: 10px;
+          border: 3px solid #8b9295;
         }
 
-        input:focus + label,
-        input:not(:placeholder-shown) + label {
-          padding: 2px 5px;
-          top: 20px;
-          font-size: 12px;
-          visibility: visible;
-          color: rgba(19, 146, 203, 1);
-          border-radius: 5px;
+        input:focus,
+        textarea:focus {
+          color: #1090cb;
+          border: 3px solid #1090cb;
         }
-        .problem {
-          height: 325px;
-        }
-        .problem ::placeholder {
-          display: flex;
-        }
-        .sendUs {
-          width: 294px;
-          height: 86px;
-        }
+      }
+      .send-us {
+        width: 294.32px;
+        height: 86.26px;
+
+        color: #fff;
+
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 61.29px;
+
+        background: #1392cb;
+
+        border: none;
+        border-radius: 10px;
+
+        cursor: pointer;
+      }
+      .send-us:hover {
+        background: #1d7eab;
       }
     }
   }
 }
-
 @media (max-width: 768px) {
-  .modal {
-    width: 578px;
-    height: 1028px;
+  section {
+    width: 100vw;
+    height: 100vh;
+    z-index: 5001;
+
+    background: none;
+
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    flex-flow: column nowrap;
     align-items: center;
+    .pop-up {
+      width: 577.86px;
+      height: 1028px;
 
-    .modalsLeft {
-      margin-top: 30px;
-      width: 530px;
+      padding: 20px 8px;
 
+      overflow: hidden;
+
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+
+      background: #ffffff;
+
+      background-image: url(../../../img/modalwindow/hero-man.svg),
+        url(../../../img/modalwindow/tablet/left-vector.svg),
+        url(../../../img/modalwindow/tablet/right-vector.svg);
+
+      background-repeat: no-repeat;
+
+      background-size: 326px 307px, auto, auto;
+
+      background-position: 111px 556px, bottom left, bottom right;
+
+      border: none;
+      border-radius: 37px;
+    }
+    .modal-header {
+      width: 521px;
+      height: 75px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
       .logo {
-        width: 90px;
+        width: 91px;
       }
+      .close {
+        width: 25px;
 
-      h2 {
-        height: 123px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Poppins;
-        font-size: 60px;
-        font-weight: 600;
-        line-height: 122.58px;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
+        background-color: transparent;
+        border: none;
 
-        margin-left: 90px;
-      }
-
-      .image {
-        width: 326px;
-        position: relative;
-        top: 300px;
-        margin-left: 90px;
+        cursor: pointer;
+        img {
+          width: 25px;
+        }
       }
     }
-    .divForm {
-      position: relative;
-      top: -600px;
-      .modalForm {
-        width: 294.54px;
-        height: 760px;
-        justify-content: start;
+    h1 {
+      display: flex;
+
+      color: #000;
+
+      font-family: Poppins;
+      font-size: 60px;
+      font-weight: 600;
+      line-height: 122.58px;
+
+      top: 86px;
+      left: 122px;
+    }
+    form {
+      width: 447.19px;
+      height: 759.87px;
+
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      top: 227px;
+
+      .data {
+        width: 447.19px;
+        height: 311px;
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
 
         input {
-          display: flex;
           width: 446.85px;
           height: 65.53px;
-          margin-bottom: 36px;
+
+          padding: 10px 20px;
+
+          color: #8b9295;
+
+          font-family: Poppins;
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 44.95px;
+
+          border-radius: 10px;
+          border: 1px solid #8b9295;
         }
-        input :active {
-          border: 3px solid rgba(19, 146, 203, 1);
-        }
-        label {
-          position: absolute;
-          top: 0;
-          left: 0;
-          transform: translateY(-50%);
-          transition: all 0.2s ease;
-          font-size: 16px;
-          visibility: hidden;
-          color: #888;
+        textarea {
+          width: 446.85px;
+          height: 93px;
+
+          padding: 10px 20px;
+
+          color: #8b9295;
+
+          font-family: Poppins;
+          font-size: 22px;
+          font-weight: 400;
+          line-height: 44.95px;
+
+          resize: none;
+
+          border-radius: 10px;
+          border: 1px solid #8b9295;
         }
 
-        input:focus + label,
-        input:not(:placeholder-shown) + label {
-          padding: 2px 5px;
-          top: 20px;
-          font-size: 12px;
-          visibility: visible;
-          color: rgba(19, 146, 203, 1);
-          border-radius: 5px;
+        input:focus,
+        textarea:focus {
+          color: #1090cb;
+          border: 1px solid #1090cb;
         }
-        .problem {
-          height: 93px;
-        }
-        .problem ::placeholder {
-          display: flex;
-        }
-        .sendUs {
-          width: 446.85px;
-          height: 86px;
-          margin-top: 350px;
-        }
+      }
+      .send-us {
+        width: 446.85px;
+        height: 88.67px;
+
+        color: #fff;
+
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 61.29px;
+
+        background: #1392cb;
+
+        border: none;
+        border-radius: 10px;
+
+        cursor: pointer;
+      }
+      .send-us:hover {
+        background: #1d7eab;
       }
     }
   }
 }
 @media (max-width: 320px) {
-  .modal {
+  section {
     width: 100vw;
     height: 100vh;
+    z-index: 5001;
+
+    background: none;
+
     display: flex;
-    flex-direction: column;
-    justify-content: start;
+    flex-flow: column nowrap;
     align-items: center;
-    border-radius: 0;
+    .pop-up {
+      width: 100vw;
+      height: 568px;
 
-    .modalsLeft {
-      width: 90vw;
+      padding: 20px 8px;
 
+      overflow: hidden;
+
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+
+      background: #ffffff;
+
+      background-image: url(../../../img/modalwindow/hero-man.svg),
+        url(../../../img/modalwindow/mobile/left-vector.svg),
+        url(../../../img/modalwindow/mobile/right-vector.svg);
+
+      background-repeat: no-repeat;
+
+      background-size: 143px 134px, auto, auto;
+
+      background-position: 83px 340px, bottom left, bottom right;
+
+      border: none;
+      border-radius: 0;
+    }
+    .modal-header {
+      width: 289px;
+      height: 41px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
       .logo {
-        width: 50.58px;
-        height: 41.36px;
+        width: 50px;
       }
+      .close {
+        width: 13px;
 
-      h2 {
-        width: 167px;
-        height: 61px;
-        top: 62px;
-        left: 73px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Poppins;
-        font-size: 30px;
-        font-weight: 600;
-        line-height: 61.29px;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-      }
+        background-color: transparent;
+        border: none;
 
-      .image {
-        width: 143px;
-        height: 134px;
+        cursor: pointer;
+        img {
+          width: 13px;
+        }
       }
     }
-    .divForm {
-      top: -350px;
-      .modalForm {
+    h1 {
+      display: flex;
+
+      color: #000;
+
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 204.3%;
+    }
+    form {
+      width: 235px;
+      height: 420px;
+
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      .data {
         width: 235px;
-        height: 422px;
+        height: 195px;
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
 
         input {
           width: 235px;
-          height: 33.16px;
+          height: 33px;
+
+          padding: 5px 10px;
+
+          color: #8b9295;
+
+          font-family: Poppins;
+          font-size: 10px;
+          font-weight: 400;
+          line-height: 204.3%;
+
           border-radius: 10px;
-          opacity: 0px;
+          border: 1px solid #8b9295;
+        }
+        textarea {
+          width: 235px;
+          height: 84px;
+
+          padding: 5px 10px;
+
+          color: #8b9295;
 
           font-family: Poppins;
-font-size: 10px;
-font-weight: 400;
-line-height: 20.43px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+          font-size: 10px;
+          font-weight: 400;
+          line-height: 204.3%;
 
-        }
-        input :active {
-          border: 3px solid rgba(19, 146, 203, 1);
-        }
-        label {
-          position: absolute;
-          top: 0;
-          left: 0;
-          transform: translateY(-50%);
-          transition: all 0.2s ease;
-          font-size: 16px;
-          visibility: hidden;
-          color: #888;
+          resize: none;
+
+          border-radius: 10px;
+          border: 1px solid #8b9295;
         }
 
-        input:focus + label,
-        input:not(:placeholder-shown) + label {
-          padding: 2px 5px;
-          top: 20px;
-          font-size: 12px;
-          visibility: visible;
-          color: rgba(19, 146, 203, 1);
-          border-radius: 5px;
+        input:focus,
+        textarea:focus {
+          color: #1090cb;
+          border: 1px solid #1090cb;
         }
-        .problem {
-          height: 93px;
-        }
-        .problem ::placeholder {
-          display: flex;
-        }
-        .sendUs {
-          width: 190.38px;
-          height: 39.27px;
-          top: 500.38px;
-          left: 116px;
-          gap: 0px;
-          opacity: 0px;
-          font-family: Poppins;
-          font-size: 20px;
-          font-weight: 600;
-          line-height: 40.86px;
-          text-align: left;
-          text-underline-position: from-font;
-          text-decoration-skip-ink: none;
-          text-align: center;
+      }
+      .send-us {
+        width: 190px;
+        height: 39px;
 
-          margin: 0;
-        }
+        color: #fff;
+
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 204.3%;
+
+        background: #1392cb;
+
+        border: none;
+        border-radius: 10px;
+
+        cursor: pointer;
+      }
+      .send-us:hover {
+        background: #1d7eab;
       }
     }
   }
