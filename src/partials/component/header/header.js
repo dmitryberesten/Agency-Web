@@ -93,3 +93,15 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 });
+
+
+// // для modal-window
+// // contact-us.js
+
+// const modal = document.querySelector('.modal');
+// const button = document.querySelector('#showModal');
+
+// button.addEventListener("click", () => {
+//   modal.style.display = "flex";
+// });
+

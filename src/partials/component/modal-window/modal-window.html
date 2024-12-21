@@ -7,24 +7,28 @@
     <title>Document</title>
   </head>
   <body>
-    <section id="pop-up-section">
-      <div class="pop-up">
+    <section id="pop-up-section" class="hidden">
+      <div class="pop-up hidden">
         <div class="modal-header">
           <img src="../../../img/modalwindow/logo (3).svg" alt="logo" class="logo" />
-          <button class="close">
+          <button id="close">
             <img src="../../../img/modalwindow/closebtn.svg" alt="close"/>
           </button>
         </div>
         <h1>Contact Us</h1>
         <form action="">
-          <div class="data">
-            <input type="text" placeholder="Name..." />
-            <input type="number" placeholder="+380-XX-XXX-XXXX" />
-            <textarea placeholder="Describe your problem..."></textarea>
+          <div id="data">
+            <input type="text" id="name" placeholder="Name..." />
+            <input type="number" id="phoneNumber" placeholder="+380-XX-XXX-XXXX" />
+            <textarea id="message" placeholder="Describe your problem..."></textarea>
           </div>
-          <button class="send-us">Send us</button>
+          <button id="send-us">Send us</button>
         </form>
-      </div>
+      </div>      
+      <script src="../../../partials/component/header/header.js"></script>
+      <script src="../../../partials/component/modal-window/modal-window.js"></script>
     </section>
+    
+    
   </body>
 </html>

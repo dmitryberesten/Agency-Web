@@ -9,7 +9,8 @@
 }
 
 @media (max-width: 1920px) {
-  section {
+  
+  #pop-up-section {
     width: 100vw;
     height: 70.83vh; /* 1365px / 1920 * 100 */
     z-index: 5001;
@@ -44,6 +45,7 @@
       background-repeat: no-repeat;
 
       background-position: 3.33vw 13.7vh, bottom left, bottom right; /* 64px and 263px adjusted */
+
     }
     .modal-header {
       width: 77.6vw; /* 1492.365px / 1920 * 100 */
@@ -53,7 +55,7 @@
       justify-content: space-between;
       align-items: start;
 
-      .close {
+      #close {
         width: 1.82vh; /* 35px / 1920 * 100 */
         height: 1.82vh;
 
@@ -88,7 +90,7 @@
       justify-content: space-between;
       align-items: center;
 
-      .data {
+      #data {
         width: 30.68vw;
         height: 32.55vh; /* 625px / 1920 * 100 */
 
@@ -138,7 +140,7 @@
           border: 0.16vh solid #1090cb;
         }
       }
-      .send-us {
+      #send-us {
         width: 30.68vw;
         height: 4.74vh; /* 91px / 1920 * 100 */
 
@@ -156,14 +158,18 @@
 
         cursor: pointer;
       }
-      .send-us:hover {
+      #send-us:hover {
         background: #1d7eab;
       }
     }
   }
+  .hidden {
+    display: none;
+    height: 0;
+}
 }
 @media (max-width: 1440px) {
-  section {
+  #pop-up-section {
     width: 100vw;
     height: 100vh;
     z-index: 5001;
@@ -208,7 +214,7 @@
       justify-content: space-between;
       align-items: start;
 
-      .close {
+      #close {
         width: 1.74vh; /* 25px / 1440 * 100 */
         height: 1.74vh;
 
@@ -243,7 +249,7 @@
       justify-content: space-between;
       align-items: center;
 
-      .data {
+      #data {
         width: 28.13vw;
         height: 42.24vh; /* 608.3px / 1440 * 100 */
 
@@ -299,7 +305,7 @@
           border: 0.21vh solid #1090cb;
         }
       }
-      .send-us {
+      #send-us {
         width: 28.12vw; /* 404.68px / 1440 * 100 */
         height: 5.99vh; /* 86.26px / 1440 * 100 */
 
@@ -317,14 +323,14 @@
 
         cursor: pointer;
       }
-      .send-us:hover {
+      #send-us:hover {
         background: #1d7eab;
       }
     }
   }
 }
 @media (max-width: 1024px) {
-  section {
+  #pop-up-section {
     width: 100vw;
     height: 100vh;
     z-index: 5001;
@@ -369,7 +375,7 @@
       justify-content: space-between;
       align-items: start;
 
-      .close {
+      #close {
         width: 2.44vh; /* 25px / 1024 * 100 */
         height: 2.44vh;
 
@@ -462,7 +468,7 @@
           border: 0.29vh solid #1090cb;
         }
       }
-      .send-us {
+      #send-us {
         width: 28.75vw;
         height: 8.42vh;
 
@@ -480,14 +486,14 @@
 
         cursor: pointer;
       }
-      .send-us:hover {
+      #send-us:hover {
         background: #1d7eab;
       }
     }
   }
 }
 @media (max-width: 768px) {
-  section {
+  #pop-up-section {
     width: 100vw;
     height: 100vh;
     z-index: 5001;
@@ -534,7 +540,7 @@
       .logo {
         width: 11.84vw; /* 91px / 768 * 100 */
       }
-      .close {
+      #close {
         width: 3.26vw; /* 25px / 768 * 100 */
 
         background-color: transparent;
@@ -569,7 +575,7 @@
 
       top: 29.56vh; /* 227px / 768 * 100 */
 
-      .data {
+      #data {
         width: 58.23vw;
         height: 40.49vh; /* 311px / 768 * 100 */
 
@@ -619,7 +625,7 @@
           border: 0.13vh solid #1090cb;
         }
       }
-      .send-us {
+      #send-us {
         width: 58.17vw;
         height: 11.55vh; /* 88.67px / 768 * 100 */
 
@@ -637,14 +643,14 @@
 
         cursor: pointer;
       }
-      .send-us:hover {
+      #send-us:hover {
         background: #1d7eab;
       }
     }
   }
 }
 @media (max-width: 320px) {
-  section {
+  #pop-up-section {
     width: 100vw;
     height: 100vh;
     z-index: 5001;
@@ -691,7 +697,7 @@
       .logo {
         width: 15.63vw; /* 50px / 320 * 100 */
       }
-      .close {
+      #close {
         width: 4.06vw; /* 13px / 320 * 100 */
 
         background-color: transparent;
@@ -722,7 +728,7 @@
       justify-content: space-between;
       align-items: center;
 
-      .data {
+      #data {
         width: 73.44vw;
         height: 60.94vh; /* 195px / 320 * 100 */
 
@@ -772,7 +778,7 @@
           border: 0.31vw solid #1090cb;
         }
       }
-      .send-us {
+      #send-us {
         width: 59.38vw; /* 190px / 320 * 100 */
         height: 12.19vh; /* 39px / 320 * 100 */
 
@@ -790,14 +796,12 @@
 
         cursor: pointer;
       }
-      .send-us:hover {
+      #send-us:hover {
         background: #1d7eab;
       }
     }
   }
 }
-
-
 
 // @media (max-width: 1920px) {
 //   section {
