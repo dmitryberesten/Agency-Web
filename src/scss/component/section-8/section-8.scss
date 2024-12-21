@@ -8,8 +8,9 @@
     margin: 0 auto;
     padding: 0 136px;
     max-width: 1905px;
-
+    
     .section-8__header {
+        margin-top: 180px;
         font: 500 40px 'Poppins', sans-serif;
         color: #000000;
         margin-bottom: 75px;
@@ -19,15 +20,27 @@
     .section-8-box {
         display: flex;
         overflow-x: auto;
-        scroll-snap-type: x mandatory;
         position: relative;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
         scroll-behavior: smooth;
         gap: 101px;
 
         &::-webkit-scrollbar {
-            display: none;
+            width: 12px;
+            height: 12px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background: #555;
         }
 
 
@@ -41,6 +54,7 @@
                 width: 100%;
                 border-radius: 45px;
             }
+
             .card__h {
                 font: 600 27px 'Poppins', sans-serif;
                 margin: 48px 0 27px 0;
@@ -96,8 +110,9 @@
 @media (max-width: 1440px) {
     .section-8-container {
         padding: 0 50px;
-
+        
         .section-8__header {
+            margin-top: 94px;
             font: 500 36px 'Poppins', sans-serif;
             margin-bottom: 63px;
             text-align: start;
@@ -112,7 +127,7 @@
 
                 .section-8__img {
                     width: 23.13vw;
-                    height: 21.25vw; 
+                    height: 21.25vw;
                 }
 
                 .card__h {
@@ -130,11 +145,12 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .section-8-container {
         padding: 0 20px;
-
+        
         .section-8__header {
+            margin-top: 81px;
             font: 500 44px 'Poppins', sans-serif;
             margin-bottom: 42px;
             text-align: start;
@@ -144,13 +160,18 @@
         .section-8-box {
             gap: 84px;
 
-            .section-8__card {
-                flex: 0 0 32.52vw;
+            &::-webkit-scrollbar {
+                width: 7px;
+                height: 7px;
+            }
 
+            .section-8__card {
+                flex: 0 0 32.52vw !important;
+            
                 .section-8__img {
-                    width: 32.52vw;
-                    height: 29.88vw;
-                }
+                    width: 32.52vw !important;
+                    height: 29.88vw !important;
+                }  
 
                 .card__h {
                     font: 600 23px 'Poppins', sans-serif;
@@ -170,8 +191,9 @@
 @media (max-width: 768px) {
     .section-8-container {
         padding: 0 10px;
-
+        
         .section-8__header {
+            margin-top: 11px;
             font: 500 44px 'Poppins', sans-serif;
             margin-bottom: 42px;
             text-align: start;
@@ -186,7 +208,7 @@
 
                 .section-8__img {
                     width: 43.36vw;
-                    height: 306px; 
+                    height: 306px;
                 }
 
                 .card__h {
@@ -202,12 +224,53 @@
             }
         }
     }
-
 }
 
-@media (max-width: 320px) {
+@media (min-width: 480px)  {
     .section-8-container {
         .section-8__header {
+            margin-top: 19px;
+            font: 500 44px 'Poppins', sans-serif;
+            margin-bottom: 23px;
+            text-align: start;
+            line-height: 78px;
+        }
+
+        .section-8-box {
+            gap: 23.32px;
+
+            &::-webkit-scrollbar {
+                width: 7px;
+                height: 7px;
+            }
+
+            .section-8__card {
+                flex: 0 0 50.63vw;
+
+                .section-8__img {
+                    width: 50.63vw;
+                    height: 46.56vw;
+                }
+
+                .card__h {
+                    font: 600 23px 'Poppins', sans-serif;
+                    margin: 19px 0;
+                    line-height: 41px;
+                }
+
+                .card__p {
+                    font: 400 16px 'Poppins', sans-serif;
+                    line-height: 34px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .section-8-container {
+        .section-8__header {
+            margin-top: 19px;
             font: 500 20px 'Poppins', sans-serif;
             margin-bottom: 23px;
             text-align: start;
@@ -215,6 +278,11 @@
 
         .section-8-box {
             gap: 23.32px;
+
+            &::-webkit-scrollbar {
+                width: 5px;
+                height: 5px;
+            }
 
             .section-8__card {
                 flex: 0 0 50.63vw;
