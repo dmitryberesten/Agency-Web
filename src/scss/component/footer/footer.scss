@@ -401,6 +401,7 @@
 @media (max-width: 768px) {
   .footer {
     position: relative;
+    bottom: 80vw;
     .footer-ps {
       position: relative;
       top: 70vw;
@@ -540,27 +541,28 @@
 @media (max-width: 320px) {
   .footer {
     position: relative;
+    top: -100vw;
     .footer-ps {
       position: relative;
     }
     .footer-buttons {
       fill: #FFF;
-      margin-right: -80%;
+      margin-right: -5%;
       justify-content: end;
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 7vw;       
-        height: 9vw;
+        width: 4vw;       
+        height: 10vw;
       }
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
         clip-path: circle(50% at 50% 50%);
         filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
-        margin-top: -10vw;
+        margin-top: -15vw;
         margin-right: -10vw;
       }
       .footer-button2 {
@@ -568,7 +570,7 @@
         flex-shrink: 0;
         clip-path: circle(50% at 50% 50%);
         filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
-        margin-top: -25vw;
+        margin-top: -30vw;
         margin-right: -10vw;
       }
       .footer-button3 {
@@ -576,7 +578,7 @@
         flex-shrink: 0;
         clip-path: circle(50% at 50% 50%);
         filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
-        margin-top: -40vw;
+        margin-top: -45vw;
         margin-right: -10vw;
       }
       .footer-button4 {
@@ -584,29 +586,30 @@
         flex-shrink: 0;
         clip-path: circle(50% at 50% 50%);
         filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
-        margin-top: -55vw;
+        margin-top: -60vw;
         margin-right: 5vw;
       }
     }
     .footer-logo {
-      width: 30vw;
+      width: 10vw;
       height: 15vw;
       flex-shrink: 0;
       margin-left: -1vw;
       position: absolute;
       top: 80vw;
+      left: 6vw;
     }
     .footer-2 {
       position: relative;
-      top: 170vw;
+      top: 150vw;
       .footer-p11 {
         color: #686868;
-        font-size: 100%;
+        font-size: 70%;
         font-style: normal;
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:45vw;
+        left:13vw;
         width: 110vw;
         top: 2vw;
       }  
@@ -616,7 +619,7 @@
     }
     .footer-ul {
       color: #515151;
-      font-size: 80%;
+      font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
@@ -625,21 +628,21 @@
         font-weight: 400;
         position: absolute;
         top: 30vw;
-        width: 50vw;
+        width: 30vw;
       }
       .footer-p2{
         color: #515151;
         font-weight: 400;
         position: absolute;
-        top: 94vw;
-        width: 30vw;
+        top: 70vw;
+        width: 10vw;
       }
       .footer-p3 {
         color: #000;
         font-weight: 500; 
         font-size: 150%;
         position: absolute;
-        left: 60%;
+        left: 34%;
         bottom: -20vw;
       } 
       .footer-p4 {
@@ -647,7 +650,7 @@
         width: 6vw;
         font-weight: 400;
         position: absolute;
-        left: 60%;
+        left: 34%;
         top: 30vw;
         width: 80px;
       }
@@ -657,23 +660,23 @@
         font-weight: 500; 
         font-size: 150%;
         position: absolute;
-        left: 110%;
-        margin-top: 10vw;
+        left: 63%;
+        margin-top: 13vw;
       }
       .footer-p9 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 30vw;
-        left: 110%;
-        width: 50vw;
+        left: 63%;
+        width: 20vw;
       }
       .footer-p10 {
         color: #515151;
         font-weight: 400;
         position: absolute;
-        left: 110%;
-        top: 75vw;
+        left: 63%;
+        top: 70vw;
         width: 40vw;
       }
     }
