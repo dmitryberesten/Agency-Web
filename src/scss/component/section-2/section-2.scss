@@ -185,6 +185,10 @@ $color-blue: #1090cb;
       margin-bottom: 30px;
       margin-left: auto;
       margin-right: auto;
+
+      .dashed-line {
+        display: block;
+      }
     }
 
     &__article {
@@ -635,8 +639,13 @@ $color-blue: #1090cb;
       gap: 2.36vw;
 
       &__icon-bg {
-        width: 9vw;
-        height: 6vh;
+        width: 5vw;
+        height: 10vh;
+
+        .face-icon {
+          width: 3vw;
+          height: 2.2vw;
+        }
       }
 
       &__sub-heading {
