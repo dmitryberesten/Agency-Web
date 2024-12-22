@@ -101,7 +101,7 @@
 
         .text-section-9 {
           font-family: 'Poppins';
-          width: 31.83vw; /* 611px / 1920px */
+          width: 31.95vw; /* 611px / 1920px */
           height: 176px;
           display: flex;
           justify-content: space-between;
@@ -138,6 +138,57 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    .ping {
+      -webkit-animation: ping 0.8s ease-in-out infinite both;
+      animation: ping 0.8s ease-in-out infinite both;
+      width: 40px;
+      height: 40px;
+      background-color: rgba(0, 50, 155, 1);
+      border-radius: 50%;
+      position: relative;
+      right: 270px;
+      bottom: 80px;
+    }
+
+    /**
+     * ----------------------------------------
+     * animation ping
+     * ----------------------------------------
+     */
+    @-webkit-keyframes ping {
+      0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0.8;
+      }
+      80% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: scale(2.2);
+        transform: scale(2.2);
+        opacity: 0;
+      }
+    }
+    @keyframes ping {
+      0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0.8;
+      }
+      80% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: scale(2.2);
+        transform: scale(2.2);
+        opacity: 0;
+      }
+    }
 
     .section-9-container {
       width: 81.46vw; /* 1173px / 1440px */
@@ -163,7 +214,7 @@
           align-items: center;
 
           img {
-            width: 84px;
+            width: 54px;
           }
         }
 
@@ -205,9 +256,61 @@
   .section-9 {
     width: 100vw;
     height: 790px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    .ping {
+      -webkit-animation: ping 0.8s ease-in-out infinite both;
+      animation: ping 0.8s ease-in-out infinite both;
+      width: 30px;
+      height: 30px;
+      background-color: rgba(0, 50, 155, 1);
+      border-radius: 50%;
+      position: relative;
+      right: 20px;
+      bottom: 480px;
+    }
+
+    /**
+     * ----------------------------------------
+     * animation ping
+     * ----------------------------------------
+     */
+    @-webkit-keyframes ping {
+      0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0.8;
+      }
+      80% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: scale(2.2);
+        transform: scale(2.2);
+        opacity: 0;
+      }
+    }
+    @keyframes ping {
+      0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0.8;
+      }
+      80% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: scale(2.2);
+        transform: scale(2.2);
+        opacity: 0;
+      }
+    }
 
     .section-9-container {
       width: 87.89vw; /* 900px / 1024px */
@@ -277,11 +380,63 @@
 
 @media (max-width: 768px) {
   .section-9 {
+    margin-left: 80px;
     width: 100vw;
     height: 689px;
     display: flex;
     justify-content: center;
     align-items: center;
+    .ping {
+      -webkit-animation: ping 0.8s ease-in-out infinite both;
+      animation: ping 0.8s ease-in-out infinite both;
+      width: 20px;
+      height: 20px;
+      background-color: rgba(0, 50, 155, 1);
+      border-radius: 50%;
+      position: relative;
+      right: 10px;
+      bottom: 330px;
+    }
+
+    /**
+     * ----------------------------------------
+     * animation ping
+     * ----------------------------------------
+     */
+    @-webkit-keyframes ping {
+      0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0.8;
+      }
+      80% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: scale(2.2);
+        transform: scale(2.2);
+        opacity: 0;
+      }
+    }
+    @keyframes ping {
+      0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0.8;
+      }
+      80% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: scale(2.2);
+        transform: scale(2.2);
+        opacity: 0;
+      }
+    }
 
     .section-9-container {
       width: 89.71vw; /* 689px / 768px */
@@ -356,6 +511,60 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    .ping {
+      -webkit-animation: ping 0.8s ease-in-out infinite both;
+      animation: ping 0.8s ease-in-out infinite both;
+      width: 10px;
+      height: 10px;
+      background-color: rgba(0, 50, 155, 1);
+      border-radius: 50%;
+      position: relative;
+      right: 2px;
+      bottom: 160px;
+    }
+
+    /**
+     * ----------------------------------------
+     * animation ping
+     * ----------------------------------------
+     */
+    @-webkit-keyframes ping {
+      0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0.8;
+      }
+      80% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: scale(2.2);
+        transform: scale(2.2);
+        opacity: 0;
+      }
+    }
+    @keyframes ping {
+      0% {
+        -webkit-transform: scale(0.2);
+        transform: scale(0.2);
+        opacity: 0.8;
+      }
+      80% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: scale(2.2);
+        transform: scale(2.2);
+        opacity: 0;
+      }
+    }
 
     .section-9-container {
       width: 95.94vw; /* 307px / 320px */
