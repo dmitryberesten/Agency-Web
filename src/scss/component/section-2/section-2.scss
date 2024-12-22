@@ -151,13 +151,12 @@ $color-blue: #1090cb;
 
 // adaptive
 
-$breakpoint-mobile: 320px;
-$breakpoint-tablet: 768px;
-$breakpoint-netbook: 1024px;
-$breakpoint-desktop: 1440px;
-$breakpoint-monitor: 1920px;
-
 // TODO mobile
+@media screen and (min-width: 320px) and (max-width: 540px) {
+  // .article__top__icon-bg {
+  //   width: 20vw !important;
+  // }
+}
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .container {
@@ -176,15 +175,14 @@ $breakpoint-monitor: 1920px;
       line-height: 175%;
       margin-top: 18px;
       width: 68.75vw;
-      margin-bottom: -70px;
     }
 
     &__content {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      margin-top: 140px;
-      margin-bottom: 140px;
+      margin-top: 30px;
+      margin-bottom: 30px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -208,22 +206,22 @@ $breakpoint-monitor: 1920px;
       gap: 6.13px;
 
       &__icon-bg {
-        width: 13.5vw;
-        height: 43.326px;
-        // overflow: hidden;
+        // width: 15vw;
+        // height: 10vh;
+        width: 65px;
+        height: 65px;
 
         .face-icon {
           fill: #ffffff;
-          // width: 18.771px;
-          width: 5.9375vw;
-          height: 19.422px;
+          width: 8vw;
+          height: 4vw;
         }
       }
 
       &__sub-heading {
         font-size: 5vw;
         line-height: 100%;
-        width: 196px;
+        width: 61.25%;
       }
 
       &__additional-heading {
@@ -246,17 +244,19 @@ $breakpoint-monitor: 1920px;
   }
 
   .phone-img {
+    display: block;
+    position: static;
     width: 100vw;
     height: 290px;
-    top: 300px;
-    right: 0px;
+    // margin-top: 130px;
   }
 
   .layers-img {
+    display: block;
+    position: static;
     width: 100vw;
     height: 304px;
-    top: 300px;
-    right: 0px;
+    // margin-top: 130px;
   }
 
   .vr-dude-img {
@@ -368,7 +368,7 @@ $breakpoint-monitor: 1920px;
     width: 65vw;
     height: 400px;
     left: -75px;
-    // bottom: 20px;
+    bottom: 20px;
   }
 
   .vr-dude-img {
@@ -380,7 +380,6 @@ $breakpoint-monitor: 1920px;
 }
 
 // TODO netbook
-
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   .container {
     min-width: 90%;
@@ -485,7 +484,6 @@ $breakpoint-monitor: 1920px;
 }
 
 // TODO desktop
-
 @media screen and (min-width: 1440px) and (max-width: 1920px) {
   .container {
     width: 85%;
@@ -540,8 +538,8 @@ $breakpoint-monitor: 1920px;
       gap: 1.7vw;
 
       &__icon-bg {
-        width: 4vw;
-        height: 58px;
+        width: 5vw;
+        height: 10vh;
       }
 
       &__sub-heading {
@@ -588,7 +586,6 @@ $breakpoint-monitor: 1920px;
 }
 
 // TODO monitor
-
 @media screen and (min-width: 1920px) {
   .container {
     width: 80%;
@@ -638,8 +635,8 @@ $breakpoint-monitor: 1920px;
       gap: 2.36vw;
 
       &__icon-bg {
-        width: 3.33vw;
-        height: 3.22vw;
+        width: 9vw;
+        height: 6vh;
       }
 
       &__sub-heading {
