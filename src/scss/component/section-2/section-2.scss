@@ -152,6 +152,12 @@ $color-blue: #1090cb;
 // adaptive
 
 // TODO mobile
+@media screen and (min-width: 320px) and (max-width: 540px) {
+  // .article__top__icon-bg {
+  //   width: 20vw !important;
+  // }
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .container {
     width: 90%;
@@ -169,15 +175,14 @@ $color-blue: #1090cb;
       line-height: 175%;
       margin-top: 18px;
       width: 68.75vw;
-      margin-bottom: -70px;
     }
 
     &__content {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      margin-top: 140px;
-      margin-bottom: 140px;
+      margin-top: 30px;
+      margin-bottom: 30px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -201,22 +206,22 @@ $color-blue: #1090cb;
       gap: 6.13px;
 
       &__icon-bg {
-        width: 13.5vw;
-        height: 43.326px;
-        // overflow: hidden;
+        // width: 15vw;
+        // height: 10vh;
+        width: 65px;
+        height: 65px;
 
         .face-icon {
           fill: #ffffff;
-          // width: 18.771px;
-          width: 5.9375vw;
-          height: 19.422px;
+          width: 8vw;
+          height: 4vw;
         }
       }
 
       &__sub-heading {
         font-size: 5vw;
         line-height: 100%;
-        width: 196px;
+        width: 61.25%;
       }
 
       &__additional-heading {
@@ -240,24 +245,18 @@ $color-blue: #1090cb;
 
   .phone-img {
     display: block;
+    position: static;
     width: 100vw;
     height: 290px;
-    top: 100vw;
-    left: 0vw;
-    // left: -60px;
-    // top: 300px;
-    // right: 0px;
+    // margin-top: 130px;
   }
 
   .layers-img {
     display: block;
+    position: static;
     width: 100vw;
     height: 304px;
-    // top: 100px;
-    top: 100vw;
-    // left: -80px;
-    // top: 300px;
-    // right: 0px;
+    // margin-top: 130px;
   }
 
   .vr-dude-img {
@@ -369,7 +368,7 @@ $color-blue: #1090cb;
     width: 65vw;
     height: 400px;
     left: -75px;
-    // bottom: 20px;
+    bottom: 20px;
   }
 
   .vr-dude-img {
@@ -539,8 +538,8 @@ $color-blue: #1090cb;
       gap: 1.7vw;
 
       &__icon-bg {
-        width: 4vw;
-        height: 58px;
+        width: 5vw;
+        height: 10vh;
       }
 
       &__sub-heading {
@@ -636,8 +635,8 @@ $color-blue: #1090cb;
       gap: 2.36vw;
 
       &__icon-bg {
-        width: 3.33vw;
-        height: 3.22vw;
+        width: 9vw;
+        height: 6vh;
       }
 
       &__sub-heading {
