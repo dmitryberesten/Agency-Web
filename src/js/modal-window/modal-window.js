@@ -1,16 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
   const contactUsButton = document.querySelectorAll('.contact-us');
 
-const closeBtn = document.querySelector('#close');
-const sendUsBtn = document.querySelector('#send-us');
-const nameField = document.querySelector('#name');
-const phoneNumberField = document.querySelector('#phoneNumber');
-const messageField = document.querySelector('#message');
-const modal = document.querySelector('#pop-up-section');
+  const closeBtn = document.querySelector('#close');
+  const sendUsBtn = document.querySelector('#send-us');
+  const nameField = document.querySelector('#name');
+  const phoneNumberField = document.querySelector('#phoneNumber');
+  const messageField = document.querySelector('#message');
+  const modal = document.querySelector('#pop-up-section');
 
   contactUsButton.forEach(btn => {
     btn.addEventListener('click', () => {
       modal.style.display = 'flex';
+      modal.scrollIntoView({ behavior: 'smooth' });
     });
   });
   // Функція для перевірки заповнення полів

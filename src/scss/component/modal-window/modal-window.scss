@@ -1,15 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oi&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yuji+Mai&display=swap');
-
-// === FONTS
-
-* {
+> #pop-up-section {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+::-webkit-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-moz-placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+:-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+:-moz-placeholder {
+  font-family: 'Poppins', sans-serif;
+}
 
 @media (max-width: 1920px) {
-  
   #pop-up-section {
     width: 100vw;
     height: 70.83vh; /* 1365px / 1920 * 100 */
@@ -44,7 +53,6 @@
       background-repeat: no-repeat;
 
       background-position: 3.33vw 13.7vh, bottom left, bottom right; /* 64px and 263px adjusted */
-
     }
     .modal-header {
       width: 77.6vw; /* 1492.365px / 1920 * 100 */
@@ -162,9 +170,7 @@
       }
     }
     display: none;
-    
   }
-  
 }
 @media (max-width: 1440px) {
   #pop-up-section {
