@@ -19,5 +19,9 @@ body {
   overflow-x: hidden;
 
   font-family: 'Poppins';
+  button {
+    cursor: pointer !important;
+  }
 }
+
 // @import url(./component/popup/popup.scss);
