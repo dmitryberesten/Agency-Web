@@ -7,6 +7,11 @@ const phoneNumberField = document.querySelector('#phoneNumber');
 const messageField = document.querySelector('#message');
 const modal = document.querySelector('#pop-up-section');
 
+// Відкриття модального вікна
+contactUsButton.addEventListener('click', () => {
+  modal.style.display = 'flex';
+});
+
 // Функція для перевірки заповнення полів
 const validateForm = () => {
   let isValid = true;
