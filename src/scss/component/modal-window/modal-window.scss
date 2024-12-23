@@ -17,7 +17,6 @@
 
     overflow: hidden;
 
-    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -162,11 +161,10 @@
         background: #1d7eab;
       }
     }
-  }
-  .hidden {
     display: none;
-    height: 0;
-}
+    
+  }
+  
 }
 @media (max-width: 1440px) {
   #pop-up-section {

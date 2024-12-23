@@ -1,47 +1,42 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const closeBtn = document.getElementById("close");
-    const sendUsBtn = document.getElementById("send-us");
-    const nameField = document.getElementById("name");
-    const phoneNumberField = document.getElementById("phoneNumber");
-    const messageField = document.getElementById("message");
-    const modal = document.querySelector(".pop-up");
-    
-    // Функція для перевірки заповнення полів
-    const validateForm = () => {
-      let isValid = true;
-      const fields = [
-        { field: nameField, name: "Name" },
-        { field: phoneNumberField, name: "Phone Number" },
-        { field: messageField, name: "Message" }
-      ];
-  
-      fields.forEach(({ field, name }) => {
-        if (!field.value.trim()) {
-          alert(`${name} field is not filled!`);
-          isValid = false;
-        }
-      });
-  
-      return isValid;
-    };
-  
-    // Закриття модального вікна
-    closeBtn.addEventListener("click", () => {
-      modal.style.display = "none";
-    });
-  
-    // Відправлення форми
-    sendUsBtn.addEventListener("click", (e) => {
-      e.preventDefault(); // Запобігаємо стандартній поведінці форми
-      if (validateForm()) {
-        alert("Form submitted successfully!");
-        modal.style.display = "none";
-      }
-    });
+const contactUsButton = document.querySelectorAll('.contact-us');
+
+const closeBtn = document.querySelector('#close');
+const sendUsBtn = document.querySelector('#send-us');
+const nameField = document.querySelector('#name');
+const phoneNumberField = document.querySelector('#phoneNumber');
+const messageField = document.querySelector('#message');
+const modal = document.querySelector('#pop-up-section');
+
+// Функція для перевірки заповнення полів
+const validateForm = () => {
+  let isValid = true;
+  const fields = [nameField, phoneNumberField, messageField];
+
+  fields.forEach(field => {
+    if (!field.value.trim()) {
+      field.style.border = '2px solid red'; // Змінюємо рамку на червону
+      isValid = false;
+    } else {
+      field.style.border = ''; // Відновлюємо стандартну рамку
+    }
   });
-  
 
+  return isValid;
+};
 
+// Закриття модального вікна
+closeBtn.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
+// Відправлення форми
+sendUsBtn.addEventListener('click', e => {
+  e.preventDefault(); // Запобігаємо стандартній поведінці форми
+  if (validateForm()) {
+    alert('Form submitted successfully!');
+    modal.style.display = 'none';
+  }
+});
 
 // document.addEventListener('DOMContentLoaded', () => {
 //     const contactUsButton = document.getElementsByClassName('contact-us');
