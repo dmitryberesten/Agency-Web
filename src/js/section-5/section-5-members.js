@@ -186,7 +186,7 @@ export const teamMembers = [
     photo: '/img/section5/taras.jpg',
   },
   {
-    name: 'Svyatoslav Bykovets',
+    name: 'Svyatoslav Ivah',
     role: 'Frontend Developer',
     jobs: 'Frontend Development',
     skillsResponsibilities: {
