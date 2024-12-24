@@ -223,7 +223,7 @@ header {
   .menu__btn {
     z-index: 5000;
     position: absolute;
-    right: 42px;
+    right: calc(100% - 88%);
     display: flex;
     align-items: center;
     top: 20px;
@@ -234,7 +234,7 @@ header {
   }
   .menu__btn.close {
     z-index: 5000;
-    left: 441px;
+    left: 444px;
   }
   .menu__btn > span,
   .menu__btn > span::before,
@@ -399,7 +399,7 @@ header {
   }
   .menu__btn {
     z-index: 5000;
-    left: 270px;
+    right: calc(100% - 50%);
     display: flex;
     align-items: center;
     position: fixed;
