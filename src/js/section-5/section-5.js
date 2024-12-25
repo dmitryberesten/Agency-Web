@@ -105,9 +105,10 @@ function createCard(member) {
 
   card.addEventListener('click', () => {
     if (card.classList.contains('team-member-card')) {
-      // no active
+      // No active, apply flip animation on click
       card.classList.remove('team-member-card');
       card.classList.add('team-member-card-active');
+      card.classList.add('flip-animation');  // Add animation class
 
       img.classList.remove('img-card');
       img.classList.add('img-card-active');
@@ -123,9 +124,10 @@ function createCard(member) {
       card.appendChild(roleSpan);
       card.appendChild(nameSpan);
     } else {
-      // active
+      // Active, remove animation on reset
       card.classList.remove('team-member-card-active');
       card.classList.add('team-member-card');
+      card.classList.remove('flip-animation');  // Remove animation class
 
       img.classList.remove('img-card-active');
       img.classList.add('img-card');
@@ -137,7 +139,6 @@ function createCard(member) {
       role.classList.add('role-card');
 
       name.appendChild(nameSpan);
-
       role.appendChild(roleSpan);
 
       card.innerHTML = '';
@@ -150,6 +151,7 @@ function createCard(member) {
       card.appendChild(skills);
     }
   });
+
 
   return card;
 }
