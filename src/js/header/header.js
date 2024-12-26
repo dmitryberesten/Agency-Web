@@ -23,7 +23,6 @@ handleResize();
 window.addEventListener('resize', handleResize);
 
 document.addEventListener('DOMContentLoaded', () => {
-  AOS.init();
   const navLinks = document.querySelectorAll('.nav-link');
 
   navLinks.forEach(link => {
