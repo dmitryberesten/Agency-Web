@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
       leftPosition + ball.offsetWidth <= containerRect.width
     ) {
       ball.style.top = `${topPosition}px`;
-      ball.style.left = `${leftPosition - 12}px`;
+      ball.style.left = `${leftPosition - 18}px`;
     }
   }
 });
