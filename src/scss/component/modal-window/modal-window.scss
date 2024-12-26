@@ -325,6 +325,7 @@
         background: #1d7eab;
       }
     }
+    display: none;
   }
 }
 @media (max-width: 1024px) {
@@ -488,6 +489,7 @@
         background: #1d7eab;
       }
     }
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -645,6 +647,7 @@
         background: #1d7eab;
       }
     }
+    display: none;
   }
 }
 @media (max-width: 320px) {
@@ -798,7 +801,9 @@
         background: #1d7eab;
       }
     }
+    display: none;
   }
+  
 }
 
 // @media (max-width: 1920px) {
