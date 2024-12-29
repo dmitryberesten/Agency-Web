@@ -1,4 +1,6 @@
-const lernMoreBtn=document.getElementById('learnMore')
-lernMoreBtn.addEventListener("click",()=>{
-    window.location.href='https://t.me/agencywebicn'
+const lernMoreBtn=document.querySelectorAll('#learnMore')
+lernMoreBtn.forEach(btn=>{
+    btn.addEventListener("click",()=>{
+        window.location.href='https://t.me/agencywebicn'
+    })
 })
