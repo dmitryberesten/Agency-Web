@@ -34,7 +34,7 @@
                 @include justifyAndAlign(space-between,center);
                 flex-direction: column;
                 &_speakerCircle{
-                    @include widthAndHeight(9.38vw,180px);
+                    @include widthAndHeight(9.38vw,9.38vw);
                     background: #fff;
                     border-radius: 24.34vw;
                     @include justifyAndAlign(center,center);
@@ -285,7 +285,7 @@
                 @include justifyAndAlign(space-between,center);
                 flex-direction: column;
                 &_speakerCircle{
-                    @include widthAndHeight(9.38vw,135px);
+                    @include widthAndHeight(9.38vw,9.38vw);
                     background: #fff;
                     border-radius: 24.34vw;
                     @include justifyAndAlign(center,center);
@@ -535,7 +535,7 @@
                 @include justifyAndAlign(space-between,center);
                 flex-direction: column;
                 &_speakerCircle{
-                    @include widthAndHeight(13.18vw,135px);
+                    @include widthAndHeight(13.18vw,13.18vw);
                     background: #fff;
                     border-radius: 24.34vw;
                     @include justifyAndAlign(center,center);
@@ -790,7 +790,7 @@
                 @include justifyAndAlign(space-between,center);
                 flex-direction: column;
                 &_speakerCircle{
-                    @include widthAndHeight(24.34vw,187px);
+                    @include widthAndHeight(24.34vw,24.34vw);
                     background: #fff;
                     border-radius: 50%; 
                     @include justifyAndAlign(center,center);
@@ -1049,7 +1049,7 @@
                 @include justifyAndAlign(space-between,center);
                 flex-direction: column;
                 &_speakerCircle{
-                    @include widthAndHeight(28.44vw,91px);
+                    @include widthAndHeight(28.44vw,28.44vw);
                     background: #fff;
                     border-radius: 50%; 
                     @include justifyAndAlign(center,center);
