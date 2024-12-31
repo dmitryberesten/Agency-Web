@@ -43,7 +43,9 @@ HTML, SCSS, FIGMA, JS, VSCODE, TRELLO, GITHUB, CHROME
 
 ## АДМІНІСТРАЦІЯ
 
-Team Lead - https://github.com/Javus-Scriptus
+Team Lead - https://github.com/Serhii-Zamorylo23
+
+Scrum Master - https://github.com/madparrot69
 
 Tech Lead - https://github.com/Gaondarech726
 
