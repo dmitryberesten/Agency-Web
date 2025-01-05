@@ -50,3 +50,11 @@ Scrum Master - https://github.com/madparrot69
 Tech Lead - https://github.com/Gaondarech726
 
 Project Manager - https://github.com/dmitryberesten
+
+Developers - https://github.com/Taras405
+https://github.com/Javus-Scriptus
+https://github.com/GraceFeel1
+https://github.com/byebaji
+https://github.com/Mkqupy
+https://github.com/Dremeret
+https://github.com/annakor577
