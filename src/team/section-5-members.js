@@ -14,7 +14,8 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/dmitryberesten',
-    photo: './team/photo/dima.jpg',
+    photo:
+      'https://dmitryberesten.github.io/Agency-Web/src/team/photo/dima.jpg',
   },
   {
     name: 'Anton Honcharenko',
@@ -37,7 +38,8 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Gaondarech726',
-    photo: './team/photo/anton.jpg',
+    photo:
+      'https://dmitryberesten.github.io/Agency-Web/src/team/photo/anton.jpg',
   },
   {
     name: 'Khrystyna Stepenko',
@@ -61,7 +63,8 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/madparrot69',
-    photo: './photo/khrystyna.jpg',
+    photo:
+      'https://dmitryberesten.github.io/Agency-Web/src/team/photo/khrystyna.jpg',
   },
   {
     name: 'Serhii Zamorylo',
