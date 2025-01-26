@@ -91,14 +91,15 @@
             border: none;
             border-radius: 10px;
             background: #1090CB;
-            color: #FFF;
             cursor: pointer;
           }
         }
       }
     }
   }
-  
+  a{
+    color: #FFF;
+  }
   .centerCard {
     display: none;
   }
@@ -174,12 +175,14 @@
             border: none;
             border-radius: 10px;
             background: #1090CB;
-            color: #FFF;
             cursor: pointer;
           }
         }
       }
     }
+  }
+  a{
+    color: #FFF;
   }
   .centerCard {
     display: block;
@@ -324,12 +327,14 @@
             border: none;
             border-radius: 10px;
             background: #1090CB;
-            color: #FFF;
             cursor: pointer;
           }
         }
       }
     }
+  }
+  a{
+    color: #FFF;
   }
   .centerCard {
     display: block;
@@ -431,6 +436,8 @@
                 }
                 button{
                   background: #fff;
+                }
+                a{
                   color: #1090CB;
                 }
                 &_svg{
