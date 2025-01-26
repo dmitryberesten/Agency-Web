@@ -37,7 +37,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Gaondarech726',
-    photo: '../src/img/section5/anton.jpg',
+    photo: './../../img/section5/anton.jpg',
   },
   {
     name: 'Khrystyna Stepenko',
