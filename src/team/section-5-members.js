@@ -15,7 +15,7 @@ export const teamMembers = [
     },
     githubProfile: 'https://github.com/dmitryberesten',
     photo:
-      'https://dmitryberesten.github.io/Agency-Web/src/team/photo/dima.jpg',
+      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/dima.jpg',
   },
   {
     name: 'Anton Honcharenko',
@@ -39,7 +39,7 @@ export const teamMembers = [
     },
     githubProfile: 'https://github.com/Gaondarech726',
     photo:
-      'https://dmitryberesten.github.io/Agency-Web/src/team/photo/anton.jpg',
+      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/anton.jpg',
   },
   {
     name: 'Khrystyna Stepenko',
