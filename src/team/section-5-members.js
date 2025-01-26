@@ -64,7 +64,7 @@ export const teamMembers = [
     },
     githubProfile: 'https://github.com/madparrot69',
     photo:
-      'https://dmitryberesten.github.io/Agency-Web/src/team/photo/khrystyna.jpg',
+      '../team/photo/khrystyna.jpg',
   },
   {
     name: 'Serhii Zamorylo',
