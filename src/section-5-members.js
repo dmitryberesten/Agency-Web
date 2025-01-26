@@ -14,7 +14,7 @@ const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/dmitryberesten',
-    photo: '../../img/section5/dima.jpg',
+    photo: './img/section5/dima.jpg',
   },
   {
     name: 'Anton Honcharenko',
@@ -37,7 +37,7 @@ const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Gaondarech726',
-    photo: './img/section5/anton.jpg',
+    photo: './section5/anton.jpg',
   },
   {
     name: 'Khrystyna Stepenko',
@@ -61,7 +61,7 @@ const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/madparrot69',
-    photo: './src/img/section5/khrystyna.jpg',
+    photo: './../img/section5/khrystyna.jpg',
   },
   {
     name: 'Serhii Zamorylo',
@@ -81,7 +81,7 @@ const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Serhii-Zamorylo23',
-    photo: '../../img/section5/serhii.jpg',
+    photo: './src/img/section5/serhii.jpg',
   },
   {
     name: 'Yaroslav Suntsev',
@@ -96,7 +96,7 @@ const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/cargo9',
-    photo: '../src../src/img/section5/yaroslav.jpg',
+    photo: '/src/img/section5/yaroslav.jpg',
   },
   {
     name: 'Maria Kalinichenko',
@@ -111,7 +111,7 @@ const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Mkqupy',
-    photo: '../../img/section5/maria.jpg',
+    photo: 's./img/section5/maria.jpg',
   },
   {
     name: 'Igor Krasylnikov',
