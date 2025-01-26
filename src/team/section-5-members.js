@@ -37,7 +37,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Gaondarech726',
-    photo: '../team/photo/anton.jpg',
+    photo: './team/photo/anton.jpg',
   },
   {
     name: 'Khrystyna Stepenko',
@@ -61,7 +61,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/madparrot69',
-    photo: './../img/section5/khrystyna.jpg',
+    photo: './photo/khrystyna.jpg',
   },
   {
     name: 'Serhii Zamorylo',
