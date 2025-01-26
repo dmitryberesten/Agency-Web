@@ -111,7 +111,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Mkqupy',
-    photo: '../src/img/section5/maria.jpg',
+    photo: '../../img/section5/maria.jpg',
   },
   {
     name: 'Igor Krasylnikov',
