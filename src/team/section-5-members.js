@@ -14,7 +14,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/dmitryberesten',
-    photo: './photo/dima.jpg',
+    photo: '/Agency-Web/src/team/photo/dima.jpg',
   },
   {
     name: 'Anton Honcharenko',
