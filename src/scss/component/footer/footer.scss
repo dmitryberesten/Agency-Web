@@ -1,17 +1,20 @@
 @media (max-width: 1920px) {
   .footer {
     position: relative;
+
     .footer-buttons {
       fill: #FFF;
       display: flex;
       margin-right: 3%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
-       margin: 30%;       
+        margin: 30%;
       }
+
       .footer-button1 {
         width: 2.6vw;
         height: 1%;
@@ -21,6 +24,7 @@
         margin-right: 25px;
         margin-top: -120px;
       }
+
       .footer-button2 {
         width: 2.6vw;
         height: 1%;
@@ -30,6 +34,7 @@
         margin-right: 25px;
         margin-top: -120px;
       }
+
       .footer-button3 {
         width: 2.6vw;
         height: 1%;
@@ -39,6 +44,7 @@
         margin-right: 25px;
         margin-top: -120px;
       }
+
       .footer-button4 {
         width: 2.6vw;
         height: 1%;
@@ -48,14 +54,17 @@
         margin-top: -120px;
       }
     }
+
     .footer-logo {
       width: 4.5vw;
       margin-left: 5vw;
       position: absolute;
     }
+
     .footer-2 {
       position: relative;
       top: 17vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 18px;
@@ -65,8 +74,10 @@
         position: relative;
         left: 41%;
         top: 1.5vw;
-      }   
+        padding-bottom: 20px;
+      }
     }
+
     .footer-ul {
       line-height: normal;
       font-style: normal;
@@ -74,6 +85,7 @@
       position: relative;
       list-style: none;
       margin-left: 5vw;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -81,20 +93,23 @@
         top: 5vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 13vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         position: absolute;
         left: 40%;
         bottom: -2vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         width: 8.7vw;
@@ -103,12 +118,14 @@
         left: 40%;
         top: 5vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
         position: absolute;
         left: 57%;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -117,6 +134,7 @@
         left: 57%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -128,20 +146,24 @@
     }
   }
 }
+
 @media (max-width: 1602px) {
   .footer {
     position: relative;
+
     .footer-buttons {
       fill: #FFF;
       display: flex;
       margin-right: 3%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
-       margin: 30%;       
+        margin: 30%;
       }
+
       .footer-button1 {
         width: 2.6vw;
         height: 1%;
@@ -151,6 +173,7 @@
         margin-right: 25px;
         margin-top: -120px;
       }
+
       .footer-button2 {
         width: 2.6vw;
         height: 1%;
@@ -160,6 +183,7 @@
         margin-right: 25px;
         margin-top: -120px;
       }
+
       .footer-button3 {
         width: 2.6vw;
         height: 1%;
@@ -169,6 +193,7 @@
         margin-right: 25px;
         margin-top: -120px;
       }
+
       .footer-button4 {
         width: 2.6vw;
         height: 1%;
@@ -178,14 +203,17 @@
         margin-top: -120px;
       }
     }
+
     .footer-logo {
       width: 4.5vw;
       margin-left: 5vw;
       position: absolute;
     }
+
     .footer-2 {
       position: relative;
       top: 17vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 18px;
@@ -195,8 +223,9 @@
         position: relative;
         left: 41%;
         top: 1.5vw;
-      }   
+      }
     }
+
     .footer-ul {
       line-height: normal;
       font-style: normal;
@@ -204,6 +233,7 @@
       position: relative;
       list-style: none;
       margin-left: 5vw;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -211,20 +241,23 @@
         top: 5vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 13vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         position: absolute;
         left: 40%;
         bottom: -2vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         width: 8.7vw;
@@ -233,12 +266,14 @@
         left: 40%;
         top: 5vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
         position: absolute;
         left: 57%;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -247,6 +282,7 @@
         left: 57%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -258,29 +294,36 @@
     }
   }
 }
+
 @media screen and (max-width: 1525px) {
   .footer {
     position: relative;
+
     .footer-buttons {
       fill: #FFF;
       display: flex;
       justify-content: end;
+
       .footer-facebook {
-       margin: 30%;
-       width: 1.5vw;       
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-instagram {
-       margin: 30%;
-       width: 1.5vw;              
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-twitter {
-       margin: 30%;
-       width: 1.5vw;
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-linkedin {
-       margin: 30%;
-       width: 1.5vw;      
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-button1 {
         width: 2vw;
         flex-shrink: 0;
@@ -289,6 +332,7 @@
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button2 {
         width: 2vw;
         flex-shrink: 0;
@@ -297,14 +341,16 @@
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button3 {
-        width: 2vw;      
+        width: 2vw;
         flex-shrink: 0;
         clip-path: circle(50% at 50% 50%);
         filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button4 {
         width: 2vw;
         flex-shrink: 0;
@@ -313,15 +359,18 @@
         margin-top: -150px;
       }
     }
+
     .footer-logo {
       height: 7vw;
       margin-left: 5vw;
       position: absolute;
     }
+
     .footer-2 {
       position: relative;
       top: 300px;
       margin-top: 70px;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -330,14 +379,16 @@
         line-height: 190.6%;
         position: relative;
         left: 41%;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 100%;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -345,20 +396,23 @@
         top: 7vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 16vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         position: absolute;
         left: 40%;
         bottom: -4vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -367,6 +421,7 @@
         top: 7vw;
         width: 8.8vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -374,6 +429,7 @@
         left: 57%;
         bottom: -4vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -382,6 +438,7 @@
         left: 57%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -393,29 +450,36 @@
     }
   }
 }
+
 @media screen and (max-width: 1514px) {
   .footer {
     position: relative;
+
     .footer-buttons {
       fill: #FFF;
       display: flex;
       justify-content: end;
+
       .footer-facebook {
-       margin: 30%;
-       width: 1.5vw;       
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-instagram {
-       margin: 30%;
-       width: 1.5vw;              
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-twitter {
-       margin: 30%;
-       width: 1.5vw;
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-linkedin {
-       margin: 30%;
-       width: 1.5vw;      
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-button1 {
         width: 2vw;
         flex-shrink: 0;
@@ -424,6 +488,7 @@
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button2 {
         width: 2vw;
         flex-shrink: 0;
@@ -432,14 +497,16 @@
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button3 {
-        width: 2vw;      
+        width: 2vw;
         flex-shrink: 0;
         clip-path: circle(50% at 50% 50%);
         filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button4 {
         width: 2vw;
         flex-shrink: 0;
@@ -448,15 +515,18 @@
         margin-top: -150px;
       }
     }
+
     .footer-logo {
       height: 7vw;
       margin-left: 5vw;
       position: absolute;
     }
+
     .footer-2 {
       position: relative;
       top: 300px;
       margin-top: 70px;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -465,14 +535,16 @@
         line-height: 190.6%;
         position: relative;
         left: 41%;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 100%;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -480,20 +552,23 @@
         top: 7vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 16vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         position: absolute;
         left: 40%;
         bottom: -4vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -502,6 +577,7 @@
         top: 7vw;
         width: 8.8vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -509,6 +585,7 @@
         left: 57%;
         bottom: -4vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -517,6 +594,7 @@
         left: 57%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -528,29 +606,36 @@
     }
   }
 }
+
 @media screen and (max-width: 1510px) {
   .footer {
     position: relative;
+
     .footer-buttons {
       fill: #FFF;
       display: flex;
       justify-content: end;
+
       .footer-facebook {
-       margin: 30%;
-       width: 1.5vw;       
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-instagram {
-       margin: 30%;
-       width: 1.5vw;              
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-twitter {
-       margin: 30%;
-       width: 1.5vw;
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-linkedin {
-       margin: 30%;
-       width: 1.5vw;      
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-button1 {
         width: 2vw;
         flex-shrink: 0;
@@ -559,6 +644,7 @@
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button2 {
         width: 2vw;
         flex-shrink: 0;
@@ -567,14 +653,16 @@
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button3 {
-        width: 2vw;      
+        width: 2vw;
         flex-shrink: 0;
         clip-path: circle(50% at 50% 50%);
         filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button4 {
         width: 2vw;
         flex-shrink: 0;
@@ -583,15 +671,18 @@
         margin-top: -150px;
       }
     }
+
     .footer-logo {
       height: 7vw;
       margin-left: 5vw;
       position: absolute;
     }
+
     .footer-2 {
       position: relative;
       top: 300px;
       margin-top: 70px;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -600,14 +691,16 @@
         line-height: 190.6%;
         position: relative;
         left: 41%;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 100%;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -615,20 +708,23 @@
         top: 7vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 16vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         position: absolute;
         left: 40%;
         bottom: -4vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -637,6 +733,7 @@
         top: 7vw;
         width: 8.8vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -644,6 +741,7 @@
         left: 57%;
         bottom: -4vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -652,6 +750,7 @@
         left: 57%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -663,29 +762,36 @@
     }
   }
 }
+
 @media screen and (max-width: 1440px) {
   .footer {
     position: relative;
+
     .footer-buttons {
       fill: #FFF;
       display: flex;
       justify-content: end;
+
       .footer-facebook {
-       margin: 30%;
-       width: 1.5vw;       
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-instagram {
-       margin: 30%;
-       width: 1.5vw;              
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-twitter {
-       margin: 30%;
-       width: 1.5vw;
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-linkedin {
-       margin: 30%;
-       width: 1.5vw;      
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-button1 {
         width: 2vw;
         flex-shrink: 0;
@@ -694,6 +800,7 @@
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button2 {
         width: 2vw;
         flex-shrink: 0;
@@ -702,14 +809,16 @@
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button3 {
-        width: 2vw;      
+        width: 2vw;
         flex-shrink: 0;
         clip-path: circle(50% at 50% 50%);
         filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button4 {
         width: 2vw;
         flex-shrink: 0;
@@ -718,15 +827,18 @@
         margin-top: -150px;
       }
     }
+
     .footer-logo {
       height: 7vw;
       margin-left: 5vw;
       position: absolute;
     }
+
     .footer-2 {
       position: relative;
       top: 300px;
       margin-top: 70px;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -735,14 +847,16 @@
         line-height: 190.6%;
         position: relative;
         left: 41%;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 100%;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -750,20 +864,23 @@
         top: 7vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 16vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         position: absolute;
         left: 40%;
         bottom: -4vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -772,6 +889,7 @@
         top: 7vw;
         width: 9.3vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -779,6 +897,7 @@
         left: 57%;
         bottom: -4vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -787,6 +906,7 @@
         left: 57%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -798,29 +918,36 @@
     }
   }
 }
+
 @media screen and (max-width: 1464px) {
   .footer {
     position: relative;
+
     .footer-buttons {
       fill: #FFF;
       display: flex;
       justify-content: end;
+
       .footer-facebook {
-       margin: 30%;
-       width: 1.5vw;       
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-instagram {
-       margin: 30%;
-       width: 1.5vw;              
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-twitter {
-       margin: 30%;
-       width: 1.5vw;
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-linkedin {
-       margin: 30%;
-       width: 1.5vw;      
+        margin: 30%;
+        width: 1.5vw;
       }
+
       .footer-button1 {
         width: 2vw;
         flex-shrink: 0;
@@ -829,6 +956,7 @@
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button2 {
         width: 2vw;
         flex-shrink: 0;
@@ -837,14 +965,16 @@
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button3 {
-        width: 2vw;      
+        width: 2vw;
         flex-shrink: 0;
         clip-path: circle(50% at 50% 50%);
         filter: drop-shadow(0px 4px 14px rgba(0, 0, 0, 0.15));
         margin-right: 2%;
         margin-top: -150px;
       }
+
       .footer-button4 {
         width: 2vw;
         flex-shrink: 0;
@@ -853,15 +983,18 @@
         margin-top: -150px;
       }
     }
+
     .footer-logo {
       height: 7vw;
       margin-left: 5vw;
       position: absolute;
     }
+
     .footer-2 {
       position: relative;
       top: 300px;
       margin-top: 70px;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -870,14 +1003,16 @@
         line-height: 190.6%;
         position: relative;
         left: 41%;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 100%;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -885,20 +1020,23 @@
         top: 7vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 16vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         position: absolute;
         left: 40%;
         bottom: -4vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -907,6 +1045,7 @@
         top: 7vw;
         width: 9vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -914,6 +1053,7 @@
         left: 57%;
         bottom: -4vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -922,6 +1062,7 @@
         left: 57%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -932,24 +1073,29 @@
     }
   }
 }
+
 @media (max-width: 1254px) {
   .footer {
     position: relative;
+
     .footer-ps {
       position: relative;
       top: 7vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: 8vw;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        height: 1.5vw;       
+        height: 1.5vw;
       }
+
       .footer-button1 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -958,6 +1104,7 @@
         margin-top: -80px;
         margin-right: -45px;
       }
+
       .footer-button2 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -966,6 +1113,7 @@
         margin-top: -130px;
         margin-right: -45px;
       }
+
       .footer-button3 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -974,6 +1122,7 @@
         margin-top: -180px;
         margin-right: -45px;
       }
+
       .footer-button4 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -982,15 +1131,18 @@
         margin-top: -230px;
       }
     }
+
     .footer-logo {
       height: 10vw;
       margin-left: 5vw;
       position: absolute;
       top: 65px;
     }
+
     .footer-2 {
       position: relative;
       top: 31vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -1000,14 +1152,16 @@
         position: relative;
         left: 37vw;
         top: 2vw;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 100%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -1015,21 +1169,24 @@
         top: 9vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 20vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50px;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -1038,6 +1195,7 @@
         top: 9vw;
         width: 10.4vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -1046,6 +1204,7 @@
         left: 63%;
         top: 2.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -1054,6 +1213,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -1065,24 +1225,29 @@
     }
   }
 }
+
 @media (max-width: 1240px) {
   .footer {
     position: relative;
+
     .footer-ps {
       position: relative;
       top: 7vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: 8vw;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        height: 1.5vw;       
+        height: 1.5vw;
       }
+
       .footer-button1 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1091,6 +1256,7 @@
         margin-top: -80px;
         margin-right: -35px;
       }
+
       .footer-button2 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1099,6 +1265,7 @@
         margin-top: -130px;
         margin-right: -35px;
       }
+
       .footer-button3 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1107,6 +1274,7 @@
         margin-top: -180px;
         margin-right: -35px;
       }
+
       .footer-button4 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1115,15 +1283,18 @@
         margin-top: -230px;
       }
     }
+
     .footer-logo {
       height: 10vw;
       margin-left: 5vw;
       position: absolute;
       top: 65px;
     }
+
     .footer-2 {
       position: relative;
       top: 31vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -1133,14 +1304,16 @@
         position: relative;
         left: 37vw;
         top: 2vw;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 79%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -1148,21 +1321,24 @@
         top: 9vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 20vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50px;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -1171,6 +1347,7 @@
         top: 9vw;
         width: 10.4vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -1179,6 +1356,7 @@
         left: 63%;
         top: 2.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -1187,6 +1365,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -1197,24 +1376,29 @@
     }
   }
 }
+
 @media (max-width: 1208px) {
   .footer {
     position: relative;
+
     .footer-ps {
       position: relative;
       top: 7vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: 8vw;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        height: 1.5vw;       
+        height: 1.5vw;
       }
+
       .footer-button1 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1223,6 +1407,7 @@
         margin-top: -80px;
         margin-right: -45px;
       }
+
       .footer-button2 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1231,6 +1416,7 @@
         margin-top: -130px;
         margin-right: -45px;
       }
+
       .footer-button3 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1239,6 +1425,7 @@
         margin-top: -180px;
         margin-right: -45px;
       }
+
       .footer-button4 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1247,15 +1434,18 @@
         margin-top: -230px;
       }
     }
+
     .footer-logo {
       height: 10vw;
       margin-left: 5vw;
       position: absolute;
       top: 65px;
     }
+
     .footer-2 {
       position: relative;
       top: 31vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -1265,14 +1455,16 @@
         position: relative;
         left: 37vw;
         top: 2vw;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 90%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -1280,21 +1472,24 @@
         top: 9vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 20vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50px;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -1303,6 +1498,7 @@
         top: 9vw;
         width: 10.4vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -1311,6 +1507,7 @@
         left: 63%;
         top: 2.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -1319,6 +1516,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -1330,24 +1528,29 @@
     }
   }
 }
+
 @media (max-width: 1194px) {
   .footer {
     position: relative;
+
     .footer-ps {
       position: relative;
       top: 7vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: 8vw;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        height: 1.5vw;       
+        height: 1.5vw;
       }
+
       .footer-button1 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1356,6 +1559,7 @@
         margin-top: -80px;
         margin-right: -35px;
       }
+
       .footer-button2 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1364,6 +1568,7 @@
         margin-top: -130px;
         margin-right: -35px;
       }
+
       .footer-button3 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1372,6 +1577,7 @@
         margin-top: -180px;
         margin-right: -35px;
       }
+
       .footer-button4 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1380,15 +1586,18 @@
         margin-top: -230px;
       }
     }
+
     .footer-logo {
       height: 10vw;
       margin-left: 5vw;
       position: absolute;
       top: 65px;
     }
+
     .footer-2 {
       position: relative;
       top: 31vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -1398,14 +1607,16 @@
         position: relative;
         left: 37vw;
         top: 2vw;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 79%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -1413,21 +1624,24 @@
         top: 9vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 20vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50px;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -1436,6 +1650,7 @@
         top: 9vw;
         width: 10.4vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -1444,6 +1659,7 @@
         left: 63%;
         top: 2.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -1452,6 +1668,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -1463,24 +1680,29 @@
     }
   }
 }
+
 @media (max-width: 1058px) {
   .footer {
     position: relative;
+
     .footer-ps {
       position: relative;
       top: 7vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: 8vw;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        height: 1.5vw;       
+        height: 1.5vw;
       }
+
       .footer-button1 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1489,6 +1711,7 @@
         margin-top: -80px;
         margin-right: -35px;
       }
+
       .footer-button2 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1497,6 +1720,7 @@
         margin-top: -130px;
         margin-right: -35px;
       }
+
       .footer-button3 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1505,6 +1729,7 @@
         margin-top: -180px;
         margin-right: -35px;
       }
+
       .footer-button4 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1513,15 +1738,18 @@
         margin-top: -230px;
       }
     }
+
     .footer-logo {
       height: 10vw;
       margin-left: 5vw;
       position: absolute;
       top: 65px;
     }
+
     .footer-2 {
       position: relative;
       top: 31vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -1531,14 +1759,16 @@
         position: relative;
         left: 37vw;
         top: 2vw;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 79%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -1546,21 +1776,24 @@
         top: 9vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 20vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50px;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -1569,6 +1802,7 @@
         top: 9vw;
         width: 10.4vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -1577,6 +1811,7 @@
         left: 63%;
         top: 2.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -1585,6 +1820,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -1596,24 +1832,29 @@
     }
   }
 }
+
 @media (max-width: 1024px) {
   .footer {
     position: relative;
+
     .footer-ps {
       position: relative;
       top: 7vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: 8vw;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        height: 1.5vw;       
+        height: 1.5vw;
       }
+
       .footer-button1 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1622,6 +1863,7 @@
         margin-top: -80px;
         margin-right: -35px;
       }
+
       .footer-button2 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1630,6 +1872,7 @@
         margin-top: -130px;
         margin-right: -35px;
       }
+
       .footer-button3 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1638,6 +1881,7 @@
         margin-top: -180px;
         margin-right: -35px;
       }
+
       .footer-button4 {
         width: 3.5vw;
         flex-shrink: 0;
@@ -1646,15 +1890,18 @@
         margin-top: -230px;
       }
     }
+
     .footer-logo {
       height: 10vw;
       margin-left: 5vw;
       position: absolute;
       top: 65px;
     }
+
     .footer-2 {
       position: relative;
       top: 31vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -1664,14 +1911,16 @@
         position: relative;
         left: 37vw;
         top: 2vw;
-      }   
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 79%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -1679,21 +1928,24 @@
         top: 9vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 20vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50px;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -1702,6 +1954,7 @@
         top: 9vw;
         width: 10.4vw;
       }
+
       .footer-p5 {
         color: #000;
         font-weight: 500;
@@ -1710,6 +1963,7 @@
         left: 63%;
         top: 2.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -1718,6 +1972,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -1729,25 +1984,30 @@
     }
   }
 }
+
 @media (max-width: 934px) {
   .footer {
     position: relative;
     bottom: 80vw;
+
     .footer-ps {
       position: relative;
       top: 70vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 3vw;       
+        width: 3vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -1756,6 +2016,7 @@
         margin-top: -13vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -1764,6 +2025,7 @@
         margin-top: -19vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -1772,6 +2034,7 @@
         margin-top: -26vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -1781,6 +2044,7 @@
         margin-right: 10vw;
       }
     }
+
     .footer-logo {
       width: 7vw;
       flex-shrink: 0;
@@ -1788,9 +2052,11 @@
       position: absolute;
       top: 70vw;
     }
+
     .footer-2 {
       position: relative;
       top: 107vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -1798,19 +2064,22 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:33vw;
+        left: 33vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 110%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 90%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -1818,21 +2087,24 @@
         top: 12vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 32vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -6vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -1841,14 +2113,16 @@
         top: 12vw;
         width: 13.3vw;
       }
+
       .footer-p5 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         bottom: -6vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -1857,6 +2131,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -1868,25 +2143,30 @@
     }
   }
 }
+
 @media (max-width: 904px) {
   .footer {
     position: relative;
     bottom: 80vw;
+
     .footer-ps {
       position: relative;
       top: 70vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 3vw;       
+        width: 3vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -1895,6 +2175,7 @@
         margin-top: -13vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -1903,6 +2184,7 @@
         margin-top: -19vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -1911,6 +2193,7 @@
         margin-top: -26vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -1920,6 +2203,7 @@
         margin-right: 10vw;
       }
     }
+
     .footer-logo {
       width: 7vw;
       flex-shrink: 0;
@@ -1927,9 +2211,11 @@
       position: absolute;
       top: 70vw;
     }
+
     .footer-2 {
       position: relative;
       top: 107vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -1937,19 +2223,22 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:33vw;
+        left: 33vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 110%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 80%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -1957,21 +2246,24 @@
         top: 12vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 32vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -6vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -1980,14 +2272,16 @@
         top: 12vw;
         width: 13.3vw;
       }
+
       .footer-p5 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         bottom: -6vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -1996,6 +2290,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -2007,25 +2302,30 @@
     }
   }
 }
+
 @media (max-width: 878px) {
   .footer {
     position: relative;
     bottom: 80vw;
+
     .footer-ps {
       position: relative;
       top: 70vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 3vw;       
+        width: 3vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -2034,6 +2334,7 @@
         margin-top: -13vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -2042,6 +2343,7 @@
         margin-top: -19vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -2050,6 +2352,7 @@
         margin-top: -26vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -2059,6 +2362,7 @@
         margin-right: 10vw;
       }
     }
+
     .footer-logo {
       width: 7vw;
       flex-shrink: 0;
@@ -2066,9 +2370,11 @@
       position: absolute;
       top: 70vw;
     }
+
     .footer-2 {
       position: relative;
       top: 107vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -2076,19 +2382,22 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:33vw;
+        left: 33vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 110%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 80%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -2096,21 +2405,24 @@
         top: 12vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 32vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -6vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -2119,14 +2431,16 @@
         top: 12vw;
         width: 13.3vw;
       }
+
       .footer-p5 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         bottom: -6vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -2135,6 +2449,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -2146,25 +2461,30 @@
     }
   }
 }
+
 @media (max-width: 807px) {
   .footer {
     position: relative;
     bottom: 80vw;
+
     .footer-ps {
       position: relative;
       top: 70vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 3vw;       
+        width: 3vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -2173,6 +2493,7 @@
         margin-top: -13vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -2181,6 +2502,7 @@
         margin-top: -19vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -2189,6 +2511,7 @@
         margin-top: -26vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -2198,6 +2521,7 @@
         margin-right: 10vw;
       }
     }
+
     .footer-logo {
       width: 7vw;
       flex-shrink: 0;
@@ -2205,9 +2529,11 @@
       position: absolute;
       top: 70vw;
     }
+
     .footer-2 {
       position: relative;
       top: 107vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -2215,19 +2541,22 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:33vw;
+        left: 33vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 110%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 80%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -2235,21 +2564,24 @@
         top: 12vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 32vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -6vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -2258,14 +2590,16 @@
         top: 12vw;
         width: 13.3vw;
       }
+
       .footer-p5 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         bottom: -6vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -2274,6 +2608,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -2285,25 +2620,30 @@
     }
   }
 }
+
 @media (max-width: 768px) {
   .footer {
     position: relative;
     bottom: 80vw;
+
     .footer-ps {
       position: relative;
       top: 70vw;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 3vw;       
+        width: 3vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -2312,6 +2652,7 @@
         margin-top: -13vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -2320,6 +2661,7 @@
         margin-top: -19vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -2328,6 +2670,7 @@
         margin-top: -26vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -2337,6 +2680,7 @@
         margin-right: 10vw;
       }
     }
+
     .footer-logo {
       width: 7vw;
       flex-shrink: 0;
@@ -2344,9 +2688,11 @@
       position: absolute;
       top: 70vw;
     }
+
     .footer-2 {
       position: relative;
       top: 107vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 100%;
@@ -2354,19 +2700,22 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:33vw;
+        left: 33vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 110%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 80%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -2374,21 +2723,24 @@
         top: 12vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 32vw;
         width: 30vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -6vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -2397,14 +2749,16 @@
         top: 12vw;
         width: 14vw;
       }
+
       .footer-p5 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         bottom: -6vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -2413,6 +2767,7 @@
         left: 63%;
         width: 23vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -2424,25 +2779,30 @@
     }
   }
 }
+
 @media (max-width: 732px) {
   .footer {
     position: relative;
     top: -130vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -2451,6 +2811,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -2459,6 +2820,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -2467,6 +2829,7 @@
         margin-top: -24vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -2476,6 +2839,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -2485,9 +2849,11 @@
       top: 110vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -2495,20 +2861,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:30vw;
+        left: 30vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 70%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -2516,21 +2885,24 @@
         top: 53vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -2539,15 +2911,17 @@
         top: 53vw;
         width: 12.4vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 44.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -2556,6 +2930,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -2567,25 +2942,30 @@
     }
   }
 }
+
 @media (max-width: 707px) {
   .footer {
     position: relative;
     top: -130vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -2594,6 +2974,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -2602,6 +2983,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -2610,6 +2992,7 @@
         margin-top: -24vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -2619,6 +3002,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -2628,9 +3012,11 @@
       top: 110vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -2638,20 +3024,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:30vw;
+        left: 30vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -2659,21 +3048,24 @@
         top: 53vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -2682,15 +3074,17 @@
         top: 53vw;
         width: 12.4vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 44.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -2699,6 +3093,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -2710,25 +3105,30 @@
     }
   }
 }
+
 @media (max-width: 669px) {
   .footer {
     position: relative;
     top: -130vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -2737,6 +3137,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -2745,6 +3146,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -2753,6 +3155,7 @@
         margin-top: -24vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -2762,6 +3165,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -2771,9 +3175,11 @@
       top: 110vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -2781,20 +3187,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:30vw;
+        left: 30vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -2802,21 +3211,24 @@
         top: 53vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -2825,15 +3237,17 @@
         top: 53vw;
         width: 12.4vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 44.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -2842,6 +3256,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -2853,25 +3268,30 @@
     }
   }
 }
+
 @media (max-width: 657px) {
   .footer {
     position: relative;
     top: -130vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -2880,6 +3300,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -2888,6 +3309,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -2896,6 +3318,7 @@
         margin-top: -24vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -2905,6 +3328,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -2914,9 +3338,11 @@
       top: 110vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -2924,20 +3350,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:30vw;
+        left: 30vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -2945,21 +3374,24 @@
         top: 53vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -2968,15 +3400,17 @@
         top: 53vw;
         width: 12.4vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 44.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -2985,6 +3419,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -2996,25 +3431,30 @@
     }
   }
 }
+
 @media (max-width: 638px) {
   .footer {
     position: relative;
     top: -130vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -3023,6 +3463,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -3031,6 +3472,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -3039,6 +3481,7 @@
         margin-top: -24vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -3048,6 +3491,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -3057,9 +3501,11 @@
       top: 110vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -3067,20 +3513,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:30vw;
+        left: 30vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -3088,21 +3537,24 @@
         top: 53vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -3111,15 +3563,17 @@
         top: 53vw;
         width: 12.4vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 44.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -3128,6 +3582,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -3139,25 +3594,30 @@
     }
   }
 }
+
 @media (max-width: 538px) {
   .footer {
     position: relative;
     top: -130vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -3166,6 +3626,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -3174,6 +3635,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -3182,6 +3644,7 @@
         margin-top: -24vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -3191,6 +3654,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -3200,9 +3664,11 @@
       top: 110vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -3210,20 +3676,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:30vw;
+        left: 30vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -3231,21 +3700,24 @@
         top: 53vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -50vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -3254,15 +3726,17 @@
         top: 53vw;
         width: 12.4vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 44.5vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -3271,6 +3745,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -3282,25 +3757,30 @@
     }
   }
 }
+
 @media (max-width: 477px) {
   .footer {
     position: relative;
     top: -120vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -3309,6 +3789,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -3317,6 +3798,7 @@
         margin-top: -20vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -3325,6 +3807,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -3334,6 +3817,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -3343,9 +3827,11 @@
       top: 100vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -3353,20 +3839,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:23vw;
+        left: 23vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -3374,21 +3863,24 @@
         top: 45vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -40vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -3397,15 +3889,17 @@
         top: 45vw;
         width: 15.5vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 34vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -3414,6 +3908,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -3425,25 +3920,30 @@
     }
   }
 }
+
 @media (max-width: 455px) {
   .footer {
     position: relative;
     top: -120vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -3452,6 +3952,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -3460,6 +3961,7 @@
         margin-top: -20vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -3468,6 +3970,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -3477,6 +3980,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -3486,9 +3990,11 @@
       top: 100vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -3496,20 +4002,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:23vw;
+        left: 23vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -3517,21 +4026,24 @@
         top: 45vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -40vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -3540,15 +4052,17 @@
         top: 45vw;
         width: 15.5vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 34vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -3557,6 +4071,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -3568,25 +4083,30 @@
     }
   }
 }
+
 @media (max-width: 450px) {
   .footer {
     position: relative;
     top: -120vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -3595,6 +4115,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -3603,6 +4124,7 @@
         margin-top: -20vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -3611,6 +4133,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -3620,6 +4143,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -3629,9 +4153,11 @@
       top: 100vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -3639,20 +4165,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:23vw;
+        left: 23vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -3660,21 +4189,24 @@
         top: 45vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -40vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -3683,15 +4215,17 @@
         top: 45vw;
         width: 15.5vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 34vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -3700,6 +4234,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -3711,25 +4246,30 @@
     }
   }
 }
+
 @media (max-width: 444px) {
   .footer {
     position: relative;
     top: -120vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -3738,6 +4278,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -3746,6 +4287,7 @@
         margin-top: -20vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -3754,6 +4296,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -3763,6 +4306,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -3772,9 +4316,11 @@
       top: 100vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -3782,20 +4328,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:23vw;
+        left: 23vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -3803,21 +4352,24 @@
         top: 45vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -40vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -3826,15 +4378,17 @@
         top: 45vw;
         width: 15.5vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 34vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -3843,6 +4397,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -3854,25 +4409,30 @@
     }
   }
 }
+
 @media (max-width: 442px) {
   .footer {
     position: relative;
     top: -120vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -3881,6 +4441,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -3889,6 +4450,7 @@
         margin-top: -20vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -3897,6 +4459,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -3906,6 +4469,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -3915,9 +4479,11 @@
       top: 100vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -3925,20 +4491,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:23vw;
+        left: 23vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -3946,21 +4515,24 @@
         top: 45vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -40vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -3969,15 +4541,17 @@
         top: 45vw;
         width: 15.5vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 34vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -3986,6 +4560,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -3997,25 +4572,30 @@
     }
   }
 }
+
 @media (max-width: 433px) {
   .footer {
     position: relative;
     top: -120vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -4024,6 +4604,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -4032,6 +4613,7 @@
         margin-top: -20vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -4040,6 +4622,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -4049,6 +4632,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -4058,9 +4642,11 @@
       top: 100vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -4068,20 +4654,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:23vw;
+        left: 23vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -4089,21 +4678,24 @@
         top: 45vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -40vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -4112,15 +4704,17 @@
         top: 45vw;
         width: 15.5vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 34vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -4129,6 +4723,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -4140,25 +4735,30 @@
     }
   }
 }
+
 @media (max-width: 425px) {
   .footer {
     position: relative;
     top: -120vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 2.5vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -4167,6 +4767,7 @@
         margin-top: -10vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -4175,6 +4776,7 @@
         margin-top: -20vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -4183,6 +4785,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -4192,6 +4795,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -4201,9 +4805,11 @@
       top: 100vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 145vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -4211,20 +4817,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:23vw;
+        left: 23vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 100%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -4232,21 +4841,24 @@
         top: 45vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 70vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 40%;
         bottom: -40vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -4255,15 +4867,17 @@
         top: 45vw;
         width: 15.5vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 34vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -4272,6 +4886,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -4283,25 +4898,30 @@
     }
   }
 }
+
 @media (max-width: 398px) {
   .footer {
     position: relative;
     top: -100vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 9vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -4310,6 +4930,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -4318,6 +4939,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -4326,6 +4948,7 @@
         margin-top: -43vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -4335,6 +4958,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -4344,9 +4968,11 @@
       top: 95vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 150vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -4354,20 +4980,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:20vw;
+        left: 20vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 200%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -4375,21 +5004,24 @@
         top: 40vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 75vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 34%;
         bottom: -35vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -4398,15 +5030,17 @@
         top: 40vw;
         width: 19vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 28vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -4415,6 +5049,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -4426,25 +5061,30 @@
     }
   }
 }
+
 @media (max-width: 392px) {
   .footer {
     position: relative;
     top: -100vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 9vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -4453,6 +5093,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -4461,6 +5102,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -4469,6 +5111,7 @@
         margin-top: -43vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -4478,6 +5121,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -4487,9 +5131,11 @@
       top: 95vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 150vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -4497,20 +5143,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:20vw;
+        left: 20vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 200%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -4518,21 +5167,24 @@
         top: 40vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 75vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 34%;
         bottom: -35vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -4541,15 +5193,17 @@
         top: 40vw;
         width: 19vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 28vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -4558,6 +5212,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -4569,25 +5224,30 @@
     }
   }
 }
+
 @media (max-width: 388px) {
   .footer {
     position: relative;
     top: -100vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 9vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -4596,6 +5256,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -4604,6 +5265,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -4612,6 +5274,7 @@
         margin-top: -43vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -4621,6 +5284,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -4630,9 +5294,11 @@
       top: 95vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 150vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -4640,20 +5306,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:20vw;
+        left: 20vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 200%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -4661,21 +5330,24 @@
         top: 40vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 75vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 34%;
         bottom: -35vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -4684,15 +5356,17 @@
         top: 40vw;
         width: 19vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 28vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -4701,6 +5375,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -4712,25 +5387,30 @@
     }
   }
 }
+
 @media (max-width: 374px) {
   .footer {
     position: relative;
     top: -100vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 9vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -4739,6 +5419,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -4747,6 +5428,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -4755,6 +5437,7 @@
         margin-top: -43vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -4764,6 +5447,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -4773,9 +5457,11 @@
       top: 95vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 150vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -4783,20 +5469,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:20vw;
+        left: 20vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 200%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -4804,21 +5493,24 @@
         top: 40vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 75vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 34%;
         bottom: -35vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -4827,15 +5519,17 @@
         top: 40vw;
         width: 19vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 28vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -4844,6 +5538,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -4855,25 +5550,30 @@
     }
   }
 }
+
 @media (max-width: 358px) {
   .footer {
     position: relative;
     top: -100vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 9vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -4882,6 +5582,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -4890,6 +5591,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -4898,6 +5600,7 @@
         margin-top: -43vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -4907,6 +5610,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -4916,9 +5620,11 @@
       top: 95vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 150vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -4926,20 +5632,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:20vw;
+        left: 20vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 200%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -4947,21 +5656,24 @@
         top: 40vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 75vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 34%;
         bottom: -35vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -4970,15 +5682,17 @@
         top: 40vw;
         width: 19vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 28vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -4987,6 +5701,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -4998,25 +5713,30 @@
     }
   }
 }
+
 @media (max-width: 362px) {
   .footer {
     position: relative;
     top: -100vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 9vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -5025,6 +5745,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -5033,6 +5754,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -5041,6 +5763,7 @@
         margin-top: -43vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -5050,6 +5773,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -5059,9 +5783,11 @@
       top: 95vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 150vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -5069,20 +5795,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:20vw;
+        left: 20vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 200%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -5090,21 +5819,24 @@
         top: 40vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 75vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 34%;
         bottom: -35vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -5113,15 +5845,17 @@
         top: 40vw;
         width: 19vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 28vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -5130,6 +5864,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -5141,25 +5876,30 @@
     }
   }
 }
+
 @media (max-width: 353px) {
   .footer {
     position: relative;
     top: -100vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -7%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 9vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -5168,6 +5908,7 @@
         margin-top: -17vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -5176,6 +5917,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -5184,6 +5926,7 @@
         margin-top: -43vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -5193,6 +5936,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -5202,9 +5946,11 @@
       top: 95vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 150vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -5212,20 +5958,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:20vw;
+        left: 20vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 200%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -5233,21 +5982,24 @@
         top: 40vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 75vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 34%;
         bottom: -35vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -5256,15 +6008,17 @@
         top: 40vw;
         width: 19vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 28vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -5273,6 +6027,7 @@
         left: 63%;
         width: 20vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -5284,25 +6039,30 @@
     }
   }
 }
+
 @media (max-width: 342px) {
   .footer {
     position: relative;
     top: -100vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 10vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -5311,6 +6071,7 @@
         margin-top: -15vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -5319,6 +6080,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -5327,6 +6089,7 @@
         margin-top: -45vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -5336,6 +6099,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -5345,9 +6109,11 @@
       top: 80vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 150vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -5355,20 +6121,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:13vw;
+        left: 13vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 200%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -5376,21 +6145,24 @@
         top: 30vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 77vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 34%;
         bottom: -20vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -5399,15 +6171,17 @@
         top: 30vw;
         width: 21vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 13vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -5416,6 +6190,7 @@
         left: 63%;
         width: 25vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -5427,25 +6202,30 @@
     }
   }
 }
+
 @media (max-width: 328px) {
   .footer {
     position: relative;
     top: -100vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 10vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -5454,6 +6234,7 @@
         margin-top: -15vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -5462,6 +6243,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -5470,6 +6252,7 @@
         margin-top: -45vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -5479,6 +6262,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -5488,9 +6272,11 @@
       top: 80vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 150vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -5498,20 +6284,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:13vw;
+        left: 13vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 200%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -5519,21 +6308,24 @@
         top: 30vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 77vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 34%;
         bottom: -20vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -5542,15 +6334,17 @@
         top: 30vw;
         width: 21vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 13vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -5559,6 +6353,7 @@
         left: 63%;
         width: 25vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
@@ -5570,25 +6365,30 @@
     }
   }
 }
+
 @media (max-width: 320px) {
   .footer {
     position: relative;
     top: -100vw;
+
     .footer-ps {
       position: relative;
     }
+
     .footer-buttons {
       fill: #FFF;
       margin-right: -5%;
       justify-content: end;
+
       .footer-facebook,
       .footer-instagram,
       .footer-twitter,
       .footer-linkedin {
         margin: 30%;
-        width: 4vw;       
+        width: 4vw;
         height: 10vw;
       }
+
       .footer-button1 {
         width: 10vw;
         flex-shrink: 0;
@@ -5597,6 +6397,7 @@
         margin-top: -15vw;
         margin-right: -10vw;
       }
+
       .footer-button2 {
         width: 10vw;
         flex-shrink: 0;
@@ -5605,6 +6406,7 @@
         margin-top: -30vw;
         margin-right: -10vw;
       }
+
       .footer-button3 {
         width: 10vw;
         flex-shrink: 0;
@@ -5613,6 +6415,7 @@
         margin-top: -45vw;
         margin-right: -10vw;
       }
+
       .footer-button4 {
         width: 10vw;
         flex-shrink: 0;
@@ -5622,6 +6425,7 @@
         margin-right: 5vw;
       }
     }
+
     .footer-logo {
       width: 10vw;
       height: 15vw;
@@ -5631,9 +6435,11 @@
       top: 80vw;
       left: 6vw;
     }
+
     .footer-2 {
       position: relative;
       top: 150vw;
+
       .footer-p11 {
         color: #686868;
         font-size: 70%;
@@ -5641,20 +6447,23 @@
         font-weight: 400;
         line-height: 190.6%;
         position: relative;
-        left:13vw;
+        left: 13vw;
         width: 110vw;
         top: 2vw;
-      }  
+      }
+
       .footer-hr {
         width: 200%;
-      } 
+      }
     }
+
     .footer-ul {
       color: #515151;
       font-size: 50%;
       font-style: normal;
       font-weight: 400;
       line-height: 186.3%;
+
       .footer-p1 {
         color: #515151;
         font-weight: 400;
@@ -5662,21 +6471,24 @@
         top: 30vw;
         width: 30vw;
       }
-      .footer-p2{
+
+      .footer-p2 {
         color: #515151;
         font-weight: 400;
         position: absolute;
         top: 77vw;
         width: 10vw;
       }
+
       .footer-p3 {
         color: #000;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 34%;
         bottom: -20vw;
-      } 
+      }
+
       .footer-p4 {
         color: #515151;
         font-weight: 400;
@@ -5685,15 +6497,17 @@
         top: 30vw;
         width: 21vw;
       }
+
       .footer-p5 {
         color: #000000;
         width: 40vw;
-        font-weight: 500; 
+        font-weight: 500;
         font-size: 150%;
         position: absolute;
         left: 63%;
         margin-top: 13vw;
       }
+
       .footer-p9 {
         color: #515151;
         font-weight: 400;
@@ -5702,6 +6516,7 @@
         left: 63%;
         width: 25vw;
       }
+
       .footer-p10 {
         color: #515151;
         font-weight: 400;
