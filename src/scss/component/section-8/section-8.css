@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.section-8-container {
+  margin: 0 auto;
+  padding: 0 136px;
+  max-width: 1905px;
+}
+.section-8-container .section-8__header {
+  font: 500 40px "Century Gothic", sans-serif;
+  color: #000000;
+  margin-bottom: 75px;
+  margin-top: 180px;
+  text-align: start;
+}
+.section-8-container .section-8-box {
+  display: flex;
+  overflow-x: auto;
+  position: relative;
+  scroll-behavior: smooth;
+  gap: 101px;
+}
+.section-8-container .section-8-box::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+.section-8-container .section-8-box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.section-8-container .section-8-box::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+.section-8-container .section-8-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.section-8-container .section-8-box .section-8__card {
+  list-style: none;
+  flex: 0 0 400px;
+  scroll-snap-align: start;
+  margin-right: 20px;
+}
+.section-8-container .section-8-box .section-8__card .section-8__img {
+  width: 100%;
+  border-radius: 45px;
+}
+.section-8-container .section-8-box .section-8__card .card__h {
+  font: 600 27px "Century Gothic", sans-serif;
+  margin: 48px 0 27px 0;
+  line-height: 48px;
+  color: #000000;
+}
+.section-8-container .section-8-box .section-8__card .card__p {
+  font: 400 20px "Century Gothic", sans-serif;
+  line-height: 42px;
+  color: #424242;
+}
+
+@media (max-width: 1920px) {
+  .section-8-container {
+    padding: 0 100px;
+  }
+  .section-8-container .section-8__header {
+    font: 500 40px "Century Gothic", sans-serif;
+    margin-top: 94px;
+    text-align: start;
+  }
+  .section-8-container .section-8-box {
+    gap: 101px;
+  }
+  .section-8-container .section-8-box::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+  }
+  .section-8-container .section-8-box .section-8__card {
+    flex: 0 0 26.1781vw;
+  }
+  .section-8-container .section-8-box .section-8__card .section-8__img {
+    width: 26.01781vw;
+    height: 367px;
+  }
+  .section-8-container .section-8-box .section-8__card .card__h {
+    font: 600 27px "Century Gothic", sans-serif;
+    margin: 48px 0 27px 0;
+    line-height: 48px;
+  }
+  .section-8-container .section-8-box .section-8__card .card__p {
+    font: 400 20px "Century Gothic", sans-serif;
+    line-height: 42px;
+  }
+}
+@media (max-width: 1440px) {
+  .section-8-container {
+    padding: 0 50px;
+  }
+  .section-8-container .section-8__header {
+    margin-top: 94px;
+    font: 500 36px "Century Gothic", sans-serif;
+    margin-bottom: 63px;
+    text-align: start;
+    line-height: 64px;
+  }
+  .section-8-container .section-8-box {
+    gap: 84px;
+  }
+  .section-8-container .section-8-box::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  .section-8-container .section-8-box .section-8__card {
+    flex: 0 0 23.13vw;
+  }
+  .section-8-container .section-8-box .section-8__card .section-8__img {
+    width: 23.13vw;
+    height: 21.25vw;
+  }
+  .section-8-container .section-8-box .section-8__card .card__h {
+    font: 600 23px "Century Gothic", sans-serif;
+    margin: 40px 0 20px 0;
+    line-height: 41px;
+  }
+  .section-8-container .section-8-box .section-8__card .card__p {
+    font: 400 16px "Century Gothic", sans-serif;
+    line-height: 34px;
+  }
+}
+@media (min-width: 1024px) {
+  .section-8-container {
+    padding: 0 20px;
+  }
+  .section-8-container .section-8__header {
+    font: 500 44px "Century Gothic", sans-serif;
+    margin-bottom: 42px;
+    text-align: start;
+    line-height: 78px;
+  }
+  .section-8-container .section-8-box {
+    gap: 84px;
+  }
+  .section-8-container .section-8-box::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .section-8-container .section-8-box .section-8__card {
+    flex: 0 0 32.52vw;
+  }
+  .section-8-container .section-8-box .section-8__card .section-8__img {
+    width: 32.52vw;
+    height: 29.88vw;
+  }
+  .section-8-container .section-8-box .section-8__card .card__h {
+    font: 600 23px "Century Gothic", sans-serif;
+    margin: 40px 0 30px 0;
+    line-height: 41px;
+  }
+  .section-8-container .section-8-box .section-8__card .card__p {
+    font: 400 16px "Century Gothic", sans-serif;
+    line-height: 34px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section-8-container {
+    padding: 0 10px;
+  }
+  .section-8-container .section-8__header {
+    margin-top: 81px;
+    font: 500 44px "Century Gothic", sans-serif;
+    margin-bottom: 42px;
+    text-align: start;
+    line-height: 78px;
+  }
+  .section-8-container .section-8-box {
+    gap: 54px;
+  }
+  .section-8-container .section-8-box::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .section-8-container .section-8-box .section-8__card {
+    flex: 0 0 43.36vw;
+    max-width: 333px;
+  }
+  .section-8-container .section-8-box .section-8__card .section-8__img {
+    width: 43.36vw;
+    max-width: 333px;
+    height: 306px;
+    height: auto;
+  }
+  .section-8-container .section-8-box .section-8__card .card__h {
+    font: 600 23px "Century Gothic", sans-serif;
+    margin: 40px 0 30px 0;
+    line-height: 41px;
+  }
+  .section-8-container .section-8-box .section-8__card .card__p {
+    font: 400 16px "Century Gothic", sans-serif;
+    line-height: 34px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .section-8-container .section-8__header {
+    margin-top: 11px;
+    font: 500 44px "Century Gothic", sans-serif;
+    margin-bottom: 23px;
+    text-align: start;
+    line-height: 78px;
+  }
+  .section-8-container .section-8-box {
+    gap: 23.32px;
+  }
+  .section-8-container .section-8-box::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  .section-8-container .section-8-box .section-8__card {
+    flex: 0 0 50.63vw;
+  }
+  .section-8-container .section-8-box .section-8__card .section-8__img {
+    width: 50.63vw;
+    height: 46.56vw;
+  }
+  .section-8-container .section-8-box .section-8__card .card__h {
+    font: 600 23px "Century Gothic", sans-serif;
+    margin: 19px 0;
+    line-height: 41px;
+  }
+  .section-8-container .section-8-box .section-8__card .card__p {
+    font: 400 16px "Century Gothic", sans-serif;
+    line-height: 34px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .section-8-container .section-8__header {
+    margin-top: 19px;
+    font: 500 20px "Century Gothic", sans-serif;
+    margin-bottom: 23px;
+    text-align: start;
+  }
+  .section-8-container .section-8-box {
+    gap: 23.32px;
+  }
+  .section-8-container .section-8-box::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  .section-8-container .section-8-box .section-8__card {
+    flex: 0 0 50.63vw;
+  }
+  .section-8-container .section-8-box .section-8__card .section-8__img {
+    width: 50.63vw;
+    height: 46.56vw;
+  }
+  .section-8-container .section-8-box .section-8__card .card__h {
+    font: 600 13px "Century Gothic", sans-serif;
+    margin: 19px 0;
+    line-height: 18px;
+  }
+  .section-8-container .section-8-box .section-8__card .card__p {
+    font: 400 9px "Century Gothic", sans-serif;
+    line-height: 12.65px;
+  }
+}
+.section-8-box .section-8__card {
+  flex: 0 0 90%;
+}/*# sourceMappingURL=section-8.css.map */
