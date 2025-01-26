@@ -1,4 +1,4 @@
-const teamMembers = [
+export const teamMembers = [
   {
     name: 'Dima Beresten',
     role: 'Project Manager',
@@ -14,7 +14,7 @@ const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/dmitryberesten',
-    photo: './img/section5/dima.jpg',
+    photo: './photo/dima.jpg',
   },
   {
     name: 'Anton Honcharenko',
@@ -37,7 +37,7 @@ const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Gaondarech726',
-    photo: './section5/anton.jpg',
+    photo: '../team/photo/anton.jpg',
   },
   {
     name: 'Khrystyna Stepenko',

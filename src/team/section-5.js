@@ -1,4 +1,4 @@
-// import { teamMembers } from './section-5-members';
+import { teamMembers } from './section-5-members';
 
 const container = document.querySelector('#team-members-container');
 
