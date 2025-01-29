@@ -3,8 +3,7 @@
 @import url(./utils/variables.scss);
 @font-face {
   font-family: 'Century Gothic';
-  src: url(/src/font/CenturyGothic.ttf) format('ttf'),
-    url(/src/font/CenturyGothic.woff) format('woff');
+  src: url(/src/font/CenturyGothic.ttf) format('ttf');
   font-weight: 400;
 }
 body {
