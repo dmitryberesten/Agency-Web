@@ -37,6 +37,7 @@
       justify-content: center;
       gap: 68px;
     }
+
     #scroll {
       width: 100vw;
       height: 515px;
@@ -46,6 +47,7 @@
       justify-content: space-between;
       align-items: center;
       margin-left: 113px;
+
 
       overflow-x: scroll;
 
@@ -86,6 +88,7 @@
           margin-top: 15px;
           margin-left: 15px;
         }
+
         .name-card-active {
           font-family: "Century Gothic", sans-serif;
           font-size: 18px; //to vw
@@ -125,17 +128,21 @@
           position: absolute;
           right: 30px; //to vw
         }
+
         #divLine {
           height: 1px;
           background-color: #797979;
           margin: 15px;
         }
+
         h1 {
           color: #252525;
+
           #section-5-name {
             color: #545454;
             line-height: 150%;
           }
+
           #section-5-role,
           #section-5-github {
             font-family: "Century Gothic", sans-serif;
@@ -162,6 +169,7 @@
             line-height: 150%;
             color: #252525;
           }
+
           #generalTasksList {
             .taskItem {
               font-family: "Century Gothic", sans-serif;
@@ -170,6 +178,7 @@
               line-height: 150%;
               color: #696969;
             }
+
             margin-bottom: 4px;
           }
 
@@ -198,203 +207,42 @@
   }
 }
 
-// @media screen and (max-width: 1440px) {
-//   .section-5 {
-//     width: 100vw;
-//     height: 763px;
 
-//     display: flex;
-//     flex-flow: row wrap;
-//     justify-content: space-between;
-//     align-items: center;
-//     overflow: hidden;
-
-//     h2 {
-//       font-family: "Century Gothic", sans-serif;
-//       font-size: 25px; //to vw
-//       font-weight: 500;
-//       color: #000;
-
-//       margin-left: 113px;
-//     }
-
-//     // Загальні стилі для секції
-
-//     // Контейнер для карток
-//     #team-members-container {
-//       display: flex;
-
-//       // width: 1813px;
-//       height: 515px;
-
-//       flex-flow: row nowrap;
-//       justify-content: center;
-//       gap: 68px;
-
-//       margin-left: 113px;
-//     }
-//     #scroll {
-//       width: 100vw;
-//       height: 515px;
-
-//       display: flex;
-//       flex-flow: row wrap;
-//       justify-content: space-between;
-//       align-items: center;
-
-//       overflow-x: scroll;
-
-//       // Стилі картки учасника
-//       .team-member-card-active {
-//         width: 470px; //to vw
-//         height: 515px;
-
-//         background-color: #f1f1f1;
-//         border-radius: 14px;
-
-//         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-//         text-align: left;
-
-//         position: relative;
-
-//         display: flex;
-//         flex-flow: column wrap;
-
-//         cursor: pointer;
-
-//         transition: 0.4ms;
-
-//         .img-card-active {
-//           width: 470px; //to vw
-//           height: 420px;
-//           border-radius: 14px 14px 0 0; //to vw
-
-//           object-fit: cover;
-//         }
-
-//         .role-card-active {
-//           font-family: "Century Gothic", sans-serif;
-//           font-size: 16px; //to vw
-//           font-weight: 300;
-//           color: #969696;
-
-//           margin-top: 15px;
-//           margin-left: 15px;
-//         }
-//         .name-card-active {
-//           font-family: "Century Gothic", sans-serif;
-//           font-size: 18px; //to vw
-//           font-weight: 500;
-//           color: #252525;
-
-//           margin-top: 10px;
-//           margin-left: 15px;
-//         }
-//       }
-
-//       .team-member-card {
-//         width: 470px; //to vw
-//         height: 515px;
-
-//         background-color: #f1f1f1;
-//         border-radius: 14px;
-
-//         padding: 30px;
-
-//         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-//         text-align: left;
-
-//         position: relative;
-
-//         cursor: pointer;
-
-//         transition: 0.4ms;
-
-//         .img-card {
-//           width: 176px; //to vw
-//           height: 305px;
-//           border-radius: 80px; //to vw
-
-//           object-fit: cover;
-
-//           position: absolute;
-//           right: 30px; //to vw
-//         }
-//         #divLine {
-//           height: 1px;
-//           background-color: #797979;
-//           margin: 15px;
-//         }
-//         h1 {
-//           color: #252525;
-//           #section-5-name {
-//             color: #545454;
-//             line-height: 150%;
-//           }
-//           #section-5-role,
-//           #section-5-github {
-//             font-family: "Century Gothic", sans-serif;
-//             font-size: 18px; //to vw
-//             font-weight: 400;
-//             line-height: 150%;
-//             color: #969696;
-//           }
-//         }
-
-//         #section-5-skills {
-//           width: 184px;
-
-//           display: flex;
-//           flex-flow: column wrap;
-//           justify-content: space-between;
-//           align-items: start;
-//           margin-top: 4px;
-
-//           #jobTitle {
-//             font-family: "Century Gothic", sans-serif;
-//             font-size: 14px; //to vw
-//             font-weight: 600;
-//             line-height: 150%;
-//             color: #252525;
-//           }
-//           #generalTasksList {
-//             .taskItem {
-//               font-family: "Century Gothic", sans-serif;
-//               font-size: 11px; //to vw
-//               font-weight: 200;
-//               line-height: 150%;
-//               color: #696969;
-//             }
-//             margin-bottom: 4px;
-//           }
-
-//           #secondaryTitle {
-//             font-family: "Century Gothic", sans-serif;
-//             font-size: 14px; //to vw
-//             font-weight: 600;
-//             line-height: 150%;
-//             color: #252525;
-
-//             margin-top: 4px;
-//           }
-
-//           #frontendTasksList {
-//             .taskItem {
-//               font-family: "Century Gothic", sans-serif;
-//               font-size: 11px; //to vw
-//               font-weight: 200;
-//               line-height: 150%;
-//               color: #696969;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-@media (max-width: 1024px) {
+#scroll {
+  width: 100vw;
+  height: 515px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 113px;
+  overflow-x: auto;
+  /* auto для коректного відображення */
+  border-radius: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #b0b0b0 #f1f1f1;
 }
-@media (max-width: 768px) {
+
+/* Стилізація скролу для браузерів на WebKit (Chrome, Safari, Edge) */
+#scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
-@media (max-width: 320px) {
+
+#scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 50px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+#scroll::-webkit-scrollbar-thumb {
+  background-color: #b0b0b0;
+  border-radius: 50px;
+  border: 2px solid #f1f1f1;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
