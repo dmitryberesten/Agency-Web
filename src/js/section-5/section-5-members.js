@@ -14,8 +14,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/dmitryberesten',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/dima.jpg',
+    photo: '/img/section5/dima.jpg',
   },
   {
     name: 'Anton Honcharenko',
@@ -38,8 +37,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Gaondarech726',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/anton.jpg',
+    photo: '/img/section5/anton.jpg',
   },
   {
     name: 'Khrystyna Stepenko',
@@ -63,8 +61,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/madparrot69',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/khrystyna.jpg',
+    photo: '/img/section5/khrystyna.jpg',
   },
   {
     name: 'Serhii Zamorylo',
@@ -84,8 +81,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Serhii-Zamorylo23',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/serhii.jpg',
+    photo: '/img/section5/serhii.jpg',
   },
   {
     name: 'Yaroslav Suntsev',
@@ -100,8 +96,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/cargo9',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/yaroslav.jpg',
+    photo: '/img/section5/yaroslav.jpg',
   },
   {
     name: 'Maria Kalinichenko',
@@ -116,8 +111,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Mkqupy',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/maria.jpg',
+    photo: '/img/section5/maria.jpg',
   },
   {
     name: 'Igor Krasylnikov',
@@ -133,8 +127,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Javus-Scriptus',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/igor.jpg',
+    photo: '/img/section5/igor.jpg',
   },
   {
     name: 'Eduard Kazyuk',
@@ -146,8 +139,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/GraceFeel1',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/eduard.jpg',
+    photo: '/img/section5/eduard.jpg',
   },
   {
     name: 'Margarita Muminova',
@@ -163,8 +155,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/m4ggiee',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/margarita.jpg',
+    photo: '/img/section5/margarita.jpg',
   },
   {
     name: 'Dmytro Terletskyy',
@@ -176,8 +167,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Dremeret',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/dmytro.jpg',
+    photo: '/img/section5/dmytro.jpg',
   },
   {
     name: 'Taras Shevchuk',
@@ -193,8 +183,7 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/Taras405',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/taras.jpg',
+    photo: '/img/section5/taras.jpg',
   },
   {
     name: 'Svyatoslav Ivah',
@@ -209,7 +198,6 @@ export const teamMembers = [
       },
     },
     githubProfile: 'https://github.com/byebaji',
-    photo:
-      'https://raw.githubusercontent.com/dmitryberesten/Agency-Web/main/src/team/photo/svyatoslav.jpg',
+    photo: '/img/section5/svyatoslav.jpg',
   },
 ];
